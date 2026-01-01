@@ -73,7 +73,7 @@
         "announcement_text_size": "normal",
         "autoplay": true,
         "cycle_speed": 5,
-        "background": "#f6a429",
+        "background": "#0864fe",
         "text_color": "#ffffff",
         "button_background": "#000000",
         "button_text_color": "#ffffff"
