@@ -1,0 +1,251 @@
+{% comment %}
+  Mega menus that appear on hover of header links (desktop only)
+
+  @param {object} link - the current link object so we can derive sublinks
+  @param {JSON} block - mega-menu block json data
+{% endcomment %}
+
+<div class="mega-menu">
+  <div class="mega-menu__content">
+     
+    {% if link.links != blank %}
+     
+      <ul class="mega-menu__linklist">
+         
+        {% for child_link in link.links %}  
+          <li><a class="mega-menu__link" href= "{{ child_link.url }}">{{ child_link.title }}</a>
+            
+             {%- assign link_handle = child_link.title | handleize -%}
+             
+           
+           <div class="megamenu_right {{ child_link.title | handleize}}"> 
+            <ul class="grandchild">
+      		{% for grandchild_link in child_link.links %}  
+         	<li><a href= "{{ grandchild_link.url }}">{{ grandchild_link.title | capitalize }}</a></li>
+      		{% endfor %}
+              <li>
+                <a class="btn mega-menu__btn" href="{{ child_link.url }}">All {{ child_link.title }}</a>
+              </li>
+            </ul>
+             
+             
+             {% if section.blocks.size > 0 %}            
+              {% for block in section.blocks %}
+             {% if block.type == 'mega-menu-list' %}
+             {%- assign block_link_handle = block.settings.listlink_title | handleize -%}
+             {% endif %}  
+            
+               {% if block_link_handle == 'brand' and link_handle == 'soccer-footwear' %}    
+               <ul class="brand">
+                 {% for i in (1..50) %}
+                 {% capture image_string %}listimage_{{ forloop.index }}{% endcapture %}
+                 {%- assign image = block.settings[image_string] -%}
+                 {% capture url_string %}listimage_{{ forloop.index }}_url{% endcapture %}
+                 {%- assign url = block.settings[url_string] -%}
+                 {% capture btn_text_string %}listimage_{{ forloop.index }}_btn_text{% endcapture %}
+                 {%- assign btn_text = block.settings[btn_text_string] -%}
+
+                 {% if btn_text != blank %}
+                 <li><a href="{{ url }}">                                              
+                   {{ btn_text }}                   
+                   </a></li>
+                 {% endif %}
+
+                 {% endfor %}
+               </ul>
+               {% endif %}
+             
+            {% endfor %}
+            {% endif %}
+             
+             
+             {% if section.blocks.size > 0 %}            
+              {% for block in section.blocks %}
+             {% if block.type == 'mega-menu' %}
+                {%- assign block_link_handle = block.settings.link_title | handleize -%}
+              {% endif %}
+             {% if block.type == 'mega-menu-list' %}
+             {%- assign block_link_handle = block.settings.listlink_title | handleize -%}
+             {% endif %}  
+              {%- assign stylemenu = block.settings.menu_style_1 | handleize -%}
+             
+             
+             
+                {% if link_handle == block_link_handle %}              
+                   <div class="mega-menu__grid {{ stylemenu }} {{ child_link.title | capitalize }}">  
+                     
+                     
+                     
+                     
+                     {% for i in (1..50) %}
+                     {% capture image_string %}listimage_{{ forloop.index }}{% endcapture %}
+                     {%- assign image = block.settings[image_string] -%}
+                     {% capture url_string %}listimage_{{ forloop.index }}_url{% endcapture %}
+                     {%- assign url = block.settings[url_string] -%}
+                     {% capture btn_text_string %}listimage_{{ forloop.index }}_btn_text{% endcapture %}
+                     {%- assign btn_text = block.settings[btn_text_string] -%}
+
+                     {% if image != blank %}          
+                     <a href="{{ url }}" class="mega-menu__grid-listitem">
+                       <img src="{{ image | img_url }}" alt="{{ btn_text }}" >
+                       {% if btn_text != blank %}
+                       <span class="mega-menu__listitem">{{ btn_text }}</span>
+                       {% endif %}
+                     </a>          
+                     {% endif %}
+                     {% endfor %}
+
+                     {% for i in (1..24) %}
+                     {% capture image_string %}image_{{ forloop.index }}{% endcapture %}
+                     {%- assign image = block.settings[image_string] -%}
+
+                     {% capture col_start_string %}image_{{ forloop.index }}_x{% endcapture %}
+                     {%- assign col_start = block.settings[col_start_string] -%}
+                     {% capture row_start_string %}image_{{ forloop.index }}_y{% endcapture %}
+                     {%- assign row_start = block.settings[row_start_string] -%}
+
+                     {% capture col_end_string %}image_{{ forloop.index }}_width{% endcapture %}
+                     {%- assign col_end = block.settings[col_end_string] | plus: col_start -%}
+                     {% capture row_end_string %}image_{{ forloop.index }}_height{% endcapture %}
+                     {%- assign row_end = block.settings[row_end_string] | plus: row_start -%}
+
+                     {% capture url_string %}image_{{ forloop.index }}_url{% endcapture %}
+                     {%- assign url = block.settings[url_string] -%}
+                     {% capture btn_text_string %}image_{{ forloop.index }}_btn_text{% endcapture %}
+                     {%- assign btn_text = block.settings[btn_text_string] -%}
+                     {% capture bg_string %}image_{{ forloop.index }}_bg{% endcapture %}
+                     {%- assign bg = block.settings[bg_string] -%}
+
+                    
+
+                     {% if image != blank %}
+                     {% if bg == true %}
+                     <a  
+                        href="{{ url }}"
+                        {% render 'lazy-background-image', image: image, img_classes: 'mega-menu__grid-item' %}
+                        data-{{ block.id}}-{{ forloop.index }}>
+                       {% if btn_text != blank %}
+                       <button class="btn mega-menu__image-btn">{{ btn_text }}</button>
+                       {% endif %}
+                     </a>
+                     {% else %}
+                     <a  
+                        href="{{ url }}"
+                        class="mega-menu__grid-item"
+                        data-{{ block.id}}-{{ forloop.index }}>
+
+                       {% render 'lazy-image', image: image %}
+                       {% if btn_text != blank %}
+                       <button class="btn mega-menu__image-btn">{{ btn_text }}</button>
+                       {% endif %}
+                     </a>
+                     {% endif %}
+                     {% endif %}
+                     {% endfor %}
+                   </div>             	
+             	 
+            	{% endif %}
+              {% endfor %}
+            {% endif %}
+           
+            
+             
+        </div>
+        {% endfor %}
+      <li>
+          <a class="btn mega-menu__btn" href="{{ link.url }}">All {{ link.title }}</a>
+        </li>
+      </ul>
+    {% elsif  parent_link_handle !='' %}    
+    
+   {% if section.blocks.size > 0 %}            
+              {% for block in section.blocks %}
+             {% if block.type == 'mega-menu' %}
+                {%- assign block_link_handle = block.settings.link_title | handleize -%}
+              {% endif %}
+             {% if block.type == 'mega-menu-list' %}
+             {%- assign block_link_handle = block.settings.listlink_title | handleize -%}
+             {% endif %}  
+             {%- assign stylemenu = block.settings.menu_style_1 | handleize -%}
+    			
+                {% if parent_link_handle == block_link_handle %}              
+                   <div class="mega-menu__grid {{ stylemenu }} {{ child_link.title }}">      
+                     {% for i in (1..50) %}
+                     {% capture image_string %}listimage_{{ forloop.index }}{% endcapture %}
+                     
+                     {%- assign image = block.settings[image_string] -%}
+                     
+                     {% capture url_string %}listimage_{{ forloop.index }}_url{% endcapture %}
+                     {%- assign url = block.settings[url_string] -%}
+                     {% capture btn_text_string %}listimage_{{ forloop.index }}_btn_text{% endcapture %}
+                     {%- assign btn_text = block.settings[btn_text_string] -%}
+
+                     {% if image != blank %}          
+                     <a href="{{ url }}" class="mega-menu__grid-listitem">
+                       
+                       <img src="{{ image | img_url: '265x' }}" alt="{{ btn_text }}" >
+                       {% if btn_text != blank %}
+                       <span class="mega-menu__listitem">{{ btn_text }}</span>
+                       {% endif %}
+                     </a>          
+                     {% endif %}
+                     {% endfor %}
+
+                     {% for i in (1..24) %}
+                     {% capture image_string %}image_{{ forloop.index }}{% endcapture %}
+                     {%- assign image = block.settings[image_string] -%}
+
+                     {% capture col_start_string %}image_{{ forloop.index }}_x{% endcapture %}
+                     {%- assign col_start = block.settings[col_start_string] -%}
+                     {% capture row_start_string %}image_{{ forloop.index }}_y{% endcapture %}
+                     {%- assign row_start = block.settings[row_start_string] -%}
+
+                     {% capture col_end_string %}image_{{ forloop.index }}_width{% endcapture %}
+                     {%- assign col_end = block.settings[col_end_string] | plus: col_start -%}
+                     {% capture row_end_string %}image_{{ forloop.index }}_height{% endcapture %}
+                     {%- assign row_end = block.settings[row_end_string] | plus: row_start -%}
+
+                     {% capture url_string %}image_{{ forloop.index }}_url{% endcapture %}
+                     {%- assign url = block.settings[url_string] -%}
+                     {% capture btn_text_string %}image_{{ forloop.index }}_btn_text{% endcapture %}
+                     {%- assign btn_text = block.settings[btn_text_string] -%}
+                     {% capture bg_string %}image_{{ forloop.index }}_bg{% endcapture %}
+                     {%- assign bg = block.settings[bg_string] -%}
+
+                   
+
+                     {% if image != blank %}
+                     {% if bg == true %}
+                     <a  
+                        href="{{ url }}"
+                        {% render 'lazy-background-image', image: image, img_classes: 'mega-menu__grid-item' %}
+                        data-{{ block.id}}-{{ forloop.index }}>
+                       {% if btn_text != blank %}
+                       <button class="btn mega-menu__image-btn">{{ btn_text }}</button>
+                       {% endif %}
+                     </a>
+                     {% else %}
+                     <a  
+                        href="{{ url }}"
+                        class="mega-menu__grid-item"
+                        data-{{ block.id}}-{{ forloop.index }}>
+
+                       {% render 'lazy-image', image: image %}
+                       {% if btn_text != blank %}
+                       <button class="btn mega-menu__image-btn">{{ btn_text }}</button>
+                       {% endif %}
+                     </a>
+                     {% endif %}
+                     {% endif %}
+                     {% endfor %}
+                   </div>             	
+             	 
+            	{% endif %}
+              {% endfor %}
+            {% endif %}
+    
+    {% endif %}
+
+   
+  </div>
+</div>

@@ -1,0 +1,93 @@
+{% comment %}
+    Image Row
+
+    Using custom parameters:
+    {% render 'image-row',
+      gutters: {Boolean},
+      top_padding: {String},
+      bottom_padding: {String},
+      title: {String},
+      image_1: {Object},
+      url_1: {String},
+      text_1: {String},
+      alignment_1: {String},
+      transparent_1: {boolean},
+      text_below_1: {String},
+      image_2: {Object},
+      url_2: {String},
+      text_2: {String},
+      alignment_2: {String},
+      transparent_2: {boolean},
+      text_below_2: {String},
+      image_3: {Object},
+      url_3: {String},
+      text_3: {String},
+      alignment_3: {String},
+      transparent_3: {boolean},
+      text_below_3: {String},
+      image_4: {Object},
+      url_4: {String},
+      text_4: {String},
+      alignment_4: {String},
+      transparent_4: {boolean},
+      text_below_4: {String}
+    %}
+{% endcomment %}
+
+<section class="image-row 
+                {% if gutters == true %}image-row--gutters{% endif %} 
+                {% if top_padding != 'none' %}image-row--top-{{ top_padding }}{% endif %}
+                {% if bottom_padding != 'none' %}image-row--bottom-{{ bottom_padding }}{% endif %}">
+  {% if title != blank %}
+    <h3 class="image-row__title">{{ title }}</h3>
+  {% endif %}
+
+  <ul class="image-row__list">
+    {% for i in (1..4) %}
+      {%- capture image_setting -%}image_{{ i }}{%- endcapture -%}
+      {%- assign image = [image_setting] -%}
+      {%- capture url_setting -%}url_{{ i }}{%- endcapture -%}
+      {%- assign url = [url_setting] -%}
+      {%- capture text_setting -%}text_{{ i }}{%- endcapture -%}
+      {%- assign text = [text_setting] -%}
+      {%- capture alignment_setting -%}alignment_{{ i }}{%- endcapture -%}
+      {%- assign alignment = [alignment_setting] -%}
+      {%- capture transparent_setting -%}transparent_{{ i }}{%- endcapture -%}
+      {%- assign transparent = [transparent_setting] -%}
+      {%- capture text_below_setting -%}text_below_{{ i }}{%- endcapture -%}
+      {%- assign text_below = [text_below_setting] -%}
+
+      {% if image != blank %}
+        <li class="image-row__item {% if gutters == true %}image-row__item--gutters{% endif %}">
+          <div class="image-row__image-container">
+            {% if url != blank %}
+              <a href="{{ url }}">{% else %}<div>{% endif %}
+
+              {% render 'lazy-image', image: image %}
+              
+              {% if text != blank %}
+                <div class="image-row__overlay {% if transparent == true %}image-row__overlay--clear{% endif %}">
+                  <p class="image-row__text image-row__text--{{ alignment }}">{{ text }}</p>
+                </div>
+              {% endif %}
+
+            {% if url != blank %}</a>{% else %}</div>{% endif %}
+          </div>
+
+          {% if text_below != blank %}
+
+            {% if url != blank %}
+              <a href="{{ url }}" class="image-row__link">
+            {% endif %}
+            <h6 class="image-row__text-below image-row__text-below--{{ alignment }}">
+              {{ text_below }} {% render 'icon-carat-right' %}
+            </h6>
+            {% if url != blank %}
+              </a>
+            {% endif %}
+          {% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</section>

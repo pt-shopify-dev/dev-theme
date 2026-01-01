@@ -1,0 +1,363 @@
+{
+  "sections": {
+    "collection-banner": {
+      "type": "collection-banner",
+      "settings": {
+        "show_collection_image": true,
+        "show_collection_title": false,
+        "show_collection_description": true,
+        "section_height": "auto",
+        "text_width": "medium",
+        "image_text_color": "#ffffff",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 0,
+        "quick_links": "shop-goalkeeper"
+      }
+    },
+    "0524fb58-9cd5-4a00-b10a-a94961076ed2": {
+      "type": "logo-row",
+      "blocks": {
+        "279cc9ab-8deb-4921-8d0c-e93a07c159be": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mercurial.png",
+            "url": "shopify:\/\/collections\/mercurial"
+          }
+        },
+        "13305c94-3794-4055-92e4-3e31c08efcf8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hypervenom.png",
+            "url": "shopify:\/\/collections\/hypervenom"
+          }
+        },
+        "ad43ce3e-d5e5-48cd-8876-0fd37b2a727f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tiempo_logo_20.png",
+            "url": "shopify:\/\/collections\/tiempo"
+          }
+        },
+        "7d25c46b-c0cc-4ed5-bab4-61c88c431abb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nike_classics.png",
+            "url": "shopify:\/\/collections\/nike-classics"
+          }
+        },
+        "1174b15e-10bc-43dc-8a96-a5bf1d580d74": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/predator_logo20.png",
+            "url": "shopify:\/\/collections\/ace"
+          }
+        },
+        "45ab0c8a-4076-4469-9e5d-b59b9e6596d4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nemeziz_logo20.png",
+            "url": "shopify:\/\/collections\/messi"
+          }
+        }
+      },
+      "block_order": [
+        "279cc9ab-8deb-4921-8d0c-e93a07c159be",
+        "13305c94-3794-4055-92e4-3e31c08efcf8",
+        "ad43ce3e-d5e5-48cd-8876-0fd37b2a727f",
+        "7d25c46b-c0cc-4ed5-bab4-61c88c431abb",
+        "1174b15e-10bc-43dc-8a96-a5bf1d580d74",
+        "45ab0c8a-4076-4469-9e5d-b59b9e6596d4"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "6dcbf2fd-d0d4-48ff-966b-136fcf962e6d": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15855150530712__6dcbf2fd-d0d4-48ff-966b-136fcf962e6d-1680801379ea96a6f9-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collection-hats-knits-scarves.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "HATS",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "5cbb99d7-c159-41a8-b408-bdb5c4b092a8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collection-hats-knits-scarves.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "HATS",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "3e2f8d5b-6b6f-45b5-ab0b-76e6312de217": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collection-hats-knits-scarves.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "HATS",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "6f8c68b6-c070-43b5-a549-d596cad79fe3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collection-hats-knits-scarves.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "HATS",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "181908d7-384d-4d1c-965e-e7be833ad49a": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collection-hats-knits-scarves.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "HATS",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "80d5cfa7-562b-40f3-a9ce-c74dfde3ed34": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collection-hats-knits-scarves.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "HATS",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--15855150530712__6dcbf2fd-d0d4-48ff-966b-136fcf962e6d-1680801379ea96a6f9-1": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--15855150530712__6dcbf2fd-d0d4-48ff-966b-136fcf962e6d-1680801379ea96a6f9-2": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--15855150530712__6dcbf2fd-d0d4-48ff-966b-136fcf962e6d-1680801379ea96a6f9-3": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "0ca88e70-cb2c-4007-9a37-9fc5f5919fe4": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "a8f77d5b-2e45-45ab-9e5c-9696079b36a6": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "580e05cb-70d2-44da-97fd-3e8dac9717ed": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Your content",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--15855150530712__6dcbf2fd-d0d4-48ff-966b-136fcf962e6d-1680801379ea96a6f9-0",
+        "5cbb99d7-c159-41a8-b408-bdb5c4b092a8",
+        "3e2f8d5b-6b6f-45b5-ab0b-76e6312de217",
+        "6f8c68b6-c070-43b5-a549-d596cad79fe3",
+        "181908d7-384d-4d1c-965e-e7be833ad49a",
+        "80d5cfa7-562b-40f3-a9ce-c74dfde3ed34",
+        "template--15855150530712__6dcbf2fd-d0d4-48ff-966b-136fcf962e6d-1680801379ea96a6f9-1",
+        "template--15855150530712__6dcbf2fd-d0d4-48ff-966b-136fcf962e6d-1680801379ea96a6f9-2",
+        "template--15855150530712__6dcbf2fd-d0d4-48ff-966b-136fcf962e6d-1680801379ea96a6f9-3",
+        "0ca88e70-cb2c-4007-9a37-9fc5f5919fe4",
+        "a8f77d5b-2e45-45ab-9e5c-9696079b36a6",
+        "580e05cb-70d2-44da-97fd-3e8dac9717ed"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "7546fe7f-3825-4bfb-a941-3488409b620c": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/boots-on-blue.jpg",
+            "subheading": "Your subheading",
+            "title": "Your heading",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_left",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "cdd52032-3399-477e-9849-4a9b0f5664d3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nike_team_031629f4-278d-4994-93c8-eafd24b1f3dc.jpg",
+            "subheading": "Your subheading",
+            "title": "Your heading",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_left",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        }
+      },
+      "block_order": [
+        "7546fe7f-3825-4bfb-a941-3488409b620c",
+        "cdd52032-3399-477e-9849-4a9b0f5664d3"
+      ],
+      "settings": {
+        "show_sort_by": true,
+        "products_per_page": 24,
+        "mobile_products_per_row": "2",
+        "desktop_products_per_row": 4,
+        "show_filters": false,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "open_first_filter_group": false,
+        "filter_position": "always_visible",
+        "promotion_position": "top",
+        "promotion_height": "small"
+      }
+    },
+    "custom_liquid_QerRAX": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<script>\nwindow.addEventListener('load', function() {\nvar _learnq = window._learnq || [];\nfunction addedToCart() {\n  fetch(`${window.location.origin}\/cart.js`)\n  .then(res => res.clone().json().then(data => {\n    var cart = {\n      total_price: data.total_price\/100,\n      $value: data.total_price\/100,\n      total_discount: data.total_discount,\n      original_total_price: data.original_total_price\/100,\n      items: data.items\n    }\n    if (item !== 'undefined') {\n      cart = Object.assign(cart, item)\n    }\n    if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', cart]);\n        klAjax = false;\n      }\n  }))\n};\n(function (ns, fetch) {\n  ns.fetch = function() {\n    const response = fetch.apply(this, arguments);\n    response.then(res => {\n      if (`${window.location.origin}\/cart\/add.js`\n      \t.includes(res.url)) {\n        \taddedToCart()\n      }\n    });\n    return response\n  }\n}(window, window.fetch));\nvar klAjax = true;\nvar atcButtons = document.querySelectorAll(\"form[action*='\/cart\/add'] button[type='submit']\");\nfor (var i = 0; i < atcButtons.length; i++) {\n    atcButtons[i].addEventListener(\"click\", function() {\n      if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', item]);\n        klAjax = false;\n      }\n    })\n}\n});\n<\/script>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "0524fb58-9cd5-4a00-b10a-a94961076ed2",
+    "6dcbf2fd-d0d4-48ff-966b-136fcf962e6d",
+    "main",
+    "custom_liquid_QerRAX"
+  ]
+}

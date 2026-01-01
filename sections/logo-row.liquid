@@ -1,0 +1,46 @@
+<section class="logo-row">
+  {% for block in section.blocks %}
+    <div class="logo-row__item">
+      {% if block.settings.url != blank %}
+        <a href="{{ block.settings.url }}" class="logo-row__image-container">
+      {% else %}
+        <div class="logo-row__image-container">
+      {% endif %}
+
+        {% render 'lazy-image', image: block.settings.image, img_classes: 'logo-row__image' %}
+
+      {% if block.settings.url != blank %}</a>{% else %}</div>{% endif %}
+    </div>
+  {% endfor %}
+</section>
+
+{% schema %}
+  {
+    "name": "Logo Row",
+    "class": "logo-row-section",
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "URL"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Logo Row",
+        "category": "Homepage"
+      }
+    ]
+  }
+{% endschema %}

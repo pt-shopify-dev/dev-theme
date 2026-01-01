@@ -1,0 +1,139 @@
+<section class="about" data-section-type="about">
+  <div class="about-wrapper">
+    <h1 class="about-title">{{ page.title }}</h1>
+    <div class="about-content rte">
+      {{ page.content }}
+    </div>
+    <div class="about-images">
+      <img src="{{ 'store1.jpg' | file_img_url: '800x' }}" alt="Store1" />
+      <img src="{{ 'store2.jpg' | file_img_url: '800x' }}" alt="Store2" />
+      <img src="{{ 'store3.jpg' | file_img_url: '800x' }}" alt="Store3" />
+    </div>
+    <div class="about-sections" data-section-type="accordion">
+      <ul class="about-sections__list">
+        <li class="about-sections__list-item about-sections__list-item--active" data-tab="store-hours" js-tab>Store Hours</li>
+        <li class="about-sections__list-item" data-tab="directions" js-tab>Directions</li>
+        <li class="about-sections__list-item" data-tab="shipping" js-tab>Shipping</li>
+        <li class="about-sections__list-item" data-tab="return-policy" js-tab>Return Policy</li>
+        <li class="about-sections__list-item" data-tab="contact-us" js-tab>Contact Us</li>
+        <li class="about-sections__list-item" data-tab="terms-of-use" js-tab>Terms of Use</li>
+        <li class="about-sections__list-item" data-tab="your-privacy" js-tab>Your Privacy</li>
+        <li class="about-sections__list-item" data-tab="faq" js-tab>FAQ</li>
+      </ul>
+      <div class="about-sections__content">
+        {% if pages['store-hours'].content != blank %}
+          <div class="about-sections__content-wrapper">
+            <div class="about-section__list-item--mobile" aria-expanded="true" aria-controls="about-sections__hours" js-accordion-header>
+              Store Hours
+              <div class="about-sections__icons">
+                <span class="about-sections__icons-plus">+</span>
+                <span class="about-sections__icons-minus">-</span>
+              </div>
+            </div>
+            <div id="about-sections__hours" class="about-sections__content-page about-sections__content-page--active" data-page="store-hours" js-accordion-content js-content>
+              {{ pages['store-hours'].content }}
+            </div>
+          </div>
+        {% endif %}
+        {% if pages['directions'].content != blank %}
+          <div class="about-sections__content-wrapper">
+            <div class="about-section__list-item--mobile" aria-expanded="false" aria-controls="about-sections__directions" js-accordion-header>
+              Directions
+              <div class="about-sections__icons">
+                <span class="about-sections__icons-plus">+</span>
+                <span class="about-sections__icons-minus">-</span>
+              </div>
+            </div>
+            <div id="about-sections__directions" class="about-sections__content-page" data-page="directions" js-accordion-content js-content>
+              {{ pages['directions'].content }}
+            </div>
+          </div>
+        {% endif %}
+        {% if pages['shipping'].content != blank %}
+          <div class="about-sections__content-wrapper">
+            <div class="about-section__list-item--mobile" aria-expanded="false" aria-controls="about-sections__shipping" js-accordion-header>
+              Shipping
+              <div class="about-sections__icons">
+                <span class="about-sections__icons-plus">+</span>
+                <span class="about-sections__icons-minus">-</span>
+              </div>
+            </div>
+            <div id="about-sections__shipping" class="about-sections__content-page" data-page="shipping" js-accordion-content js-content>
+              {{ pages['shipping'].content }}
+            </div>
+          </div>
+        {% endif %}
+        {% if pages['return-policy'].content != blank %}
+          <div class="about-sections__content-wrapper">
+            <div class="about-section__list-item--mobile" aria-expanded="false" aria-controls="about-sections__returns" js-accordion-header>
+              Return Policy
+              <div class="about-sections__icons">
+                <span class="about-sections__icons-plus">+</span>
+                <span class="about-sections__icons-minus">-</span>
+              </div>
+            </div>
+            <div id="about-sections__returns" class="about-sections__content-page" data-page="return-policy" js-accordion-content js-content>
+              {{ pages['return-policy'].content }}
+            </div>
+          </div>
+        {% endif %}
+        {% if pages['contact-us'].content != blank %}
+          <div class="about-sections__content-wrapper">
+            <div class="about-section__list-item--mobile" aria-expanded="false" aria-controls="about-sections__contact" js-accordion-header js-content>
+              Contact Us
+              <div class="about-sections__icons">
+                <span class="about-sections__icons-plus">+</span>
+                <span class="about-sections__icons-minus">-</span>
+              </div>
+            </div>
+            <div id="about-sections__contact" class="about-sections__content-page" data-page="contact-us" js-accordion-content js-content>
+              {{ pages['contact-us'].content }}
+            </div>
+          </div>
+        {% endif %}
+        {% if pages['terms-of-use'].content != blank %}
+          <div class="about-sections__content-wrapper">
+            <div class="about-section__list-item--mobile" aria-expanded="false" aria-controls="about-sections__terms" js-accordion-header js-content>
+              Terms of Use
+              <div class="about-sections__icons">
+                <span class="about-sections__icons-plus">+</span>
+                <span class="about-sections__icons-minus">-</span>
+              </div>
+            </div>
+            <div id="about-sections__terms" class="about-sections__content-page" data-page="terms-of-use" js-accordion-content js-content>
+              {{ pages['terms-of-use'].content }}
+            </div>
+          </div>
+        {% endif %}
+        {% if pages['your-privacy'].content != blank %}
+          <div class="about-sections__content-wrapper">
+            <div class="about-section__list-item--mobile" aria-expanded="false" aria-controls="about-sections__privacy" js-accordion-header>
+              Your Privacy
+              <div class="about-sections__icons">
+                <span class="about-sections__icons-plus">+</span>
+                <span class="about-sections__icons-minus">-</span>
+              </div>
+            </div>
+            <div id="about-sections__privacy" class="about-sections__content-page" data-page="your-privacy" js-accordion-content js-content>
+              {{ pages['your-privacy'].content }}
+            </div>
+          </div>
+        {% endif %}
+        {% if pages['faq'].content != blank %}
+          <div class="about-sections__content-wrapper">
+            <div class="about-section__list-item--mobile" aria-expanded="false" aria-controls="about-sections__faq" js-accordion-header>
+              FAQ
+              <div class="about-sections__icons">
+                <span class="about-sections__icons-plus">+</span>
+                <span class="about-sections__icons-minus">-</span>
+              </div>
+            </div>
+            <div id="about-sections__faq" class="about-sections__content-page" data-page="faq" js-accordion-content js-content>
+              {{ pages['faq'].content }}
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>

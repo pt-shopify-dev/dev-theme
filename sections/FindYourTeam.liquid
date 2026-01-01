@@ -1,0 +1,927 @@
+<!-- Find your team section starts -->
+<section class="Find-your-team">
+<div class="container">
+<div class="welcome-outter">
+{% if section.settings.title != blank %}
+<h2 class="section-heading">{{ section.settings.title }}</h2>
+{% endif %}
+{%- assign item1 = section.settings.item_title_text_1 | handleize -%}   
+{%- assign item2 = section.settings.item_title_text_2 | handleize -%}
+{%- assign item3 = section.settings.item_title_text_3 | handleize -%} 
+<div class="find-ur-team-main">
+  <ul class="find-main-text-wrap">
+    <li data-tab="{{item1}}" class="{{item1}}">{{ section.settings.item_title_text_1 }}<span> {% if section.settings.itemimage_1  != blank %}  <img class="find_item_image" src="{{ section.settings.itemimage_1  | img_url }}"> {% endif %}</span></li>     
+    <li data-tab="{{item2}}" class="{{item2}}">{{ section.settings.item_title_text_2 }}<span>  {% if section.settings.itemimage_2  != blank %}  <img class="find_item_image" src="{{ section.settings.itemimage_2 | img_url }}"> {% endif %}</span></li>
+    <li data-tab="{{item3}}" class="{{item3}}">{{ section.settings.item_title_text_3 }}<span>  {% if section.settings.itemimage_3  != blank %}   <img class="find_item_image" src="{{ section.settings.itemimage_3 | img_url }}"> {% endif %}</span></li>
+  </ul>
+</div>
+ 
+<div class="find-ur-team-tab-wrap">  
+{% if section.blocks.size > 0 %}            
+{% for block in section.blocks %}
+{%- assign block_link_handle = block.settings.listlink_title | handleize -%}
+ 
+  {% if block_link_handle == item1 or block_link_handle == item2 or block_link_handle == item3 %} 
+  <ul id="{{ block_link_handle }}" class="brand tab-content">
+          {% for i in (1..50) %}
+          {% capture image_string %}listimage_{{ forloop.index }}{% endcapture %}
+          {%- assign image = block.settings[image_string] -%}
+          {% capture url_string %}listimage_{{ forloop.index }}_url{% endcapture %}
+          {%- assign url = block.settings[url_string] -%}
+          {% capture btn_text_string %}listimage_{{ forloop.index }}_btn_text{% endcapture %}
+          {%- assign btn_text = block.settings[btn_text_string] -%}
+
+          {% if image != blank %}          
+          <li class="find-team-listitem"><a href="{{ url }}" >
+            <img class="find_image_listitem" src="{{ image | img_url }}" alt="{{ btn_text }}" >
+            {% if btn_text != blank %}
+            <span class="find_text_listitem">{{ btn_text }}</span>
+            {% endif %}
+            </a></li>          
+          {% endif %}
+          {% endfor %}
+   </ul>
+  {% endif %}
+  
+  
+{% endfor %}
+{% endif %}
+</div>
+</div>
+</div>
+</section>
+<!-- Find your team section ends -->
+
+{% schema %}
+  {
+    "name": "Find your team",
+    "settings": [
+	  {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+	{
+        "type": "image_picker",
+        "id": "itemimage_1",
+        "label": "Item Image 1"
+    },
+	{
+        "type": "text",
+        "id": "item_title_text_1",
+        "label": "Item text 1"
+    },
+	{
+        "type": "image_picker",
+        "id": "itemimage_2",
+        "label": "Item Image 2"
+    },
+	{
+        "type": "text",
+        "id": "item_title_text_2",
+        "label": "Item text 2"
+    },
+	{
+        "type": "image_picker",
+        "id": "itemimage_3",
+        "label": "Item Image 3"
+    },
+	{
+        "type": "text",
+        "id": "item_title_text_3",
+        "label": "Item text 3"
+    }	
+	],
+    "presets": [
+      {
+        "name": "Find your team",
+        "category": "Homepage"
+      }
+    ],
+	"blocks": [
+      {
+    "type": "team-list",
+    "name": "Team List",
+    "settings": [
+      {
+        "type": "text",
+        "id": "listlink_title",
+        "label": "Link Title"
+        
+      },
+      {
+        "type": "image_picker",
+        "id": "listimage_1",
+        "label": "Image 1"
+    },
+    {
+        "type": "url",
+        "id": "listimage_1_url",
+        "label": "URL 1"
+    },
+    {
+        "type": "text",
+        "id": "listimage_1_btn_text",
+        "label": "Image text 1",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_2",
+        "label": "Image 2"
+    },
+    {
+        "type": "url",
+        "id": "listimage_2_url",
+        "label": "URL 2"
+    },
+    {
+        "type": "text",
+        "id": "listimage_2_btn_text",
+        "label": "Image text 2",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_3",
+        "label": "Image 3"
+    },
+    {
+        "type": "url",
+        "id": "listimage_3_url",
+        "label": "URL 3"
+    },
+    {
+        "type": "text",
+        "id": "listimage_3_btn_text",
+        "label": "Image text 3",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_4",
+        "label": "Image 4"
+    },
+    {
+        "type": "url",
+        "id": "listimage_4_url",
+        "label": "URL 4"
+    },
+    {
+        "type": "text",
+        "id": "listimage_4_btn_text",
+        "label": "Image text 4",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_5",
+        "label": "Image 5"
+    },
+    {
+        "type": "url",
+        "id": "listimage_5_url",
+        "label": "URL 5"
+    },
+    {
+        "type": "text",
+        "id": "listimage_5_btn_text",
+        "label": "Image text 5",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_6",
+        "label": "Image 6"
+    },
+    {
+        "type": "url",
+        "id": "listimage_6_url",
+        "label": "URL 6"
+    },
+    {
+        "type": "text",
+        "id": "listimage_6_btn_text",
+        "label": "Image text 6",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_7",
+        "label": "Image 7"
+    },
+    {
+        "type": "url",
+        "id": "listimage_7_url",
+        "label": "URL 7"
+    },
+    {
+        "type": "text",
+        "id": "listimage_7_btn_text",
+        "label": "Image text 7",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_8",
+        "label": "Image 8"
+    },
+    {
+        "type": "url",
+        "id": "listimage_8_url",
+        "label": "URL 8"
+    },
+    {
+        "type": "text",
+        "id": "listimage_8_btn_text",
+        "label": "Image text 8",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_9",
+        "label": "Image 9"
+    },
+    {
+        "type": "url",
+        "id": "listimage_9_url",
+        "label": "URL 9"
+    },
+    {
+        "type": "text",
+        "id": "listimage_9_btn_text",
+        "label": "Image text 9",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_10",
+        "label": "Image 10"
+    },
+    {
+        "type": "url",
+        "id": "listimage_10_url",
+        "label": "URL 10"
+    },
+    {
+        "type": "text",
+        "id": "listimage_10_btn_text",
+        "label": "Image text 10",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_11",
+        "label": "Image 11"
+    },
+    {
+        "type": "url",
+        "id": "listimage_11_url",
+        "label": "URL 11"
+    },
+    {
+        "type": "text",
+        "id": "listimage_11_btn_text",
+        "label": "Image text 11",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_12",
+        "label": "Image 12"
+    },
+    {
+        "type": "url",
+        "id": "listimage_12_url",
+        "label": "URL 12"
+    },
+    {
+        "type": "text",
+        "id": "listimage_12_btn_text",
+        "label": "Image text 12",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_13",
+        "label": "Image 13"
+    },
+    {
+        "type": "url",
+        "id": "listimage_13_url",
+        "label": "URL 13"
+    },
+    {
+        "type": "text",
+        "id": "listimage_13_btn_text",
+        "label": "Image text 13",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_14",
+        "label": "Image 14"
+    },
+    {
+        "type": "url",
+        "id": "listimage_14_url",
+        "label": "URL 14"
+    },
+    {
+        "type": "text",
+        "id": "listimage_14_btn_text",
+        "label": "Image text 14",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_15",
+        "label": "Image 15"
+    },
+    {
+        "type": "url",
+        "id": "listimage_15_url",
+        "label": "URL 15"
+    },
+    {
+        "type": "text",
+        "id": "listimage_15_btn_text",
+        "label": "Image text 15",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_16",
+        "label": "Image 16"
+    },
+    {
+        "type": "url",
+        "id": "listimage_16_url",
+        "label": "URL 16"
+    },
+    {
+        "type": "text",
+        "id": "listimage_16_btn_text",
+        "label": "Image text 16",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_17",
+        "label": "Image 17"
+    },
+    {
+        "type": "url",
+        "id": "listimage_17_url",
+        "label": "URL 17"
+    },
+    {
+        "type": "text",
+        "id": "listimage_17_btn_text",
+        "label": "Image text 17",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_18",
+        "label": "Image 18"
+    },
+    {
+        "type": "url",
+        "id": "listimage_18_url",
+        "label": "URL 18"
+    },
+    {
+        "type": "text",
+        "id": "listimage_18_btn_text",
+        "label": "Image text 18",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_19",
+        "label": "Image 19"
+    },
+    {
+        "type": "url",
+        "id": "listimage_19_url",
+        "label": "URL 19"
+    },
+    {
+        "type": "text",
+        "id": "listimage_19_btn_text",
+        "label": "Image text 19",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_20",
+        "label": "Image 20"
+    },
+    {
+        "type": "url",
+        "id": "listimage_20_url",
+        "label": "URL 20"
+    },
+    {
+        "type": "text",
+        "id": "listimage_20_btn_text",
+        "label": "Image text 20",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_21",
+        "label": "Image 21"
+    },
+    {
+        "type": "url",
+        "id": "listimage_21_url",
+        "label": "URL 21"
+    },
+    {
+        "type": "text",
+        "id": "listimage_21_btn_text",
+        "label": "Image text 21",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_22",
+        "label": "Image 22"
+    },
+    {
+        "type": "url",
+        "id": "listimage_22_url",
+        "label": "URL 22"
+    },
+    {
+        "type": "text",
+        "id": "listimage_22_btn_text",
+        "label": "Image text 22",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_23",
+        "label": "Image 23"
+    },
+    {
+        "type": "url",
+        "id": "listimage_23_url",
+        "label": "URL 23"
+    },
+    {
+        "type": "text",
+        "id": "listimage_23_btn_text",
+        "label": "Image text 23",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_24",
+        "label": "Image 24"
+    },
+    {
+        "type": "url",
+        "id": "listimage_24_url",
+        "label": "URL 24"
+    },
+    {
+        "type": "text",
+        "id": "listimage_24_btn_text",
+        "label": "Image text 24",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_25",
+        "label": "Image 25"
+    },
+    {
+        "type": "url",
+        "id": "listimage_25_url",
+        "label": "URL 25"
+    },
+    {
+        "type": "text",
+        "id": "listimage_25_btn_text",
+        "label": "Image text 25",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_26",
+        "label": "Image 26"
+    },
+    {
+        "type": "url",
+        "id": "listimage_26_url",
+        "label": "URL 26"
+    },
+    {
+        "type": "text",
+        "id": "listimage_26_btn_text",
+        "label": "Image text 26",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_27",
+        "label": "Image 27"
+    },
+    {
+        "type": "url",
+        "id": "listimage_27_url",
+        "label": "URL 27"
+    },
+    {
+        "type": "text",
+        "id": "listimage_27_btn_text",
+        "label": "Image text 27",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_28",
+        "label": "Image 28"
+    },
+    {
+        "type": "url",
+        "id": "listimage_28_url",
+        "label": "URL 28"
+    },
+    {
+        "type": "text",
+        "id": "listimage_28_btn_text",
+        "label": "Image text 28",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_29",
+        "label": "Image 29"
+    },
+    {
+        "type": "url",
+        "id": "listimage_29_url",
+        "label": "URL 29"
+    },
+    {
+        "type": "text",
+        "id": "listimage_29_btn_text",
+        "label": "Image text 29",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_30",
+        "label": "Image 30"
+    },
+    {
+        "type": "url",
+        "id": "listimage_30_url",
+        "label": "URL 30"
+    },
+    {
+        "type": "text",
+        "id": "listimage_30_btn_text",
+        "label": "Image text 30",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_31",
+        "label": "Image 31"
+    },
+    {
+        "type": "url",
+        "id": "listimage_31_url",
+        "label": "URL 31"
+    },
+    {
+        "type": "text",
+        "id": "listimage_31_btn_text",
+        "label": "Image text 31",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_32",
+        "label": "Image 32"
+    },
+    {
+        "type": "url",
+        "id": "listimage_32_url",
+        "label": "URL 32"
+    },
+    {
+        "type": "text",
+        "id": "listimage_32_btn_text",
+        "label": "Image text 32",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_33",
+        "label": "Image 33"
+    },
+    {
+        "type": "url",
+        "id": "listimage_33_url",
+        "label": "URL 33"
+    },
+    {
+        "type": "text",
+        "id": "listimage_33_btn_text",
+        "label": "Image text 33",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_34",
+        "label": "Image 34"
+    },
+    {
+        "type": "url",
+        "id": "listimage_34_url",
+        "label": "URL 34"
+    },
+    {
+        "type": "text",
+        "id": "listimage_34_btn_text",
+        "label": "Image text 34",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_35",
+        "label": "Image 35"
+    },
+    {
+        "type": "url",
+        "id": "listimage_35_url",
+        "label": "URL 35"
+    },
+    {
+        "type": "text",
+        "id": "listimage_35_btn_text",
+        "label": "Image text 35",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_36",
+        "label": "Image 36"
+    },
+    {
+        "type": "url",
+        "id": "listimage_36_url",
+        "label": "URL 36"
+    },
+    {
+        "type": "text",
+        "id": "listimage_36_btn_text",
+        "label": "Image text 36",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_37",
+        "label": "Image 37"
+    },
+    {
+        "type": "url",
+        "id": "listimage_37_url",
+        "label": "URL 37"
+    },
+    {
+        "type": "text",
+        "id": "listimage_37_btn_text",
+        "label": "Image text 37",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_38",
+        "label": "Image 38"
+    },
+    {
+        "type": "url",
+        "id": "listimage_38_url",
+        "label": "URL 38"
+    },
+    {
+        "type": "text",
+        "id": "listimage_38_btn_text",
+        "label": "Image text 38",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_39",
+        "label": "Image 39"
+    },
+    {
+        "type": "url",
+        "id": "listimage_39_url",
+        "label": "URL 39"
+    },
+    {
+        "type": "text",
+        "id": "listimage_39_btn_text",
+        "label": "Image text 39",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_40",
+        "label": "Image 40"
+    },
+    {
+        "type": "url",
+        "id": "listimage_40_url",
+        "label": "URL 40"
+    },
+    {
+        "type": "text",
+        "id": "listimage_40_btn_text",
+        "label": "Image text 40",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_41",
+        "label": "Image 41"
+    },
+    {
+        "type": "url",
+        "id": "listimage_41_url",
+        "label": "URL 41"
+    },
+    {
+        "type": "text",
+        "id": "listimage_41_btn_text",
+        "label": "Image text 41",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_42",
+        "label": "Image 42"
+    },
+    {
+        "type": "url",
+        "id": "listimage_42_url",
+        "label": "URL 42"
+    },
+    {
+        "type": "text",
+        "id": "listimage_42_btn_text",
+        "label": "Image text 42",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_43",
+        "label": "Image 43"
+    },
+    {
+        "type": "url",
+        "id": "listimage_43_url",
+        "label": "URL 43"
+    },
+    {
+        "type": "text",
+        "id": "listimage_43_btn_text",
+        "label": "Image text 43",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_44",
+        "label": "Image 44"
+    },
+    {
+        "type": "url",
+        "id": "listimage_44_url",
+        "label": "URL 44"
+    },
+    {
+        "type": "text",
+        "id": "listimage_44_btn_text",
+        "label": "Image text 44",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_45",
+        "label": "Image 45"
+    },
+    {
+        "type": "url",
+        "id": "listimage_45_url",
+        "label": "URL 45"
+    },
+    {
+        "type": "text",
+        "id": "listimage_45_btn_text",
+        "label": "Image text 45",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_46",
+        "label": "Image 46"
+    },
+    {
+        "type": "url",
+        "id": "listimage_46_url",
+        "label": "URL 46"
+    },
+    {
+        "type": "text",
+        "id": "listimage_46_btn_text",
+        "label": "Image text 46",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_47",
+        "label": "Image 47"
+    },
+    {
+        "type": "url",
+        "id": "listimage_47_url",
+        "label": "URL 47"
+    },
+    {
+        "type": "text",
+        "id": "listimage_47_btn_text",
+        "label": "Image text 47",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_48",
+        "label": "Image 48"
+    },
+    {
+        "type": "url",
+        "id": "listimage_48_url",
+        "label": "URL 48"
+    },
+    {
+        "type": "text",
+        "id": "listimage_48_btn_text",
+        "label": "Image text 48",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_49",
+        "label": "Image 49"
+    },
+    {
+        "type": "url",
+        "id": "listimage_49_url",
+        "label": "URL 49"
+    },
+    {
+        "type": "text",
+        "id": "listimage_49_btn_text",
+        "label": "Image text 49",
+        "info": "Leave blank if no is needed"
+    },
+{
+        "type": "image_picker",
+        "id": "listimage_50",
+        "label": "Image 50"
+    },
+    {
+        "type": "url",
+        "id": "listimage_50_url",
+        "label": "URL 50"
+    },
+    {
+        "type": "text",
+        "id": "listimage_50_btn_text",
+        "label": "Image text 50",
+        "info": "Leave blank if no is needed"
+    }
+        
+    ]
+
+  }
+
+	]
+
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+
+{% endjavascript %}

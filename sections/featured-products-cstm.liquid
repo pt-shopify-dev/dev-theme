@@ -1,0 +1,135 @@
+{%- assign product_1 = '' -%}
+{%- assign product_2 = '' -%}
+{%- assign product_3 = '' -%}
+{%- assign product_4 = '' -%}
+{%- assign product_5 = '' -%}
+{%- assign product_6 = '' -%}
+{%- assign product_7 = '' -%}
+{%- assign product_8 = '' -%}
+
+{% for block in section.blocks %}
+  {% if forloop.index == 1 %}
+    {%- assign product_1 = block.settings.product -%}
+  {% endif %}
+
+  {% if forloop.index == 2 %}
+    {%- assign product_2 = block.settings.product -%}
+  {% endif %}
+
+  {% if forloop.index == 3 %}
+    {%- assign product_3 = block.settings.product -%}
+  {% endif %}
+
+  {% if forloop.index == 4 %}
+    {%- assign product_4 = block.settings.product -%}
+  {% endif %}
+
+  {% if forloop.index == 5 %}
+    {%- assign product_5 = block.settings.product -%}
+  {% endif %}
+
+  {% if forloop.index == 6 %}
+    {%- assign product_6 = block.settings.product -%}
+  {% endif %}
+
+  {% if forloop.index == 7 %}
+    {%- assign product_7 = block.settings.product -%}
+  {% endif %}
+
+  {% if forloop.index == 7 %}
+    {%- assign product_7 = block.settings.product -%}
+  {% endif %}
+{% endfor %}
+
+{% render 'featured-products-custm',
+  text_position: section.settings.text_position,
+  title: section.settings.title,
+  subtitle: section.settings.subtitle,
+  text: section.settings.text,
+  btn_text: section.settings.btn_text,
+  btn_url: section.settings.btn_url,
+  top_spacing: section.settings.top_spacing,
+  bottom_spacing: section.settings.bottom_spacing,
+  product_1: product_1,
+  product_2: product_2,
+  product_3: product_3,
+  product_4: product_4,
+  product_5: product_5,
+  product_6: product_6,
+  product_7: product_7,
+  product_8: product_8
+%}
+
+{% schema %}
+  {
+    "name": "Featured Products Cstm",
+    "max_blocks": 8,
+    "settings": [
+      {
+        "type": "radio",
+        "id": "text_position",
+        "options": [
+          { "value": "above", "label": "Above product grid"},
+          { "value": "inside", "label": "Inside of product grid"}
+        ],
+        "label": "Text Position"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "text",
+        "id": "subtitle",
+        "label": "Subtitle"
+      },
+      {
+        "type": "textarea",
+        "id": "text",
+        "label": "Text"
+      },
+      {
+        "type": "text",
+        "id": "btn_text",
+        "label": "Button Text"
+      },
+      {
+        "type": "url",
+        "id": "btn_url",
+        "label": "Button URL"
+      },
+      {
+        "type": "checkbox",
+        "id": "top_spacing",
+        "default": false,
+        "label": "Add spacing to top of section"
+      },
+      {
+        "type": "checkbox",
+        "id": "bottom_spacing",
+        "default": false,
+        "label": "Add spacing to bottom of section"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "product",
+        "name": "Product",
+        "settings": [
+          {
+            "type": "product",
+            "id": "product",
+            "label": "Product"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Featured Products cstm",
+        "category": "Homepage"
+      }
+    ]
+  }
+{% endschema %}

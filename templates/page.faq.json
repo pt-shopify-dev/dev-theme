@@ -1,0 +1,302 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "large"
+      }
+    },
+    "0b41cc37-de02-4d54-8579-b2325ad204ee": {
+      "type": "custom-html",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "subheading": "",
+        "title": "ABOUT US",
+        "html": "<style>\n.column {\n  float: left;\n  width: 50%;\n  Padding-left: 3%;Padding-right: 3%;\n}\n.column1 {\n  float: left;\n  width:40%;\n  Padding-left: 5%;Padding-right: 5%;\n}\n.column2 {\n  float: left;\n  width:30%;\n  Padding-left: 5%;Padding-right: 5%;\n}\n.column3 {\n  float: left;\n  width:30%;\n  Padding-left: 5%;Padding-right: 5%;\n}\n\n\n\n\n\n\n\/* Clear floats after the columns *\/\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n<\/style>\n\n<div class=\"row\">\n<div class=\"column\">The Coliseum \/  is a Napa Valley Soccer store.  Founded in October 2001, The Coliseum Sports \/ ColiseumSports.com is northern California source for the latest soccer footwear, jersey and equipment from leading brands. With four retail location and online store. You can Visit one of our store in Napa Valley, Marin, Fairfield, all based in California or shop on our online store ColiseumSports.com.<br><br>For 15 years (Our 15 year anniversary will be 2017) we have prided ourselves on delivering the very finest soccer shopping experience to all of our customers in the Bay Area, and now we have quickly grown and have reached all 50 states with ColiseumSportscom. We continue to drive ourselves towards excellence in every facet of our company. From retail sales, to the web, we never stop trying to improve for the passion of soccer and our customers.<\/div>\n<div class=\"column\">Our idea has been simple since we opened our first store in 2001. We aim to carry everything soccer related, all in one place. We have since taken our personalized brand to a one stop soccer shop to an online store. (ColiseumSports.com). This allows us to carry all cutting edge cleats, apparel, and equipment. This makes it easy for customers to find what they need quickly.<br><br>We pride in providing you the most convenient way to represent your favorite soccer teams on and off the pitch because just like you, we love and live soccer\/football.<\/div>\n<\/div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "a0a398bb-fd0d-4530-99eb-7b1d94410eb4": {
+      "type": "multi-column",
+      "disabled": true,
+      "blocks": {
+        "template--15855150923928__a0a398bb-fd0d-4530-99eb-7b1d94410eb4-1678811270e7e4f4fa-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store1.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--15855150923928__a0a398bb-fd0d-4530-99eb-7b1d94410eb4-1678811270e7e4f4fa-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store2.jpg",
+            "image_width": 61,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--15855150923928__a0a398bb-fd0d-4530-99eb-7b1d94410eb4-1678811270e7e4f4fa-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store3.jpg",
+            "image_width": 62,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--15855150923928__a0a398bb-fd0d-4530-99eb-7b1d94410eb4-1678811270e7e4f4fa-0",
+        "template--15855150923928__a0a398bb-fd0d-4530-99eb-7b1d94410eb4-1678811270e7e4f4fa-1",
+        "template--15855150923928__a0a398bb-fd0d-4530-99eb-7b1d94410eb4-1678811270e7e4f4fa-2"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "tight",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "21ecc152-6f6f-42b1-81c6-0f94cd6ed0dd": {
+          "type": "category",
+          "settings": {
+            "title": "RETURNS AND EXCHANGES INFORMATION"
+          }
+        },
+        "2c632cfa-dbd9-45f6-b20a-9886d519992d": {
+          "type": "question",
+          "settings": {
+            "title": "WHAT IS THE COLISEUM RETURN POLICY?",
+            "answer": "<p>We gladly accept returns on most new, unopened items within 30 days of delivery for a full refund. Please ensure that the items are in the condition in which they were received to guarantee a full refund.<\/p>"
+          }
+        },
+        "3ef6aac0-2da1-440c-8d5b-ad46fc1e0eb5": {
+          "type": "question",
+          "settings": {
+            "title": "CAN I RETURN OR EXCHANGE A CUSTOMIZED JERSEY?",
+            "answer": "<p>Customized items are considered final sale. Any item that has a name, number, and\/or any badge printed on it is considered to be a customized item and cannot be returned or exchanged. Please make certain that before placing a customized item you are aware of our return policy.<\/p>"
+          }
+        },
+        "f9e06702-868d-44c2-855b-c6ec66c91eee": {
+          "type": "question",
+          "settings": {
+            "title": "CAN I RETURN OR EXCHANGE AN ITEM AT ANY COLISEUM RETAIL LOCATION?",
+            "answer": "<p>Currently we do not offer returns or exchanges in any of our store locations for online orders. All online returns should be sent to the return address we have provided. With our return form to insure promptly refund.<\/p>"
+          }
+        },
+        "23f889ff-9ee5-41e4-9262-7b6859a0c8c5": {
+          "type": "question",
+          "settings": {
+            "title": "WHAT ADDRESS SHOULD I SHIP MY RETURN TO?",
+            "answer": "<p>All returns should be sent to our return address: The Coliseum Returns 1375 W Imola Ave Napa CA, 94559<\/p>"
+          }
+        },
+        "04cfcb47-7002-44fc-8fa1-e689cb7ef4d7": {
+          "type": "question",
+          "settings": {
+            "title": "DO I HAVE TO PAY FOR THE SHIPPING OF MY RETURN?",
+            "answer": "<p>Yes, the Coliseum does not cover for your return expenses. We do not refund shipping and handling fees. You may select the carrier of your choice to minimize the cost of the shipping.<\/p>"
+          }
+        },
+        "cc2eec00-7b31-4e29-8586-c21e03c0b9a6": {
+          "type": "question",
+          "settings": {
+            "title": "HOW LONG DOES IT TAKE TO PROCESS A REFUND?",
+            "answer": "<p>Once the item is received and upon inspection we will process the refund that same day. It usually takes 1-3 business days for the funds to appear in your account.<\/p>"
+          }
+        },
+        "5b9b2a74-b8a2-49d9-ae99-f5688485562b": {
+          "type": "category",
+          "settings": {
+            "title": "SHIPPING INFORMATION"
+          }
+        },
+        "82ce5b22-cf40-455e-afce-44a395c383da": {
+          "type": "question",
+          "settings": {
+            "title": "DO YOU SHIP INTERNATIONALLY?",
+            "answer": "<p>Yes, we are now offering International Shipping. Please allow at least 14-16 days for delivery. Free Shipping offer is not available for International orders.<\/p>"
+          }
+        },
+        "a8f9136f-acc1-46fe-b243-6bca61897c32": {
+          "type": "question",
+          "settings": {
+            "title": "THE SHIPPING ADDRESS IS INCORRECT, WHAT SHOULD I DO?",
+            "answer": "<p>If an order is placed with the wrong shipping address, and the order has not yet been shipped please contact customer service immediately (877)-854-1611. We will adjust the correct address at no additional cost.<\/p><p>If the order has been ship using standard ground the shipment can be intercepted if customer service is notified 2 business days prior to the schedule delivery date posted on the shipping tracking information. For Express shipping interception may not be possible.For shipments requiring interception, we reserve the right to charge a fee of $12.<\/p>"
+          }
+        },
+        "556582af-168c-4146-8a2f-fb067a398fc1": {
+          "type": "question",
+          "settings": {
+            "title": "DO I HAVE TO SIGN FOR MY PACKAGE?",
+            "answer": "<p>No. Signature is required for any packages sent from the coliseum\/Nvsoccer.<\/p>"
+          }
+        },
+        "88c6165d-405b-4c11-aed2-9f76e62718ea": {
+          "type": "question",
+          "settings": {
+            "title": "WHEN WILL MY ORDER SHIP?",
+            "answer": "<p>Most orders are processed between 10:00am and 5:00 pm (PST) Monday through Friday and shipped within 1-2 business days. Customized items will ship within 3 business days or upon completion.<\/p>"
+          }
+        },
+        "3264be66-2683-4acf-b87d-aba3d0df4f0e": {
+          "type": "question",
+          "settings": {
+            "title": "DO YOU SHIP TO HAWAII, ALASKA, PO BOXES OR MILITARY APO\/FPO ADDRESSES?",
+            "answer": "<p>We offer flat shipping rate options to Hawaii and Alaska and US territories (Puerto Rico) $25 for Standard Shipping. Shipments can be sent to both PO boxes and Military APO\/FPO addresses.<\/p>"
+          }
+        },
+        "dacb5f20-09a8-4e39-ab7e-1ff0d6be89ee": {
+          "type": "category",
+          "settings": {
+            "title": "JERSEYS & CUSTOMIZATIONS"
+          }
+        },
+        "026e9c6a-4bf5-4af5-834e-19ae701c6b2b": {
+          "type": "question",
+          "settings": {
+            "title": "DO YOU OFFER NAME AND NUMBER PRINTING ON JERSEYS?",
+            "answer": "<p>Yes. We offer the official license names and numbers of your favorite players.<\/p>"
+          }
+        },
+        "3af4d1c7-5411-44ee-8c7a-03fb8896a777": {
+          "type": "question",
+          "settings": {
+            "title": "HOW DO YOU CUSTOMIZE JERSEYS?",
+            "answer": "<p>Here at The Coliseum\/Nvsoccer we customized jerseys using the same process as the authentic player’s jerseys. All officially licensed letters, numbers and badges are applied using a heat- press.<\/p>"
+          }
+        },
+        "16a7e00e-c2fa-4a54-a06f-f6471a0fa680": {
+          "type": "question",
+          "settings": {
+            "title": "WHAT DOES OFFICIAL MEAN?",
+            "answer": "<p>The letters, numbers, and badges we use are the officially licensed products used by the teams on game day. The team characters and league badges we use look identical to those found on the authentic player jerseys and are approved by the team, the league, and the manufacturer.<\/p>"
+          }
+        },
+        "c1c09d33-737b-4bc3-b36b-ece3db058f7c": {
+          "type": "question",
+          "settings": {
+            "title": "WHAT IS THE DIFFERENCE BETWEEN REPLICA AND AUTHENTIC JERSEYS?",
+            "answer": "<p>All products at The Coliseum\/Nvsoccer are 100% authentic from the most trusted brands in the industry, including Nike, Adidas, Puma, Under Armour and many more. The main difference between a replica (or fan \/ stadium) jersey and an authentic (official) jersey is pretty straightforward - one is made for the fan and the other is designed specifically for the player. Replica jerseys are very similar to the authentic jerseys in terms of appearance, but there are usually a few small differences between the two with regards to design and fit. The authentic jersey is what the players wear in the game. It usually has a more tailored fit to it, small holes (or vents) in the rib \/ neck area and costs a bit more as well.<\/p>"
+          }
+        },
+        "96cfcb81-c42b-4006-a84e-807dba989276": {
+          "type": "category",
+          "settings": {
+            "title": "PAYMENT INFORMATION"
+          }
+        },
+        "349db347-b662-4105-a745-be810ea15ac6": {
+          "type": "question",
+          "settings": {
+            "title": "WHAT FORMS OF PAYMENT DO YOU ACCEPT?",
+            "answer": "<p>We currently accept visa, MasterCard, Discover American Express, PayPal and Amazon Payments.<\/p>"
+          }
+        },
+        "d73dc738-79c7-4c2d-8f0a-c4a797dbf35b": {
+          "type": "question",
+          "settings": {
+            "title": "WHY DID MY ORDER GET DECLINED?",
+            "answer": "<p>An order can get declined for various reasons, but most orders that get rejected are either due to suspected fraud or because there was a mistake when entering the billing information. Please ensure that you are entering all details correctly when checking out. If you have any questions as to why an order was declined please contact our customer service and we would gladly assist you. Nvsoccer reserves the right to decline any orders in which fraud is suspected.<\/p>"
+          }
+        },
+        "6239059c-1ae1-481d-adb0-cb11b2b012fc": {
+          "type": "category",
+          "settings": {
+            "title": "GENERAL\/ACCOUNT INFORMATION"
+          }
+        },
+        "77852dc6-a4d7-4583-9ed7-4f3455640609": {
+          "type": "question",
+          "settings": {
+            "title": "IS IT SAFE TO SHOP AT THE COLISEUM\/NVSOCCER?",
+            "answer": "<p>Yes, we take many precautions to ensure your shopping experience is secure and protected. Any personal information that is submitted will be kept safe and not be shared with any third parties. We process your payment information through authorize.net and do not store any of your credit details on our servers.<\/p>"
+          }
+        },
+        "2558fe50-8bc7-4f7f-999e-8e68131be78c": {
+          "type": "question",
+          "settings": {
+            "title": "HOW DO I CHECK THE STATUS OF AN ORDER THAT I PLACED AT ColiseumSports.COM?",
+            "answer": "<p>If you are a Registered Member at Coliseum Sports you will be able to view past orders placed at Coliseumsports.com. You will need to login to your account, and then click My Orders. You will be able to view all of your previous and current orders.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "21ecc152-6f6f-42b1-81c6-0f94cd6ed0dd",
+        "2c632cfa-dbd9-45f6-b20a-9886d519992d",
+        "3ef6aac0-2da1-440c-8d5b-ad46fc1e0eb5",
+        "f9e06702-868d-44c2-855b-c6ec66c91eee",
+        "23f889ff-9ee5-41e4-9262-7b6859a0c8c5",
+        "04cfcb47-7002-44fc-8fa1-e689cb7ef4d7",
+        "cc2eec00-7b31-4e29-8586-c21e03c0b9a6",
+        "5b9b2a74-b8a2-49d9-ae99-f5688485562b",
+        "82ce5b22-cf40-455e-afce-44a395c383da",
+        "a8f9136f-acc1-46fe-b243-6bca61897c32",
+        "556582af-168c-4146-8a2f-fb067a398fc1",
+        "88c6165d-405b-4c11-aed2-9f76e62718ea",
+        "3264be66-2683-4acf-b87d-aba3d0df4f0e",
+        "dacb5f20-09a8-4e39-ab7e-1ff0d6be89ee",
+        "026e9c6a-4bf5-4af5-834e-19ae701c6b2b",
+        "3af4d1c7-5411-44ee-8c7a-03fb8896a777",
+        "16a7e00e-c2fa-4a54-a06f-f6471a0fa680",
+        "c1c09d33-737b-4bc3-b36b-ece3db058f7c",
+        "96cfcb81-c42b-4006-a84e-807dba989276",
+        "349db347-b662-4105-a745-be810ea15ac6",
+        "d73dc738-79c7-4c2d-8f0a-c4a797dbf35b",
+        "6239059c-1ae1-481d-adb0-cb11b2b012fc",
+        "77852dc6-a4d7-4583-9ed7-4f3455640609",
+        "2558fe50-8bc7-4f7f-999e-8e68131be78c"
+      ],
+      "settings": {
+        "show_navigation": true,
+        "title": "FREQUENTLY ASKED QUESTIONS",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0b41cc37-de02-4d54-8579-b2325ad204ee",
+    "a0a398bb-fd0d-4530-99eb-7b1d94410eb4",
+    "faq"
+  ]
+}

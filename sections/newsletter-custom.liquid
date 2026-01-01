@@ -1,0 +1,53 @@
+<div class="newsletter c">
+  <div class="newsletter__text-container ntc">
+    {% if section.settings.section_title != blank %}
+      <label for="Email" class="newsletter__title">{{ section.settings.section_title | escape }}</label>
+    {% endif %}
+    {% if section.settings.subheading != blank %}
+      <p class="newsletter__subtitle">{{ section.settings.subheading | escape }}</p>
+    {% endif %}
+  </div>
+  {% form 'customer' %}
+    {{ form.errors | default_errors }}
+    {% if form.posted_successfully? %}
+      <p>You are now subscribed!</p>
+    {% else %}
+      <div class="newsletter__input-container nic">
+        <input type="hidden" name="contact[tags]" value="newsletter">
+        <input type="email" name="contact[email]" id="Email" class="newsletter__input" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="Email address" autocorrect="off" autocapitalize="off" required>
+        <button type="submit" class="btn newsletter__submit" name="commit" id="Subscribe">Subscribe</button>
+      </div>
+    {% endif %}
+  {% endform %}
+</div>
+
+{% schema %}
+  {
+    "name": "Newsletter Custom",
+    "class": "shopify-section--newsletter-custom",
+    "settings": [
+      {
+        "type": "text",
+        "id": "section_title",
+        "label": "Heading",
+        "default": "Subscribe to our newsletter"
+      },
+      {
+        "type": "text",
+        "id": "subheading",
+        "label": "Subheading",
+        "default": "A short sentence describing what someone will receive by subscribing"
+      },
+      {
+        "type": "paragraph",
+        "content": "Any customers who sign up will have an account created for them in Shopify. [View customers](/admin/customers?query=&accepts_marketing=1)"
+      }
+    ],
+     "presets": [
+    {
+      "name": "Newsletter Custom",
+      "settings": {}
+    }
+  ]
+  }
+{% endschema %}

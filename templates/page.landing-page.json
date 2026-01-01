@@ -1,0 +1,239 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        ".breadcrumb__list {display: none !important;}"
+      ],
+      "settings": {
+        "show_title": false,
+        "page_width": "large"
+      }
+    },
+    "image_with_text_overlay_WW4AAH": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Coliseum-CopaJerseys-Banner.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "SHOP ALL JERSEYS",
+        "button_link": "shopify:\/\/collections\/jersey",
+        "link_style": "button",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "bottom_center",
+        "text_color": "#ffffff",
+        "button_background": "#0864fe",
+        "button_text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "featured_collections_JLz4ri": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_JWgAd7": {
+          "type": "collection",
+          "settings": {
+            "collection": "exclusive-bay-pack",
+            "label": "",
+            "button_text": "Shop All",
+            "button_url": "shopify:\/\/collections\/exclusive-bay-pack"
+          }
+        }
+      },
+      "block_order": [
+        "collection_JWgAd7"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Exclusive Hats",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "2239f774-b116-4d8d-8e26-8fc0b766b965": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--15905592344728__2239f774-b116-4d8d-8e26-8fc0b766b965-1687358780ba7bbd24-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "copa24",
+            "label": "",
+            "button_text": "Shop All",
+            "button_url": "shopify:\/\/collections\/copa24"
+          }
+        }
+      },
+      "block_order": [
+        "template--15905592344728__2239f774-b116-4d8d-8e26-8fc0b766b965-1687358780ba7bbd24-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "COPA 2024",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "featured_collections_mMJ6UY": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_PqUdU8": {
+          "type": "collection",
+          "settings": {
+            "collection": "euro24",
+            "label": "",
+            "button_text": "SHOP ALL",
+            "button_url": "shopify:\/\/collections\/euro24"
+          }
+        }
+      },
+      "block_order": [
+        "collection_PqUdU8"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Euro 2024",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "featured_collections_TYcN69": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_FbULrC": {
+          "type": "collection",
+          "settings": {
+            "collection": "giants-as_everything",
+            "label": "",
+            "button_text": "Shop all",
+            "button_url": "shopify:\/\/collections\/giants-as_everything"
+          }
+        }
+      },
+      "block_order": [
+        "collection_FbULrC"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "MLB The Bay teams",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "464d9b9f-c468-46fc-9753-518bcd6f0218": {
+      "type": "featured-products",
+      "blocks": {
+        "3d10ed05-c568-4de6-9ad7-9afad84107ef": {
+          "type": "product",
+          "settings": {
+            "product": "new-era-oakland-athletics-1989-world-series-collection-59fifty-fitted"
+          }
+        },
+        "74a312ba-ea6a-4f83-8b8a-2a56d233f35e": {
+          "type": "product",
+          "settings": {
+            "product": "golden-state-warriors-new-era-59fifty-hat-logo-black-white-1"
+          }
+        }
+      },
+      "block_order": [
+        "3d10ed05-c568-4de6-9ad7-9afad84107ef",
+        "74a312ba-ea6a-4f83-8b8a-2a56d233f35e"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "above",
+        "title": "Featured",
+        "subtitle": "COPA 2024",
+        "text": "",
+        "btn_text": "SHOP COPA 2024",
+        "btn_url": "shopify:\/\/collections\/copa24",
+        "top_spacing": false,
+        "bottom_spacing": false
+      }
+    },
+    "182ecca2-580c-4133-8cce-cf793052b897": {
+      "type": "image-text-custom",
+      "blocks": {
+        "template--15884415959192__182ecca2-580c-4133-8cce-cf793052b897-168168952119bd5f51-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NV_PIC4.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Visit one of our retail locations",
+            "content": "<p>You have found your #1 source for your soccer gear. The coliseum\/Coliseumsports.com is<br\/>the place for all your soccer jersey, shoes and equipment we carry all the top <br\/>brands. We pride ourselves on delivering the very finest soccer experience online<br\/>or at one of our retail locations.<\/p>",
+            "button_text": "Find a location near you",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15884415959192__182ecca2-580c-4133-8cce-cf793052b897-168168952119bd5f51-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 5,
+        "accent_background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "#007feb",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1f941498-d269-498f-b224-c5db21d15fe3": {
+      "type": "newsletter-custom",
+      "settings": {
+        "section_title": "Subscribe to our newsletter",
+        "subheading": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_WW4AAH",
+    "featured_collections_JLz4ri",
+    "2239f774-b116-4d8d-8e26-8fc0b766b965",
+    "featured_collections_mMJ6UY",
+    "featured_collections_TYcN69",
+    "464d9b9f-c468-46fc-9753-518bcd6f0218",
+    "182ecca2-580c-4133-8cce-cf793052b897",
+    "1f941498-d269-498f-b224-c5db21d15fe3"
+  ]
+}

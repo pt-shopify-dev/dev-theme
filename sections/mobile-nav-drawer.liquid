@@ -1,0 +1,56 @@
+{%- comment -%}
+<div id="mobile-nav-drawer" class="drawer drawer--left">
+  <div class="mobile-nav__header">
+    <img class="mobile-nav__logo" src="{{ 'nvsoccer-logo.png' | asset_img_url: '300x' }}" alt="NV Soccer Logo">
+    <button class="mobile-nav__close" js-drawer-close>{% render 'icon-close' %}</button>
+  </div>
+
+  <div class="mobile-nav__links-container">
+    <ul class="mobile-nav__link-list">
+      {% for link in linklists[settings.main_menu].links %}
+      {%- assign link_handle = link.title | handleize -%}
+      
+      {% if link_handle == 'mlb' or link_handle == 'nfl' or link_handle == 'nba' %}
+      	{% assign custom_cl = "custom_menu_dorp_down" %}
+      {% else %}
+      	{% assign custom_cl = "" %}
+      {% endif %}
+        <li class="mobile-nav__link-item {{ link_handle }} {{ custom_cl }}">
+
+            {% if link.links != blank %}
+              <details class="mobile-nav__details">
+                <summary class="mobile-nav__summary"><span class="mobile-nav__summary-text">{{ link.title }}</span></summary>
+
+                <ul class="mobile-nav__link-list mobile-nav__link-list--child">
+                  {% for child_link in link.links %}  
+                    <li class="mobile-nav__link-item mobile-nav__link-item--child">
+                      
+
+                      {% if child_link.links != blank %}
+                        <details class="mobile-nav__details">
+                          <summary class="mobile-nav__summary mobile-nav__summary--child"><span class="mobile-nav__summary-text">{{ child_link.title }}</span></summary>
+                          <ul class="mobile-nav__link-list mobile-nav__link-list--grandchild">
+                            {% for grandchild_link in child_link.links %}  
+                              <li class="mobile-nav__link-item mobile-nav__link-item--grandchild"><a href="{{ grandchild_link.url }}" class="mobile-nav__link mobile-nav__link--grandchild">{{ grandchild_link.title }}</a></li>
+                            {% endfor %}
+                          </ul>
+                        </details>
+                      {% else %}
+                        <a href="{{ child_link.url }}" class="mobile-nav__link mobile-nav__link--child">{{ child_link.title }}</a>
+                      {% endif %}   
+
+                    </li>
+                  {% endfor %}
+                </ul> 
+              </details>
+            {% else %}
+              <a href="{{ link.url }}" class="mobile-nav__link">{{ link.title }}</a>
+            {% endif %} 
+          
+
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+{%- endcomment -%}

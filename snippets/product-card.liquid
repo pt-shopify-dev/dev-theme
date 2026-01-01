@@ -1,0 +1,73 @@
+<a class="product-card" href="{{ product.url | within: collection }}">
+<div class="imagecontainer">
+  <div class="product-card__image-container">
+    {% if product.featured_image != blank %}
+      {% render 'lazy-image', image: product.featured_image %}
+    {% endif %}
+
+    {%- comment -%}Product card tags{%- endcomment -%}
+    {% assign top_left_badge_tags = 'new' %}
+    {% assign top_right_badge_tags = 'leather,youth' %}
+    {% assign bottom_left_badge_tags = 'personalize' %}
+
+    {% for tag in product.tags %}
+      {%- assign handelized_tag = tag | handleize -%}
+      {% if top_left_badge_tags contains handelized_tag %}
+        <div class="product-card__badge product-card__badge--top-left">
+          {{ tag }}
+        </div>
+      {% endif %}
+
+      {% if top_right_badge_tags contains handelized_tag %}
+        <div class="product-card__badge product-card__badge--top-right">
+          {{ tag }}
+        </div>
+      {% endif %}
+
+      {% if bottom_left_badge_tags contains handelized_tag %}
+        <div class="product-card__badge product-card__badge--bottom-left">
+          {{ tag }}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>  
+  </div>  
+<div class="content_container">
+  <h4 class="product-card__title">{{ product.title }}</h4>
+  {% if product.metafields.custom_fields["subtitle_1"] != blank %}
+    <h5 class="product-card__subtitle product-card__subtitle--bold">{{ product.metafields.custom_fields["subtitle_1"] }}</h5>
+  {% endif %}
+  {% if product.metafields.custom_fields["subtitle_2"] != blank %}
+    <h5 class="product-card__subtitle">{{ product.metafields.custom_fields["subtitle_2"] }}</h5>
+  {% endif %}
+
+  <p class="product-card__price-container">
+    {%- assign price = product.price | money -%}
+    {% if product.compare_at_price > product.price %}
+      <span class="product-card__price product-card__price--sale">{{ product.compare_at_price | money }}</span>
+    {% endif %}
+    <span class="product-card__price">{{ price }}</span>
+        
+
+  </p>
+
+  <div class="quickshop-trigger">
+    <button 
+    data-quickshop-trigger  
+    data-remodal-target="quickshop-modal"
+    data-product-handle="{{ product.handle }}"
+    class="quickshop-trigger__btn"
+    >
+      quick view
+    </button>
+    <script type="application/json" data-quickshop-product-json>
+      {{ product | json }}
+    </script>
+    <script type="application/json" data-quickshop-current-variant-json>
+      {{ product.selected_or_first_available_variant | json }}
+    </script>
+  </div>
+  </div>
+</a>
+
+

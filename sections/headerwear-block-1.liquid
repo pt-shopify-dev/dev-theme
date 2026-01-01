@@ -1,0 +1,289 @@
+
+{% for block in section.blocks %}
+  {% if block.type == 'image_row' %}
+    {% render 'image-row',
+      gutters: block.settings.gutters,
+      title: block.settings.title,
+      top_padding: block.settings.top_padding,
+      bottom_padding: block.settings.bottom_padding,
+      image_1: block.settings.image_1,
+      url_1: block.settings.url_1,
+      text_1: block.settings.text_1,
+      alignment_1: block.settings.alignment_1,
+      transparent_1: block.settings.transparent_1,
+      text_below_1: block.settings.text_below_1,
+      image_2: block.settings.image_2,
+      url_2: block.settings.url_2,
+      text_2: block.settings.text_2,
+      alignment_2: block.settings.alignment_2,
+      transparent_2: block.settings.transparent_2,
+      text_below_2: block.settings.text_below_2,
+      image_3: block.settings.image_3,
+      url_3: block.settings.url_3,
+      text_3: block.settings.text_3,
+      alignment_3: block.settings.alignment_3,
+      transparent_3: block.settings.transparent_3,
+      text_below_3: block.settings.text_below_3,
+      image_4: block.settings.image_4,
+      url_4: block.settings.url_4,
+      text_4: block.settings.text_4,
+      alignment_4: block.settings.alignment_4,
+      transparent_4: block.settings.transparent_4,
+      text_below_4: block.settings.text_below_4
+    %}
+  {% endif %}
+
+  {% if block.type == 'icon_bar' %}
+    {% render 'icon-bar',
+      image_1: block.settings.image_1,
+      text_1: block.settings.richtext_1,
+      image_2: block.settings.image_2,
+      text_2: block.settings.richtext_2,
+      image_3: block.settings.image_3,
+      text_3: block.settings.richtext_3
+    %}
+  {% endif %}
+
+ 	
+{% endfor %}
+
+
+
+{% schema %}
+  { 
+    "name": "Headwear Multi Col",
+    "class": "shopify-section--headwear-block-1",
+    "blocks": [
+      {
+        "type": "image_row",
+        "name": "Image Row",
+        "settings": [
+          {
+            "type": "checkbox",
+            "id": "gutters",
+            "default": false,
+            "label": "Add gutters"
+          },
+          {
+            "type": "radio",
+            "id": "top_padding",
+            "options": [
+              { "value": "none", "label": "None"},
+              { "value": "small", "label": "Small"},
+              { "value": "large", "label": "Large"}
+            ],
+            "label": "Top Padding"
+          },
+          {
+            "type": "radio",
+            "id": "bottom_padding",
+            "options": [
+              { "value": "none", "label": "None"},
+              { "value": "small", "label": "Small"},
+              { "value": "large", "label": "Large"}
+            ],
+            "label": "Bottom Padding"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "image_picker",
+            "id": "image_1",
+            "label": "Image 1",
+            "info": "All Images in this section should have the same aspect ratio"
+          },
+          {
+            "type": "url",
+            "id": "url_1",
+            "label": "URL 1"
+          },
+          {
+            "type": "text",
+            "id": "text_1",
+            "label": "Text overlay 1"
+          },
+          {
+            "type": "radio",
+            "id": "alignment_1",
+            "options": [
+              { "value": "left", "label": "Left"},
+              { "value": "center", "label": "Center"},
+              { "value": "right", "label": "Right"}
+            ],
+            "label": "Text Alignment 1"
+          },
+          {
+            "type": "checkbox",
+            "id": "transparent_1",
+            "default": false,
+            "label": "Transparent text background 1"
+          },
+          {
+            "type": "text",
+            "id": "text_below_1",
+            "label": "Text below image 1"
+          },
+          {
+            "type": "image_picker",
+            "id": "image_2",
+            "label": "Image 2",
+            "info": "All Images in this section should have the same aspect ratio"
+          },
+          {
+            "type": "url",
+            "id": "url_2",
+            "label": "URL 2"
+          },
+          {
+            "type": "text",
+            "id": "text_2",
+            "label": "Text overlay 2"
+          },
+          {
+            "type": "radio",
+            "id": "alignment_2",
+            "options": [
+              { "value": "left", "label": "Left"},
+              { "value": "center", "label": "Center"},
+              { "value": "right", "label": "Right"}
+            ],
+            "label": "Text Alignment 2"
+          },
+          {
+            "type": "checkbox",
+            "id": "transparent_2",
+            "default": false,
+            "label": "Transparent text background 2"
+          },
+          {
+            "type": "text",
+            "id": "text_below_2",
+            "label": "Text below image 2"
+          },
+          {
+            "type": "image_picker",
+            "id": "image_3",
+            "label": "Image 3",
+            "info": "All Images in this section should have the same aspect ratio"
+          },
+          {
+            "type": "url",
+            "id": "url_3",
+            "label": "URL 3"
+          },
+          {
+            "type": "text",
+            "id": "text_3",
+            "label": "Text overlay 3"
+          },
+          {
+            "type": "radio",
+            "id": "alignment_3",
+            "options": [
+              { "value": "left", "label": "Left"},
+              { "value": "center", "label": "Center"},
+              { "value": "right", "label": "Right"}
+            ],
+            "label": "Text Alignment 3"
+          },
+          {
+            "type": "checkbox",
+            "id": "transparent_3",
+            "default": false,
+            "label": "Transparent text background 3"
+          },
+          {
+            "type": "text",
+            "id": "text_below_3",
+            "label": "Text below image 3"
+          },
+          {
+            "type": "image_picker",
+            "id": "image_4",
+            "label": "Image 4",
+            "info": "All Images in this section should have the same aspect ratio"
+          },
+          {
+            "type": "url",
+            "id": "url_4",
+            "label": "URL 4"
+          },
+          {
+            "type": "text",
+            "id": "text_4",
+            "label": "Text overlay 4"
+          },
+          {
+            "type": "radio",
+            "id": "alignment_4",
+            "options": [
+              { "value": "left", "label": "Left"},
+              { "value": "center", "label": "Center"},
+              { "value": "right", "label": "Right"}
+            ],
+            "label": "Text Alignment 4"
+          },
+          {
+            "type": "checkbox",
+            "id": "transparent_4",
+            "default": false,
+            "label": "Transparent text background 4"
+          },
+          {
+            "type": "text",
+            "id": "text_below_4",
+            "label": "Text below image 4"
+          }
+        ]
+      },
+      {
+        "type": "icon_bar",
+        "name": "Icon Bar",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image_1",
+            "label": "Icon (.png format)"
+          },
+          {
+            "type": "richtext",
+            "id": "richtext_1",
+            "label": "Text 1",
+            "default": "<p>Default <em>richtext</em> <a href=\"https://example.com/\">content</a></p>"
+          },
+          {
+            "type": "image_picker",
+            "id": "image_2",
+            "label": "Icon 2 (.png format)"
+          },
+          {
+            "type": "richtext",
+            "id": "richtext_2",
+            "label": "Text 2",
+            "default": "<p>Default <em>richtext</em> <a href=\"https://example.com/\">content</a></p>"
+          },
+          {
+            "type": "image_picker",
+            "id": "image_3",
+            "label": "Icon (.png format)"
+          },
+          {
+            "type": "richtext",
+            "id": "richtext_3",
+            "label": "Text 3",
+            "default": "<p>Default <em>richtext</em> <a href=\"https://example.com/\">content</a></p>"
+          }
+        ]
+      }    	
+    ],
+     "presets": [
+    {
+      "name": "Headwear Multi Col",
+      "settings": {}
+    }
+  ]
+  }
+{% endschema %} 

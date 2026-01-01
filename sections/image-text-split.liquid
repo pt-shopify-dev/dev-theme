@@ -1,0 +1,56 @@
+{% render 'image-text-split',
+  layout_direction: section.settings.layout_direction,
+  title: section.settings.title,
+  subtext: section.settings.subtext,
+  btn_text: section.settings.btn_text,
+  btn_url: section.settings.btn_url,
+  image: section.settings.image
+%}
+
+{% schema %}
+  { 
+    "name": "Image Text Split",
+    "settings": [
+        {
+          "type": "radio",
+          "id": "layout_direction",
+          "options": [
+            { "value": "image-text-split--reverse", "label": "Image on left, text on right"},
+            { "value": "", "label": "Image on right, text on left"}
+          ],
+          "label": "Layout direction"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "textarea",
+        "id": "subtext",
+        "label": "Title"
+      },
+      {
+        "type": "text",
+        "id": "btn_text",
+        "label": "Button Text"
+      },
+      {
+        "type": "url",
+        "id": "btn_url",
+        "label": "Button URL"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Image Text Split",
+        "category": "Homepage"
+      }
+    ]
+  }
+{% endschema %}

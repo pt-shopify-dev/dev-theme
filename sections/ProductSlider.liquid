@@ -1,0 +1,46 @@
+<!-- Product Slider section starts -->
+
+<section class="product-slider">
+  <div class="container">
+    <div class="product-slider-outter">
+    {% if section.settings.title2 != blank %}
+    <h2 class="section-heading">{{ section.settings.title2 }}</h2>
+    {% endif %}     
+        <div class="item-wrap">    
+          	{{section.settings.textarea2}}
+        </div>
+    </div>
+  </div>
+</section>
+<!-- Product Slider section ends -->  
+{% schema %}
+  {
+    "name": "Product Slider HTML",
+    "settings": [
+	  {
+        "type": "text",
+        "id": "title2",
+        "label": "Title"
+      },
+	  {
+        "type": "html",
+        "id": "textarea2",
+        "label": "HTML",
+		"info": "Please take care when you add/edit HTML."
+      }
+	], 
+	"presets": [
+      {
+        "name": "Product Slider HTML",
+        "category": "Homepage"
+      }
+    ]	
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+

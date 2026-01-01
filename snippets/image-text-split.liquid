@@ -1,0 +1,36 @@
+{% comment %}
+    Image Text Split
+
+    Using custom parameters:
+    {% render 'image-text-split',
+      layout_direction: {String},
+      title: {String},
+      subtext: {String},
+      btn_text: {String},
+      btn_url: {String},
+      image: {Object}
+    %}
+{% endcomment %}
+
+<section class="image-text-split {{ layout_direction }}">
+  <div class="image-text-split__text-container">
+    <div class="image-text-split__text-inner">
+      {% if title != blank %}
+        <h2 class="image-text-split__title">Visit one of our retail locations</h2>
+      {% endif %}
+      {% if subtext != blank %}
+        <p class="image-text-split__subtext">{{ subtext }}</p>
+      {% endif %}
+      {% if btn_text != blank and btn_url != blank %}
+        <div class="image-text-split__btn-container">
+          <a href="{{ btn_url }}" class="btn image-text-split__btn">{{ btn_text }}</a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+  <div class="image-text-split__image-container">
+    <div class="image-text-split__image-inner">
+      <div {% render 'lazy-background-image', image: image, img_classes: 'image-text-split__image' %}></div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,151 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "d17980e1-8d5e-4a27-a947-528bc6f2685f": {
+      "type": "footer-bar",
+      "settings": {
+        "subheading": "",
+        "title": "BE PHENOMENAL OR BE FORGOTTEN",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#236097",
+        "text_color": "#ffffff",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon_width": 50,
+            "title": "Free shipping on orders over $99",
+            "content": ""
+          }
+        },
+        "item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-store-pickup",
+            "custom_icon_width": 50,
+            "title": "FREE Returns & FREE In-store pickup",
+            "content": ""
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon_width": 50,
+            "title": "CUSTOMER SERVICE",
+            "content": "<p>NEED HELP? <br\/>CALL US 1-877-854-1611 <br\/>SE HABLA ESPANOL<\/p>"
+          }
+        },
+        "item-4": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon_width": 50,
+            "title": "CONTACT US",
+            "content": "<p>EMAIL US<br\/>customerservice@coliseumsports.com<br\/>SE HABLA ESPANOL<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-3",
+        "item-2",
+        "item-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/coliseum_logo.png",
+        "subheading": "Subscribe to our newsletter",
+        "content": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+        "text_position": "right",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer"
+          }
+        },
+        "a55cf5b3-c1e9-4e6e-9a08-1296966959ed": {
+          "type": "links",
+          "settings": {
+            "menu": "about-nv-soccer"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "NEED HELP? CALL US:",
+            "content": "<p>1-877-854-1611<br\/>SE HABLA ESPANOL<br\/><br\/><strong>EMAIL US<\/strong><br\/>CS@Coliseumsports.com<br\/>SE HABLA ESPANOL<\/p>"
+          }
+        },
+        "26077401-f009-4f4f-b036-0c2bfb62cbd1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Coliseum_gift-card-logo.jpg",
+            "image_width": 300
+          }
+        },
+        "90cd1cfd-7b09-477f-89c0-03eabfde1ba8": {
+          "type": "social_media",
+          "settings": {
+            "title": "Follow us",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "links",
+        "a55cf5b3-c1e9-4e6e-9a08-1296966959ed",
+        "text",
+        "26077401-f009-4f4f-b036-0c2bfb62cbd1",
+        "90cd1cfd-7b09-477f-89c0-03eabfde1ba8"
+      ],
+      "custom_css": [
+        ".footer__copyright {display: none !important;}"
+      ],
+      "settings": {
+        "show_payment_icons": false,
+        "show_country_selector": false,
+        "show_locale_selector": false
+      }
+    }
+  },
+  "order": [
+    "d17980e1-8d5e-4a27-a947-528bc6f2685f",
+    "text-with-icons",
+    "newsletter",
+    "footer"
+  ]
+}

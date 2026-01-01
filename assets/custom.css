@@ -1,0 +1,1519 @@
+
+/*  Hazzy Custom Code */
+.SYF {
+    padding: 18px !important;
+    border-radius: 50% !important;
+    width: 90px !important;
+    height: 95px !important;
+    border: 1px solid #00000036 !important;
+}
+
+ul#nba {
+    margin-top: 30px !important;
+}
+@media (min-width: 880px){
+.featured-products__title {
+    font-family: "Amsi Pro", Arial, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 38px;
+    margin: 0;
+}
+.hhs-cust {
+    position: relative;
+    top: 6vw;
+    right: 7vw;
+    display: flex;
+    justify-content: center;
+    width: 109%;
+    align-items: center;
+    margin-left: 2vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+  .fb-pad{
+    padding-top: 5px;
+    padding-bottom: 4px;
+  }
+  .fb {
+    font-family: 'Amsi Pro';
+    font-size: 22px;
+}
+  .\38 grids {
+    grid-template-columns: repeat(8, 1fr);
+}
+  h3.featured-products__subtitle {
+    font-family: "Amsi Pro", Arial, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 0;
+}
+  p.featured-products__text {
+    padding-left: 15px;
+    padding-right: 15px;
+        font-size: 1.2em
+}
+  .fleag {
+    justify-content: center;
+    padding: 0.625rem;
+    text-align: center;
+}
+  .image-row__item:hover .image-row__overlay:not(.image-row__overlay--clear) {
+    background-color: #0093f2;
+}
+  .flg {
+    font-size: 2.25rem;
+    font-family: "Amsi Pro", Arial, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+}  
+.fleag {
+    display: flex;
+    flex-direction: column;
+}
+  ul.featured-products__products.leagu {
+    grid-template-columns: repeat(4, 1fr);
+}
+  .c {
+    display: flex;
+   flex-direction: column;
+    margin: 0 auto;
+    padding: 0.625rem 0.625rem 1.875rem 0.625rem;
+    text-align: center;
+    max-width: 80rem;
+}
+  form#contact_form {
+    width: 100%;
+}
+  .nic {
+    display: flex;
+    width: 100%;
+    max-width: 43.75rem;
+    margin: 0 auto;
+}
+  input#Email {
+    transform: translateX(2px);
+    flex-grow: 1;
+    padding: 0.625rem 1.25rem;
+  border-color: #2f84ed;
+    background-color: whitesmoke;
+}
+  button#Subscribe {
+    transform: translateX(-2px);
+    width: auto;
+    padding: 0.625rem 1.875rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    border: 0;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1;
+    background-color: #007feb;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  label.newsletter__title {
+    font-size: 2.25rem;
+}
+  .l-cc {
+    grid-auto-columns: 12vw !important;
+}
+.glc{
+  display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+  grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+  .glcc{
+    width: fit-content !important;
+  }
+  p.image-row__text.image-row__text--left {
+    margin: 0.625rem;
+}
+  
+.image-row__overlay {
+    position: absolute;
+    bottom: 1.25rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    transition: all 0.3s ease;
+}
+  section.image-row.image-row--gutters.image-row--bottom-small {
+    width: 100%;
+    padding-bottom: 0.625rem;
+    margin: 0 -0.625rem;
+    padding-right: 1.875rem;
+    padding-left: 1.875rem;
+}
+  ul.image-row__list {
+    display: flex;
+}
+  li.image-row__item.image-row__item--gutters {
+    margin: 0 0.625rem;
+}
+  section.icon-bar {
+    display: flex;
+    justify-content: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+  .icon-bar__item {
+    padding: 0 1.875rem;
+    display: flex;
+    align-items: center;
+}
+  .icon-bar__image-container {
+    width: 1.5625rem;
+    margin-right: 0.625rem;
+}
+  h6.image-row__text-below.image-row__text-below--left {
+    display: flex;
+    align-items: center;
+    margin: 0.625rem 0;
+    text-transform: uppercase;
+    font-size: 0.8125rem;
+}
+  svg.icon.icon-carat-right {
+    width: 0.625rem;
+    height: 0.625rem;
+    margin-left: 0.625rem;
+}
+  section.image-row.image-row--bottom-large {
+    padding-bottom: 1.875rem;
+}
+  section.image-row.image-row--gutters {
+    padding-right: 1.875rem;
+    padding-left: 1.875rem;
+}
+.txt-box {
+    position: relative !important;
+   padding-left: 10px !important;
+    padding-right: 11px !important;
+    transform: translateY(0%) !important;
+    background: white;
+}
+  .ovrly-x{
+     background: white;
+  }
+  .hcstm{
+    margin-bottom:-2px !important;
+    font-size: 20px;
+  }
+  .hcs{
+    text-transform: none ;
+    font-family: 'Amsi Pro' !important;
+    font-weight: 500;
+        margin: 16px 21px !important;
+  }
+  .btnC{
+    background: #0093F2;
+    display: inline-block;
+    color: #fff;
+    text-transform:none;
+    line-height: 1;
+    padding: 7px 12px 5px;
+    border-radius: 4px;
+  }
+  .btnC:hover{
+    background: #000;
+    color: #fff;
+    text-transform:none;
+  }
+   ul.featured-products__products {
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+}
+  a.product-card {
+    display: block;
+    position: relative;
+    padding-bottom: 2.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+  .featured-products__text-content.featured-products__text-content--above {
+    display: flex;
+    align-items: center;
+        text-align: center;
+}
+  section.featured-products {
+    display: flex;
+   padding: 0rem 3.625rem 3.22em;
+}
+  a.btn.featured-products__btn {
+    padding: 0.625rem 1.875rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    border: 0;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1;
+    background-color: #007feb;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+  a.btn.featured-products__btn:hover {
+    background-color: black;
+}
+   .h3-itc{
+    font-family: "Amsi Pro", Arial, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  .itc-p-btm{
+    padding-bottom:0px !important;
+  }
+  .fpc{
+    font-size: 0.8375rem;
+    color: black;
+    font-family: "Amsi Pro", Arial, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  .fpcp{
+        font-size: 0.9875rem;
+    color: #0093f2;
+  }
+  .reveal {
+   
+    margin-left: 1.812em;
+}
+  
+  .btnC {
+    text-decoration: none;
+}
+img.F-img {
+   
+     
+}
+
+
+img.hidden {
+   
+}
+  h3.image-row__title {
+    font-family: "Amsi Pro", Arial, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 2.23rem;
+}
+  
+
+}
+@media (max-width: 768px){
+.fb {
+    font-family: 'Amsi Pro';
+    font-size: 12px;
+}
+.hhs-cust {
+    position: relative;
+    top: 15vw;
+    right: 7vw;
+    display: flex;
+    justify-content: center;
+    width: 109%;
+    align-items: center;
+    padding-right: 3vw;
+}
+  .txt-box {
+    position: relative !important;
+   padding-left: 10px !important;
+    padding-right: 11px !important;
+    transform: translateY(0%) !important;
+    background: white;
+}
+  .ovrly-x{
+     background: white;
+  }
+  .hcstm{
+    margin-bottom:-2px !important;
+  }
+  .hcs{
+    text-transform: none ;
+    font-family: 'Amsi Pro' !important;
+    font-weight: 500;
+     padding-left: 32px !important;
+    padding-right: 32px !important;
+    font-size: 14px !important;
+    margin: 16px 50px !important;
+  }
+  .btnC{
+    background: #0093F2;
+    display: inline-block;
+    color: #fff;
+    text-transform:none;
+    line-height: 1;
+    padding: 7px 10px 5px;
+    border-radius: 4px;
+  }
+  .btnC:hover{
+    background: #000;
+    color: #fff;
+    text-transform:none;
+  }
+  .image-row__overlay {
+    position: absolute;
+    bottom: 1.25rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    transition: all 0.3s ease;
+}
+  p.image-row__text.image-row__text--left {
+    margin: 0.625rem;
+}
+  section.image-row.image-row--gutters.image-row--bottom-small {
+    width: 100%;
+    padding-bottom: 0.625rem;
+}
+  ul.image-row__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+  li.image-row__item.image-row__item--gutters {
+   margin: 0.625rem;
+}
+   .icon-bar__item {
+    padding: 0 1.875rem;
+    display: flex;
+    align-items: center;
+}
+  .icon-bar__image-container {
+    width: 1.5625rem;
+    margin-right: 0.625rem;
+}
+  section.icon-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    h6.image-row__text-below.image-row__text-below--left {
+    display: flex;
+    align-items: center;
+    margin: 0.625rem 0;
+    text-transform: uppercase;
+    font-size: 0.8125rem;
+}
+  svg.icon.icon-carat-right {
+    width: 0.625rem;
+    height: 0.625rem;
+    margin-left: 0.625rem;
+}
+  section.image-row.image-row--bottom-large {
+    padding-bottom: 1.875rem;
+}
+  .glc{
+  display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+    grid-row-gap: 10px;
+}
+  .glcc{
+    width: fit-content !important;
+  }
+  .cc{
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+.featured-products-section {
+    padding: 1.625rem;
+}
+ul.featured-products__products {
+    margin: 0.625rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.9375rem;
+    padding: 0;
+}
+  .featured-products__text-content.featured-products__text-content--above {
+    text-align: center;
+}
+    a.btn.featured-products__btn {
+    padding: 0.625rem 1.875rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    border: 0;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1;
+    background-color: #007feb;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+ a.btn.featured-products__btn:hover {
+    background-color: black;
+}
+
+.c {
+    display: flex;
+   flex-direction: column;
+    margin: 0 auto;
+    padding: 0.625rem 0.625rem 1.875rem 0.625rem;
+    text-align: center;
+    max-width: 80rem;
+}
+  form#contact_form {
+    width: 100%;
+}
+  .nic {
+    display: flex;
+    width: 100%;
+    max-width: 43.75rem;
+    margin: 0 auto;
+}
+  input#Email {
+    transform: translateX(2px);
+    flex-grow: 1;
+    padding: 0.625rem 1.25rem;
+  border-color: #2f84ed;
+    background-color: whitesmoke;
+}
+  button#Subscribe {
+    transform: translateX(-2px);
+    width: auto;
+    padding: 0.625rem 1.875rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    border: 0;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1;
+    background-color: #007feb;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  label.newsletter__title {
+       font-size: 1.25rem;
+}
+  .itw{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 28px;
+}
+  .tac {
+    text-align: center !important;
+}
+  .ctnr{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .h3-itc{
+    font-family: "Amsi Pro", Arial, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  .itc-p-btm{
+    padding-bottom:0px !important;
+  }
+  .fpc{
+    font-size: 0.8375rem;
+    color: black;
+    font-family: "Amsi Pro", Arial, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  .fpcp{
+        font-size: 0.9875rem;
+    color: #0093f2;
+  }
+  .s-btn {
+    position: relative;
+    bottom: 13rem;
+    left: 0.5rem;
+}
+ .sr-btn {
+    position: relative;
+    left: 22.8rem;
+    bottom: 3rem;
+}
+  .reveal {
+    max-height: 150px;
+    max-width: 50%;
+    height: 150px;
+    margin-left: 5.112em;
+}
+  .btnC {
+    text-decoration: none;
+}
+  
+} 
+
+/* Custom Hazzy Work for mega nav */
+@media (min-width: 880px){
+/*================ MODULES ================*/
+.site-header-section {
+  position: sticky;
+  top: 0;
+  z-index: $z-index-sticky-header;
+}
+
+.site-header {
+  @include display-flexbox();
+  @include flex-direction(column);
+}
+
+.site-header__top-row {
+  @include display-flexbox();
+  background-color: $gray;
+  color: $black;
+  text-align: center;
+
+  @include media-query($medium-down) {
+    .site-header__tile {
+      display: none;
+    }
+  }
+}
+
+.site-header__center-row {
+  background-color: $white;
+  text-align: center;
+
+  @include media-query($large-up) {
+    @include display-flexbox();
+    @include align-items(center);
+    padding: 0 spacing(loose);
+  }
+}
+
+.site-header__bottom-row--mobile {
+
+  @include media-query($medium-down) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: rem(1px);
+    background-color: $blue-light;
+  }
+
+  @include media-query($large-up) {
+    display: none;
+  }
+}
+
+.site-header__bottom-row--desktop {
+
+  @include media-query($medium-down) {
+    display: none;
+  }
+
+  @include media-query($large-up) {
+    @include display-flexbox();
+    @include align-items(center);
+    @include justify-content(center);
+    background-color: $white;
+  }
+}
+
+.site-header__tile {
+  @include display-flexbox();
+  @include align-items(center);
+  @include justify-content(center);
+  padding: rem(10px) rem(13px);
+  background-color: $blue-dark;
+
+  .icon {
+    width: rem(20px);
+    color: $gray;
+  }
+
+  @include media-query($large-up) {
+    .icon {
+      width: rem(30px);
+    }
+  }
+}
+
+.site-header__tile--search {
+  &.active {
+    background-color: $blue-light;
+  }
+}
+
+.site-header__title {
+  margin: 0;
+
+  @include media-query($large-up) {
+    @include flex(1);
+  }
+}
+
+.site-header__search {
+  display: none;
+
+  .icon-search {
+    width: rem(20px);
+    color: $gray-medium;
+  }
+
+  @include media-query($large-up) {
+    @include flex(1);
+    display: block;
+    padding-right: spacing(extra-tight);
+  }
+}
+
+.site-header__search--mobile {
+  padding: rem(15px);
+  background-color: $gray;
+
+  &.active {
+    display: block;
+  }
+
+  @include media-query($large-up) {
+    display: none;
+
+    &.active {
+      display: none;
+    }
+  }
+}
+
+.site-header__search-form {
+  @include display-flexbox();
+  background-color: $white;
+
+  @include media-query($large-up) {
+    margin: 0 rem(30px);
+    border: rem(1px) solid $black;
+    border-radius: rem(12px);
+    background: transparent;
+  }
+}
+
+.site-header__search-submit {
+  background-color: $white;
+  border: none;
+
+  @include media-query($large-up) {
+    background: transparent;
+  }
+}
+
+.site-header__search-input {
+  flex-grow: 1;
+  margin: rem(10px);
+  border: none;
+  background-color: $white;
+}
+
+.site-header__leagues {
+  display: none;
+
+  @include media-query($large-up) {
+    @include display-flexbox();
+    @include align-items(center);
+    @include justify-content(center);
+    @include flex(1);
+  }
+}
+
+.site-header__league-item {
+  @include display-flexbox();
+  @include align-items(center);
+  padding-right: rem(30px);
+  text-decoration: none;
+}
+
+.site-header__league-logo {
+  max-width: rem(90px);
+}
+
+.site-header__league-title {
+  margin-left: rem(10px);
+  color: $black;
+}
+
+.site-header__logo {
+  display: block;
+  max-width: rem(250px);
+  margin: 0 auto;
+  padding: spacing(extra-tight);
+
+  @include media-query($large-up) {
+    max-width: rem(350px);
+  }
+}
+
+.site-header__menu-trigger {
+  background: transparent;
+  border: none;
+}
+
+.site-header__cart-trigger {
+  position: relative;
+  background: transparent;
+  border: none;
+}
+
+.site-header__cart-count {
+  padding-left: rem(5px);
+  color: $white;
+  font-size: rem(14px);
+
+  @include media-query($large-up) {
+    @include display-flexbox();
+    @include align-items(center);
+    @include justify-content(center);
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    width: 20px;
+    height: 20px;
+    padding-left: 0;
+    background: $blue-light;
+    border-radius: 50%;
+  }
+}
+
+.site-header__account-container {
+  display: none;
+  
+  @include media-query($large-up) {
+    @include display-flexbox();
+    @include align-items(center);
+    padding: 0 spacing();
+  
+    .icon {
+      width: rem(20px);
+      color: $black;
+    }
+  }
+}
+
+.site-header__account {
+  @include display-flexbox();
+  @include align-items(center);
+  text-decoration: none;
+}
+
+.site-header__account-text {
+  padding-right: rem(8px);
+  color: $black;
+  text-transform: uppercase; 
+  text-decoration: none;
+  font-weight: font-weight(bold);
+}
+
+.site-header__annoncement-container {
+  flex-grow: 1;
+  padding: spacing(tight) spacing(loose);
+}
+
+.annoncement-slideshow {
+  max-width: rem(450px);
+  margin: 0 auto;
+
+  .flickity-button {
+    position: absolute;
+    width: rem(30px);
+    height: rem(30px);
+    color: #C4BBBB;
+    background: transparent;
+
+    &.previous {
+      left: rem(-15px);
+    }
+
+    &.next {
+      right: rem(-15px);
+    }
+  }
+
+  @include media-query($large-up) {
+    margin-left: spacing(loose);
+  }
+}
+
+.annoncement-slideshow__slide {
+  width: 100%;
+}
+
+.annoncement-slideshow__text {
+  @extend .stylized-text;
+  margin: 0;
+}
+
+.desktop-nav {
+  width: 100%;
+  padding: 0 spacing(extra-tight);
+}
+
+/*.site-header__bottom-row--desktop {
+  position: relative;
+}*/
+
+.desktop-nav__linklist {
+  @include display-flexbox();
+  @include justify-content(center);
+  max-width: $width-site;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.desktop-nav__link-container {
+  @include display-flexbox();
+  @include align-items(center);
+  @include justify-content(center);
+
+  @include media-query($large-up) {
+    &:hover, &:focus, &.active { 
+
+      &:not(.desktop-nav__link-container--has-links) {
+        .desktop-nav__link-skew {
+          border-color: $blue-light;
+          background: $gray;
+        }
+      }
+
+      &.desktop-nav__link-container--has-links {
+        .mega-menu {
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.desktop-nav__link-skew {
+  padding: spacing(tight) spacing(extra-tight);
+  transition: background 0.3s;
+  transform: skew(-15deg);
+  border-bottom: 3px solid transparent;
+
+  @include media-query($large-up) {
+    &:hover, &:focus, &.active {
+      background: $gray;
+    }
+  }
+
+  @include media-query($widescreen) {
+    padding: spacing(tight) spacing();
+  }
+}
+
+.desktop-nav__link {
+  @extend .stylized-text;
+  display: block;
+  color: $blue-dark;
+  text-decoration: none;
+  text-align: center;
+  transform: skew(15deg);
+
+  @include media-query($large-up) {
+    font-size: rem(18px);
+  }
+}
+
+
+/*================ Mega Menu ================*/
+.mega-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  /*width: 100vw;*/
+  width: 100%;
+  padding: spacing() rem(90px);
+  border-top: rem(3px) solid $blue-light;
+  background-color: $gray-light;
+  text-align: left;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.mega-menu__content {
+  @include display-flexbox();
+  max-width: $width-site;
+  margin: 0 auto;
+}
+
+.mega-menu__linklist {
+  padding: spacing(loose) 0;
+  list-style: none;
+}
+
+.mega-menu__link {
+  display: block;
+  padding: rem(5px) 0;
+  color: $black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: rem(14px);
+}
+
+.mega-menu__btn {
+  display: block;
+  margin-top: rem(40px);
+  border-radius: 0;
+  padding: rem(10px);
+}
+
+.mega-menu__grid {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  column-gap: rem(15px);
+  row-gap: rem(15px);
+  padding-left: rem(80px);
+  // height: rem(300px);
+}
+
+.mega-menu__grid-item {
+  position: relative;
+  min-height: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mega-menu__image-btn {
+  position: absolute;
+  right: rem(-7px);
+  bottom: rem(-7px);
+  padding: rem(5px);
+  border-radius: 0;
+  background-color: $gray;
+  color: $black;
+  font-size: rem(12px);
+
+  &:hover, &:focus {
+    background-color: $gray;
+    color: $black;
+  }
+}
+.hero{
+  position: relative;
+  width: 100%;
+
+  &:not(:only-child) .hero__content-container{
+    @include media-query($tablet) {
+      padding: spacing(extra-tight) spacing(extra-loose);
+    }
+  }
+}
+
+
+
+/* Mega Menu */
+.mega-menu { padding: 0; border-top:  3px solid #0093F2; background-color: #ffffff; }
+
+.mega-menu__content { width: 94%; }
+.mega-menu__linklist { position: relative; padding: 24px 0; width: 200px; padding-bottom: 65px; }
+.mega-menu__linklist li { padding-right: 15px; }
+.mega-menu__linklist li:first-child .mega-menu__link { font-weight: 900; font-size: 18px; line-height: 24px; color: #000000; letter-spacing: 0.8px; margin: 0 0 9px; }
+.mega-menu__linklist li .mega-menu__link { font-family: "Amsi Pro",Arial,sans-serif; font-weight: 900; font-size: 14px; line-height: 27px; color: #000000; padding: 0; font-style: italic; }
+.mega-menu__linklist li .mega-menu__link:hover { color: #0093F2; }
+.mega-menu__linklist li .mega-menu__btn { position: absolute; bottom: 20px; font-family: "Amsi Pro",Arial,sans-serif; font-weight: 900; font-style: initial; font-size: 13px; line-height: 1; color: #FFFFFF; display: inline-block; letter-spacing: 0.55px; background: #0093F2; padding: 12px 15px; margin: 16px 0 0;font-style: italic; }
+.mega-menu__linklist li .mega-menu__btn:hover { background: #000000; }
+.mega-menu__grid { background: #F5F5F5; padding: 27px; column-gap: 18px; row-gap: 18px; }
+.mega-menu__grid .mega-menu__grid-item .mega-menu__image-btn { font-family: "Amsi Pro",Arial,sans-serif; font-weight: 900; font-style: normal; font-size: 11px; line-height: 1; color: #000000; border: 1px solid #E8E8E8; background: #CCCCCC; letter-spacing: 0.7px; display: inline-block; margin: 0; padding: 5px 10px 3px; position: absolute; bottom: -9px; right: -6px; font-style: italic; }
+.mega-menu__grid .mega-menu__grid-item .ratio-box img { border: 1px solid #0093F2; }
+.mega-menu__grid a.mega-menu__grid-item { border: 1px solid #E8E8E8; }
+
+.mega-menu__grid.footwear { background: transparent; }
+.mega-menu__grid.footwear a.mega-menu__grid-item .ratio-box { height: 100%; }
+
+.mega-menu__grid.youth { grid-template-columns: repeat(6, 1fr); grid-template-rows: repeat(2, 1fr); }
+.mega-menu__grid.youth [data-1588716232973-1] { grid-area: 1 / 1 / 9 / 3; }
+.mega-menu__grid.youth [data-1588716232973-2] { grid-area: 9 / 1 / 17 / 3; }
+.mega-menu__grid.youth [data-1588716232973-3] { grid-area: 1 / 3 / 9 / 4; }
+.mega-menu__grid.youth [data-1588716232973-4] { grid-area: 17 / 3 / 9 / 4; }
+.mega-menu__grid.youth [data-1588716232973-5] { grid-area: 1 / 4 / 17 / 5; }
+.mega-menu__grid.youth [data-1588716232973-6] { grid-area: 1 / 5 / 17 / 6; }
+.mega-menu__grid.youth [data-1588716232973-7] { grid-area: 1 / 6 / 17 / 7; }
+.mega-menu__grid.youth .mega-menu__grid-item .mega-menu__image-btn { padding: 5px 5px 3px; }
+
+
+.mega-menu__grid.fan-shop { grid-template-columns: initial; grid-template-rows: initial; width: 100%; display: inline-block; flex-grow: initial; }
+.mega-menu__grid.fan-shop a.mega-menu__grid-listitem { position: relative; grid-area: initial !important; width: 20%; float: left; padding: 0 0 10px; }
+.mega-menu__grid.fan-shop a.mega-menu__grid-listitem img { height: 23px; position: absolute; top: 0; left: 0; }
+.mega-menu__grid.fan-shop a.mega-menu__grid-listitem .mega-menu__listitem { font-family: "Amsi Pro",Arial,sans-serif; font-weight: 900; font-size: 14px; line-height: normal; color: #000000; letter-spacing: 0.7px; padding: 2px 0 0; padding-left: 27px; float: left; font-style: italic; }
+
+.mega-menu__grid.apparel { grid-template-columns: initial; grid-template-rows: initial; width: 100%; display: inline-block; flex-grow: initial; }
+.mega-menu__grid.apparel a.mega-menu__grid-item { grid-area: initial !important; width: calc(25% - 14px); float: left; margin-right: 18px; }
+.mega-menu__grid.apparel a.mega-menu__grid-item[data-1592570308071-4] { margin-right: 0; }
+.mega-menu__grid.apparel a.mega-menu__grid-item img { border: 1px solid #E8E8E8; } 
+
+.mega-menu__grid.teamwear { grid-template-columns: initial; grid-template-rows: initial; width: 100%; display: inline-block; flex-grow: initial; }
+.mega-menu__grid.teamwear a.mega-menu__grid-item { grid-area: initial !important; width: calc(33.333% - 14px); float: left; margin-right: 18px; }
+.mega-menu__grid.teamwear a.mega-menu__grid-item[data-1590011069852-3] { margin-right: 0; } 
+.mega-menu__grid.teamwear a.mega-menu__grid-item img { border: 1px solid #E8E8E8; }
+
+.mega-menu__grid.sale { grid-template-columns: repeat(8, 1fr); grid-template-rows: repeat(6, 1fr); }
+.mega-menu__grid.sale [data-1590013636216-1] { grid-area: 1 / 1 / 4 / 3; }
+.mega-menu__grid.sale [data-1590013636216-2] { grid-area: 4 / 1 / 7 / 3; }
+.mega-menu__grid.sale [data-1590013636216-3] { grid-area: 1 / 3 / 4 / 5; }
+.mega-menu__grid.sale [data-1590013636216-4] { grid-area: 4 / 3 / 7 / 5; }
+.mega-menu__grid.sale [data-1590013636216-5] { grid-area: 1 / 7 / 4 / 5; }
+.mega-menu__grid.sale [data-1590013636216-6] { grid-area: 4 / 5 / 7 / 7; }
+
+.mega-menu__grid.equipment { grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(1, 1fr); column-gap: 22px; row-gap: 22px; }
+.mega-menu__grid.equipment [data-1590011821095-1] { grid-area: 1 / 1 / 8 / 2; }
+.mega-menu__grid.equipment [data-1590011821095-2] { grid-area: 8 / 1 / 15 / 2; }
+.mega-menu__grid.equipment [data-1590011821095-3] { grid-area: 1 / 2 / 15 / 3; }
+.mega-menu__grid.equipment [data-1590011821095-4] { grid-area: 1 / 3 / 15 / 4; }
+.mega-menu__grid.equipment [data-1590011821095-5] { grid-area: 1 / 4 / 15 / 4; }
+
+
+.mega-menu__grid.goalkeepers { grid-template-columns: repeat(8, 1fr); grid-template-rows: repeat(3, 1fr); column-gap: 22px; row-gap: 11px; }
+
+.mega-menu__grid.goalkeepers [data-1588720950769-1] { grid-area: 1 / 1 / 2 / 3; }
+.mega-menu__grid.goalkeepers [data-1588720950769-2] { grid-area: 2 / 1 / 3 / 3; }
+.mega-menu__grid.goalkeepers [data-1588720950769-3] { grid-area: 3 / 1 / 4 / 3; }
+.mega-menu__grid.goalkeepers [data-1588720950769-1] .ratio-box, .mega-menu__grid.goalkeepers [data-1588720950769-2] .ratio-box, .mega-menu__grid.goalkeepers [data-1588720950769-3] .ratio-box { padding-top: 0 !important; width: 50%; height: 100%; float: left; height: initial; }
+.mega-menu__grid.goalkeepers [data-1588720950769-1] .ratio-box img, .mega-menu__grid.goalkeepers [data-1588720950769-2] .ratio-box img, .mega-menu__grid.goalkeepers [data-1588720950769-3] .ratio-box img { position: initial; border: 1px solid #E8E8E8; }
+.mega-menu__grid.goalkeepers [data-1588720950769-1], .mega-menu__grid.goalkeepers [data-1588720950769-2], .mega-menu__grid.goalkeepers [data-1588720950769-3] { height: 100%; }
+.mega-menu__grid.goalkeepers [data-1588720950769-1] .mega-menu__image-btn, .mega-menu__grid.goalkeepers [data-1588720950769-2] .mega-menu__image-btn, .mega-menu__grid.goalkeepers [data-1588720950769-3] .mega-menu__image-btn { width: 50%; float: right; position: initial; height: 100%; padding: 0 5px; }
+.mega-menu__grid.goalkeepers .mega-menu__grid-item img { border: none !important; }
+
+.mega-menu__grid.goalkeepers [data-1588720950769-4] { grid-area: 1 / 3 / 5 / 5; }
+.mega-menu__grid.goalkeepers [data-1588720950769-5] { grid-area: 1 / 5 / 5 / 7; }
+.mega-menu__grid.goalkeepers [data-1588720950769-6] { grid-area: 1 / 7 / 5 / 9; }
+
+
+@media (max-width: 1280px) {
+  .mega-menu__grid.goalkeepers [data-1588720950769-1] .mega-menu__image-btn, .mega-menu__grid.goalkeepers [data-1588720950769-2] .mega-menu__image-btn, .mega-menu__grid.goalkeepers [data-1588720950769-3] .mega-menu__image-btn { font-size: 13px; }
+}
+
+
+/********* New Menu css ***********/
+.desktop-nav__link-container:hover .mega-menu, .desktop-nav__link-container:focus .mega-menu{visibility: visible;opacity: 1;}
+.desktop-nav .mega-menu__grid{background:#fff;}
+.desktop-nav .desktop-nav__link{font-size:22px; font-family: "Amsi Pro",Arial,sans-serif;font-weight: 900;color: #236097;line-height: 1.15;}
+.desktop-nav .desktop-nav__link-skew {padding:4px 6px 2px;margin:0 12px;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist{width:100%; padding-top:0;padding-bottom:0;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .mega-menu__link, .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .mega-menu__btn{width: 242px;font-family: "Amsi Pro",Arial,sans-serif;font-weight: 900;line-height: normal;padding: 17px 15px;margin: 0;font-size: 15px;background: #F5F5F5; border-bottom: 1px solid #E8E8E8;/*border-right: 1px solid #E8E8E8; */ font-style: normal; position:relative; z-index:100; color:#000000; text-transform: inherit;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist li .mega-menu__link:after{content: '';height: 14px;width: 14px;border-top: 2px solid #0093F2;border-right: 2px solid #0093F2;position: absolute;right: 20px;transform: rotate(45deg);top: 21px; transition:0.5s; opacity:0; visibility:hidden;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist li.active .mega-menu__link:after{right:15px;transition:0.5s;opacity:1; visibility:visible;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right{display:none;padding-left: 282px;position:absolute; right:0; width:100%; top:0; min-height: 100%;background: #fff; padding-top:40px;padding-right: 70px;padding-bottom:0;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right:before{content:'';width:242px; height:100%; position:absolute; left:0; top:0;background: #F5F5F5;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist li.active .megamenu_right{display:block;}
+.desktop-nav .mega-menu__content{width:100%;max-width: 1600px;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .mega-menu__btn{color:#236097;position: reletive;top:0; text-align:left;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .grandchild{width:20%;padding:0 0 60px; margin:0; list-style: none; float:left;position:relative; min-height:390px;}
+.desktop-nav__link-container:hover .desktop-nav__link-skew{border-color: #0093f2;background: #e8e8e8;}
+
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right.soccer-footwear .grandchild, .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right.soccer-footwear .brand{padding:0; margin:0; list-style: none; float:left; width:12.5%;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .grandchild .mega-menu__btn{background:#0093F2; font-size:9px;font-family: "Amsi Pro",Arial,sans-serif; font-weight: 900; font-style: italic; color:#fff; margin:0; position:absolute; top:auto; bottom:15px; width:auto; padding:10px 10px}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .grandchild .mega-menu__btn:hover, .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .grandchild .mega-menu__btn:focus{color:#fff;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .grandchild li a, .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right.soccer-footwear .brand a{
+font-family: "Amsi Pro",Arial,sans-serif;font-weight: 600; font-style:italic; font-size:15px; color:#3A3636;    text-decoration: none; display:inline-block;     margin: 0 0 16px;padding:0 10px; text-transform: inherit;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .grandchild li a:hover, .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right.soccer-footwear .brand a:hover, .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .grandchild li a:focus, .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right.soccer-footwear .brand a:focus{color: #0093F2;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .grandchild li:first-child a, .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .brand li:first-child a{
+font-family: "Amsi Pro",Arial,sans-serif;font-weight: 900; font-size:14px; color:#000000; text-decoration:underline; font-style:normal;text-transform: inherit;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid{width:80%; float:right; background: #fff; padding:0;}
+.desktop-nav .mega-menu__grid .mega-menu__grid-item .mega-menu__image-btn{background: #0000004d; color:#fff; bottom:0; right:0; font-size:14px;font-family: "Amsi Pro",Arial,sans-serif;font-weight: 900; font-style:italic; border:0;     text-transform: inherit;}
+
+/********* Soccer Footwear Style 1 Grid ************/
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style1{display:block; width:75%;}
+.mega-menu__grid.style1 a{display:inline-block; width:100%; margin:0 0 15px;}
+.mega-menu__grid.style1 a:last-child{margin:0;}
+.mega-menu__grid.style1 .stye1-col-1{
+  width:31%;
+  float:left;
+}
+.mega-menu__grid.style1 .stye1-col-1 a{border:0;}
+.mega-menu__grid.style1 .stye1-col-2{width:25%;float:left;padding:0 38px;}
+.mega-menu__grid.style1 .mega-menu__grid-item .ratio-box img{border:0;}
+.mega-menu__grid.style1 .stye1-col-2 a{
+border:1px solid #E8E8E8;
+margin: 0 0 10px;
+}
+.mega-menu__grid.style1 .stye1-col-2 .mega-menu__grid-item .mega-menu__image-btn{font-size:10px;}
+.mega-menu__grid.style1 .stye1-col-3{
+width:44%;
+float:left;
+}
+.mega-menu__grid.style1 .stye1-col-3 a{float:left; width:48%; border:1px solid #0093F2; margin:0 0 25px;}
+.mega-menu__grid.style1 .stye1-col-3 a:nth-child(odd){margin-right:4%;}
+.mega-menu__grid.style1 .stye1-col-3 a .ratio-box{padding-top:0 !important;height: 95px; padding:0 15px;}
+.mega-menu__grid.style1 .stye1-col-3 a img{border:0;position: unset;position: initial;max-height: 70px;max-width: 100%;height: auto;position: relative;top: 50%;
+transform: translateY(-50%);margin: 0 auto; width:auto;}
+
+/******* Fan Shop **********/
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right.fan-shop{padding-right:30px;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.stylelist1{display:block; width:80%;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.stylelist1 a{padding:8px 8px; color:#000; text-decoration:none; font-size:.7598vw; padding-left:30px;position:relative; margin:0 0 8px;font-family: "Amsi Pro",Arial,sans-serif; font-weight: 600; font-style: italic; display:block; width:100%;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.stylelist1 a:hover, .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.stylelist1 a:focus{background: #E8E8E8;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.stylelist1 a span{vertical-align:middle;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.stylelist1 a img{max-width:25px; max-height:25px;position:absolute; left:3px; top:5px;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.stylelist1 > div{float:left; width:20%; padding:0 10px;}
+
+/******* Youth Soccer ***********/
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2{display:block;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 > div{width:24.33%; float:left;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 > div > a{display:inline-block;width: 100%;border:0;    margin: 0 0 12px;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 > div > a .ratio-box{padding-top:0!important; height:auto;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 > div > a .ratio-box img{position:inherit; height:auto; border:0;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 .stye2-col-1{width:28%; float:left; padding:0 16px 0 0;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 .stye2-col-2{padding:0 17px;   width: 23.33%;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 .stye2-col-3{padding:0 0 0 22px;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 .stye2-col-4{padding:0 0 0 38px;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 .mega-menu__grid-item .mega-menu__image-btn{font-size:13px;}
+
+/******* Soccer Apparel ***********/
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist li.active .megamenu_right.soccer-apparel .grandchild li{width:50%; float:left;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist li.active .megamenu_right.soccer-apparel .grandchild li:first-child, .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist li.active .megamenu_right.soccer-apparel .grandchild li:last-child{width:100%;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist li.active .megamenu_right.soccer-apparel .grandchild{width:25%;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style3{display:block; width:75%;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style3 > div{width:25%; float:left;padding: 0 10px;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style3 > div a{display:inline-block; width:100%;border:0;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style3 > div a .ratio-box{padding-top:0 !important; height:auto;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style3 > div a .ratio-box img{position:inherit; height:auto; border:0;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right.soccer-apparel{padding-right:40px;}
+
+/******** Goalkeeper ***********/
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right.goalkeeper{padding-right:40px;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style4{display:block; padding:35px 0 0;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style4 > div{float:left; width:25%; padding:0 10px;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style4 > div a{display:inline-block; width:100%;margin: 0 0 18px;border:0;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style4 > div a .ratio-box img{border:0;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style4 > div.stye4-col-1 a .ratio-box{float:left;width:50%;padding-top:0 !important; height: auto;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style4 > div.stye4-col-1 a .ratio-box img{position:inherit; border:0;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style4 > div.stye4-col-1 a .mega-menu__image-btn{position:absolute; top:0; height:100%; width:50%;}
+
+/****** Equpment ***********/
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style5{display:block;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style5 > div{float:left; width:25%;padding:0 10px;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style5 > div a{display:block;margin:0 0 25px;border:0;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style5 > div a img{border:0;}
+
+/******* Teamware **********/
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style6{display:block;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style6 > div{float:left; width:33.33%;padding:0 13px;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style6 > div a{display:block;border:0;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style6 > div a img{border:0;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style6 > div a .mega-menu__image-btn{font-size:12px;}
+
+/********** Headware *********/
+.desktop-nav .desktop-nav__linklist .headwear .mega-menu__linklist{float:left; width:30%; padding-left:70px;}
+.desktop-nav .desktop-nav__linklist .headwear .mega-menu__linklist > li > a, .desktop-nav .desktop-nav__linklist .headwear .mega-menu__linklist > li:first-child > a.mega-menu__link{font-family: "Amsi Pro",Arial,sans-serif;font-weight: 900;font-size: 14px;color: #000000;text-decoration: underline;margin: 0 0 10px;text-transform: inherit;}
+.desktop-nav .desktop-nav__linklist .headwear .mega-menu__linklist > li{float:left; width:50%;padding:0; margin:0 0 8px;}
+.desktop-nav .desktop-nav__linklist .headwear .mega-menu__linklist > li:nth-child(3){clear:left;}
+.desktop-nav .desktop-nav__linklist .mega-menu__grid.style7{float:left; width:70%;display:block; background:#fff;padding-left:50px;margin:35px 0 0;}
+.desktop-nav .desktop-nav__linklist .mega-menu__grid.style7 > div{float:left; width:25%; padding:0 13px;}
+.desktop-nav .desktop-nav__linklist .mega-menu__grid.style7 > div a{display:block;margin: 0 0 26px;}
+.desktop-nav .desktop-nav__linklist .mega-menu__grid.style7 > div a img{border:0;}
+.desktop-nav .desktop-nav__linklist .headwear .mega-menu__linklist .grandchild{padding:0; margin:0; list-style:none;}
+.desktop-nav .desktop-nav__linklist .headwear .mega-menu__linklist .grandchild a{font-family: "Amsi Pro",Arial,sans-serif;font-weight: 600;font-style: italic;font-size: 15px;color: #3A3636;    margin: 0 0 10px; display:inline-block;text-decoration:none;text-transform: inherit;}
+.desktop-nav .desktop-nav__linklist .headwear .mega-menu__linklist .grandchild a:hover, .desktop-nav .desktop-nav__linklist .headwear .mega-menu__linklist .grandchild a:focus{color: #0093F2;}
+.desktop-nav .desktop-nav__linklist .headwear .mega-menu__linklist > li .mega-menu__btn{position:inherit;    background: #0093F2; font-size: 13px;font-family: "Amsi Pro",Arial,sans-serif;font-weight: 900;font-style: italic;color: #fff; margin: 0;width: auto;padding: 10px 10px;margin:80px 0 0; text-decoration:none;}
+.desktop-nav .desktop-nav__linklist .headwear .mega-menu__linklist .grandchild li .mega-menu__btn{display:none;}
+
+/******* MLB *******/
+.desktop-nav .desktop-nav__link-container.mlb:hover .mega-menu {visibility: visible;opacity: 1;}
+.mega-menu__grid.stylelist2{display:block; background:#fff;padding:30px 110px;}
+.mega-menu__grid.stylelist2 > div{float:left; width:25%; padding: 20px;}
+.mega-menu__grid.stylelist2 > div a{line-height: 1.15; padding: 8px 8px;color: #000;text-decoration: none;font-size: 14px;padding-left: 30px;position: relative;margin: 0 0 8px;
+font-family: "Amsi Pro",Arial,sans-serif;font-weight: 600;font-style: italic; display: block;text-transform: inherit;}
+.mega-menu__grid.stylelist2 > div a:hover, .mega-menu__grid.stylelist2 > div a:focus{background: #E8E8E8;}
+.mega-menu__grid.stylelist2 > div a img {max-width: 25px;max-height: 25px;position: absolute;left: 3px;top:3px;}
+.mega-menu__grid.stylelist2 .stylelist2-col-4 a:last-child{background:#0093F2;color:#fff;padding: 8px 40px;font-size:21px; display:table;}
+.mega-menu__grid.stylelist2 .stylelist2-col-4 a:last-child img{margin-right:7px;position:unset;}
+.mega-menu__grid.stylelist2 .stylelist2-col-4 a:nth-last-child(2), .mega-menu__grid.stylelist2 .stylelist2-col-4 a:nth-last-child(2):hover, .mega-menu__grid.stylelist2 .stylelist2-col-4 a:nth-last-child(2):focus{padding:0; margin:25px 0; background:transparent;}
+.mega-menu__grid.stylelist2 .stylelist2-col-4 a:nth-last-child(2) img{max-width:265px; max-height: initial;position:inherit; width:100%;}
+
+/******** NFL and NBA ***********/
+.desktop-nav .mega-menu__grid.stylelist1{display:block;padding: 30px 110px;}
+.desktop-nav .mega-menu__grid.stylelist1 a{line-height: 1.15;float:left; width:calc(25% - 30px);color: #000;padding: 8px 8px; text-decoration: none;font-size: 14px;padding-left: 30px;position: relative;margin: 0 15px 8px;font-family: "Amsi Pro",Arial,sans-serif;font-weight: 600;font-style: italic;display: block;text-transform: inherit;}
+.desktop-nav .mega-menu__grid.stylelist1 a img{max-width: 25px; max-height: 25px;position: absolute;left: 3px;top: 3px;}
+.desktop-nav .mega-menu__grid.stylelist1 a:hover, .desktop-nav .mega-menu__grid.stylelist1 a:focus {background: #E8E8E8;}
+.desktop-nav .mega-menu__grid.stylelist1 a:nth-child(4n+1) {clear: left;}
+/****** Icon Menu *******/
+.mlb .desktop-nav__link-skew a{padding-left:38px;background:url(https://cdn.shopify.com/s/files/1/0319/8359/9660/files/Group_2614.png?v=1611660056); background-repeat:no-repeat; background-position:center left;}
+.nfl .desktop-nav__link-skew a{padding-left:28px;background:url(https://cdn.shopify.com/s/files/1/0319/8359/9660/files/Group_2615.png?v=1611660056); background-repeat:no-repeat; background-position:center left;}
+.nba .desktop-nav__link-skew a{padding-left:25px;background:url(https://cdn.shopify.com/s/files/1/0319/8359/9660/files/2336040568944.png?v=1611660056); background-repeat:no-repeat; background-position:center left;}
+
+/**** Sale *********/
+/*.desktop-nav .desktop-nav__link-container.sale .mega-menu__grid.style1{display:block; float:left; width: calc(100% - 200px);}
+.desktop-nav .desktop-nav__link-container.sale .mega-menu__grid.style1 a{width:30%;margin: 0 10px 20px;}
+.desktop-nav .desktop-nav__link-container.sale .mega-menu__content{max-width: 80rem; margin:0 auto; width:94%; display:block;}
+.desktop-nav .desktop-nav__link-container.sale .mega-menu__linklist{padding:27px 0 65px; margin:0; list-style:none;float:left;}
+.desktop-nav .desktop-nav__link-container.sale .mega-menu__linklist li{list-style:none;}
+.desktop-nav .desktop-nav__link-container.sale .mega-menu__linklist li .megamenu_right{display:none;} */
+.desktop-nav .desktop-nav__link-container.sale .mega-menu__content{max-width:700px; margin-top:35px;}
+.desktop-nav .desktop-nav__link-container.sale .mega-menu__linklist{width:66.66%; padding-bottom:35px;}
+.desktop-nav .desktop-nav__link-container.sale .mega-menu__linklist li{width:50%; float:left;}
+.desktop-nav .desktop-nav__link-container.sale .mega-menu__linklist > li > a{font-size: 14px;  font-weight:900; text-decoration: underline; display: inline-block;
+ margin: 0 0 18px; line-height:1;    text-transform: inherit;}
+.desktop-nav .desktop-nav__link-container.sale .mega-menu__linklist>li>a.mega-menu__btn{display:none;}
+.desktop-nav .desktop-nav__link-container.sale .mega-menu__linklist li .megamenu_right{display:block;}
+.desktop-nav .desktop-nav__link-container.sale .mega-menu__linklist li .megamenu_right .grandchild{padding:0; margin:0;}
+.desktop-nav .desktop-nav__link-container.sale .mega-menu__linklist li .megamenu_right .grandchild li{width:100%;list-style: none;}
+.desktop-nav .desktop-nav__link-container.sale .mega-menu__linklist li .megamenu_right .grandchild li:last-child{display:none;}
+.desktop-nav .desktop-nav__link-container.sale .mega-menu__linklist li .megamenu_right .mega-menu__grid{display:none;}
+.desktop-nav .desktop-nav__link-container.sale .mega-menu__linklist li .megamenu_right .grandchild li a{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+  margin: 0 0 4px;
+  display:inline-block;
+  font-family: "Amsi Pro",Arial,sans-serif;
+  font-style: italic;
+  text-decoration: none;
+      text-transform: inherit;
+  
+}
+.desktop-nav .desktop-nav__link-container.sale .stylelist2{padding:30px 0; margin-top:0;}
+.desktop-nav .desktop-nav__link-container.sale .stylelist2 a{
+  font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+  margin: 20px 0 0;
+  font-family: "Amsi Pro",Arial,sans-serif;
+  font-style: italic;
+  text-decoration: none;
+  display:block;
+  position:relative;
+    text-transform: inherit;
+}
+.desktop-nav .desktop-nav__link-container.sale .stylelist2 a img{position: absolute; top: 50%; transform: translateY(-50%);}
+.desktop-nav .desktop-nav__link-container.sale .stylelist2 a:nth-child(2) img{left:5px;}
+.desktop-nav .desktop-nav__link-container.sale .stylelist2 a:nth-child(3) img{left:9px;}
+.desktop-nav .desktop-nav__link-container.sale .stylelist2 a span{padding-left: 50px; display:inline-block; position:relative; top:2px;}
+
+/******** background in mega menu *****/
+html{overflow-x:hidden;}
+.desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right:after{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: calc( 100% + 99999px);
+    background: #fff;
+    left: -9999px;
+    top: 0;
+    z-index: -1;
+}
+
+/*
+@media(max-width:1850px){
+  .mega-menu__grid.style1 .stye1-col-2{padding: 0 45px;}
+  .mega-menu__grid.style1 .stye1-col-3 a .ratio-box{height:112px;}
+  .mega-menu__grid.style1 .stye1-col-3 a .ratio-box img{ width:100%;} 
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style4 > div a{margin: 0 0 21px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style5 > div a{margin:0 0 27px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right.team-wear{padding-right:45px;}
+}*/
+
+@media(max-width:1550px){
+  .mega-menu__grid.style1 .stye1-col-2{padding: 0 30px;}
+  .mega-menu__grid.style1 .stye1-col-3 a .ratio-box{height:77px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right.soccer-footwear .mega-menu__grid{width:70%;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right.soccer-footwear .grandchild, .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right.soccer-footwear .brand{width:15%;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 .stye2-col-1{padding:0 13px 0 0;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 .stye2-col-2{padding:0 14px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 .stye2-col-3{padding:0 0 0 15px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 .stye2-col-4{padding:0 0 0 29px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style4 > div a{margin: 0 0 16px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style4>div.stye4-col-1 a .mega-menu__image-btn{ white-space: normal;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style5 > div a{margin:0 0 22px;}
+    .desktop-nav .mega-menu__grid .mega-menu__grid-item .mega-menu__image-btn{font-size:12px;white-space: break-spaces;}
+    .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2>div>a{margin:0 0 14px;}
+}
+@media(max-width:1449px){
+  .mega-menu__grid.style1 .stye1-col-3 a .ratio-box{height:73px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 .stye2-col-2 {padding: 0 13px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 .stye2-col-3{padding: 0 0 0 13px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 .stye2-col-4 {padding: 0 0 0 25px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 .mega-menu__grid-item .mega-menu__image-btn{font-size:11px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style4 > div a{margin: 0 0 15px;}
+  .desktop-nav .mega-menu__grid .mega-menu__grid-item .mega-menu__image-btn{font-size:12px;white-space: break-spaces;}
+  .desktop-nav .desktop-nav__link-container.sale .mega-menu__grid.style1 a{margin: 0 10px 20px; width:30%;}
+  .desktop-nav__link-skew {padding: 0.9375rem 1.25rem;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist li.active .megamenu_right.soccer-apparel .grandchild{width:31%;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style3{width:69%;}
+    .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style5>div a{margin:0 0 19px;}
+    .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2>div>a{margin:0 0 15px;}
+    .mega-menu__grid.style1 .stye1-col-2{padding: 0 27px;}
+  .mega-menu__grid.style1 .stye1-col-3 a .ratio-box{height:71px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style4 > div a{margin: 0 0 14px;}
+    .mega-menu__grid.style1 .stye1-col-3 a{margin: 0 0 24px;}
+}
+
+@media(max-width:1350px){
+    .mega-menu__grid.style1 .stye1-col-2{padding: 0 24px;}
+    .mega-menu__grid.style1 .stye1-col-3 a .ratio-box{height:64px;}
+    .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 .stye2-col-2{padding:0 12px;}
+    .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 .stye2-col-3 {padding: 0 0 0 10px;}
+    .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 .stye2-col-4 {padding: 0 0 0 23px;}
+    .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style4>div a { margin: 0 0 13px;}
+    .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style5>div a {margin: 0 0 19px;}
+}
+@media(max-width:1250px){
+  .desktop-nav .desktop-nav__linklist .headwear .mega-menu__linklist, .desktop-nav .desktop-nav__linklist .mega-menu__grid.style7{padding-left:20px;}
+  .desktop-nav .desktop-nav__link{font-size:18px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .mega-menu__link, .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .mega-menu__btn{font-size:13px;width: 210px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right:before{width:210px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right{padding-left:230px;    padding-right: 20px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .grandchild li:first-child a, .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .brand li:first-child a{font-size:12px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .grandchild li a, .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right.soccer-footwear .brand a{font-size:12px;margin: 0 0 7px;}
+  .mega-menu__grid.style1 .stye1-col-3 a .ratio-box{height:53px;}
+  .mega-menu__grid.style1 .stye1-col-2 .mega-menu__grid-item .mega-menu__image-btn {font-size: 9px;padding: 4px 5px;}
+  .mega-menu__grid.style1 .stye1-col-2 {padding: 0 18px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.stylelist1 a img{max-width: 20px;max-height: 20px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.stylelist1 a{font-size:0.5598vw;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 .stye2-col-2 {padding: 0 9px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 .stye2-col-3 {padding: 0 0 0 5px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style2 .stye2-col-4 {
+    padding: 0 0 0 14px;}
+  .desktop-nav .mega-menu__grid .mega-menu__grid-item .mega-menu__image-btn{font-size:10px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style4>div a{ margin: 0 0 8px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .mega-menu__grid.style5>div a {margin: 0 0 15px;}
+  .desktop-nav .desktop-nav__linklist .soccer-futbol .mega-menu .mega-menu__linklist .megamenu_right .grandchild{min-height:350px;}
+  .mega-menu__grid.stylelist2{padding: 25px 40px;}
+  .desktop-nav .desktop-nav__linklist .headwear .mega-menu__linklist>li>a, .desktop-nav .desktop-nav__linklist .headwear .mega-menu__linklist>li:first-child>a{font-size:12px;}
+  .desktop-nav .desktop-nav__linklist .headwear .mega-menu__linklist .grandchild a{font-size:12px; margin:0 0 7px;}
+  .desktop-nav .desktop-nav__linklist .mega-menu__grid.style7>div{padding: 0 8px;}
+  .desktop-nav .desktop-nav__linklist .mega-menu__grid.style7>div a {margin: 0 0 16px;}
+  .mega-menu__grid.style1 a{margin: 0 0 16px;}
+}
+
+
+ul.desktop-nav__linklist {
+    display: flex;
+    justify-content: center;
+}
+}
+
+
+/********* Mobile Menu Css ********/
+@media(max-width:1023px){
+/* .mobile-nav__link, .mobile-nav__summary, .mobile-nav__link-item--child .mobile-nav__link{font-family: "Amsi Pro",Arial,sans-serif;font-weight: 900;font-size: 14px;}
+.mobile-nav__details[open]>.mobile-nav__summary .mobile-nav__summary-text, .mobile-nav__summary{color: #236097;}
+.js-drawer-open-left .drawer--left{max-height:100%; overflow:auto;}
+
+.mobile-nav__link-list > .custom_menu_dorp_down > .mobile-nav__link.active{color: #236097;}
+.mobile-nav__link-list > .custom_menu_dorp_down > .mobile-nav__link:before{
+  content: '';
+    display: inline-block;
+    color: #236097;
+    margin-right: 5px;
+    float: left;
+    margin-left: -3px;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 13px solid #236097;
+    transform: scale(0.55);
+}
+.mobile-nav__link-list > .custom_menu_dorp_down > .mobile-nav__link.active:before{transform: rotate(90deg) scale(0.55);}
+.custom_menu_dorp_down .mega-menu__grid.stylelist2 > div{width:100%; padding:0 20px 0;}
+.custom_menu_dorp_down .mega-menu__grid.stylelist2{padding:20px 0;}
+.custom_menu_dorp_down .mega-menu__grid{display:none;width: 100%; background: #fff; padding: 20px 0 0;}
+.custom_menu_dorp_down .mega-menu__grid.open{display:inline-block;}
+.custom_menu_dorp_down .mega-menu__grid a{
+  color: #000;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 30px;
+    position: relative;
+    margin: 0 15px 8px;
+    font-family: "Amsi Pro",Arial,sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    display: block;
+}
+.custom_menu_dorp_down .mega-menu__grid a img{
+  max-width: 25px;
+    max-height: 25px;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+} */
+nav.desktop-nav {
+    display: none;
+}
+}
+/* 12-07-2023 product collection hover image issue */
+.list-collections__item-image-wrapper .reveal:hover .F-img{
+  visibility: hidden;
+}
+/* 21-08-2023 */
+.favorite-sports .logo-list__items{
+  width: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.favorite-sports .logo-list__items .SYF{
+  height: 90px!important;
+  padding: 10px !important;
+}
+.favorite-sports .logo-list__items .logo-list__item img{
+  object-fit: contain;
+}
+.favorite-sports .section__header .heading{
+  font-weight: 500;
+  font-family: "Amsi Pro", Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: 0;
+  text-transform: capitalize;
+}
+.favorite-sports .section__header{
+  margin-bottom: 20px;
+}
+.favorite-sports .vertical-breather{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/* header search */
+@media (min-width: 1200px){
+  .header__wrapper .header__search-bar .predictive-search__form{
+    border: 0.0625rem solid black;
+    border-radius: 0.75rem;
+    background: transparent;
+  }
+  .header__wrapper .header__search-bar .predictive-search__form .icon{
+    color: #000;
+    margin: 0 5px;
+  }
+  .header__wrapper .header__search-bar .predictive-search__form input{
+    padding: 7px 0;
+    color: #000;
+    font-weight: normal;
+  }
+  .header__wrapper .header__search-bar .predictive-search__form input::placeholder{
+    color: #000;
+  }
+}
+@media (max-width: 1199px){
+  .header__wrapper .header__search-bar{
+    display: none; 
+  }
+}
+/* 18-09-2025 */
+.desktop-nav .desktop-nav__linklist .headwear .mega-menu__linklist .grandchild a{
+  text-transform: uppercase;
+}

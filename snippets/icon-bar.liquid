@@ -1,0 +1,32 @@
+{% comment %}
+    Icon Bar
+
+    Using custom parameters:
+    {% render 'icon-bar',
+      image_1: {Object},
+      text_1: {HTML},
+      image_2: {Object},
+      text_2: {HTML},
+      image_3: {Object},
+      text_3: {HTML}
+    %}
+{% endcomment %}
+
+<section class="icon-bar">
+  {% for i in (1..3) %}
+    {%- capture image_setting -%}image_{{ i }}{%- endcapture -%}
+    {%- assign image = [image_setting] -%}
+    {%- capture text_setting -%}text_{{ i }}{%- endcapture -%}
+    {%- assign text = [text_setting] -%}
+
+    {% if image != blank %}
+      <div class="icon-bar__item">
+        <div class="icon-bar__image-container">
+          {% render 'lazy-image', image: image, img_classes: 'icon-bar__icon' %}
+        </div>
+        
+        <p>{{ text }}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
+</section>

@@ -1,0 +1,984 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "4f23236e-676f-43ca-a125-ce28d8bb13e7": {
+      "type": "slideshow",
+      "blocks": {
+        "image_jBh3ga": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Coliseum-SoccerBanner-desktop.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Coliseum-Soccerbanner-mobile.jpg",
+            "text_position": "bottom_right",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/collections\/world-cup-balls-2025",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_FLhUMg": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mexico_2025.png",
+            "mobile_image": "shopify:\/\/shop_images\/mexico_2025.png",
+            "text_position": "bottom_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "shop now",
+            "button_1_link": "shopify:\/\/collections\/mexico",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15965582917784__4f23236e-676f-43ca-a125-ce28d8bb13e7-image-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Coliseum-HomePageMock-NikeUnited-Hero.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Coliseum-HomePageMock-NikeUnited-Mobile.jpg",
+            "text_position": "bottom_right",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15965582917784__4f23236e-676f-43ca-a125-ce28d8bb13e7-image-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Coliseum-HomePageMock-MadeEnergy-Hero.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Coliseum-HomePageMock-MadEnergy-Mobile.jpg",
+            "text_position": "bottom_right",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "https:\/\/coliseumsports.com\/collections\/nike",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_jBh3ga",
+        "image_FLhUMg",
+        "template--15965582917784__4f23236e-676f-43ca-a125-ce28d8bb13e7-image-1",
+        "template--15965582917784__4f23236e-676f-43ca-a125-ce28d8bb13e7-image-2"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "c193dbdf-ca1f-4077-9b86-9ecbc0d019c1": {
+      "type": "logo-row-8grids",
+      "blocks": {
+        "61cd1c92-e7f9-4b02-9331-c504f1d87849": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mercurial.png",
+            "url": "shopify:\/\/collections\/mercurial"
+          }
+        },
+        "68bf47dd-4904-4ee8-96ac-cc091a7f6384": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hypervenom.png",
+            "url": "shopify:\/\/collections\/hypervenom"
+          }
+        },
+        "103ebd5f-4d59-47c6-b2f6-be9f7b4d8039": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/timepo.png",
+            "url": "shopify:\/\/collections\/tiempo"
+          }
+        },
+        "d2316c6a-9989-4497-8e67-22601bf660ea": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nike_classics.png",
+            "url": "shopify:\/\/collections\/nike-classics"
+          }
+        },
+        "eedb4b7e-b2b5-438d-b418-9c7c511e0289": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/predator.png",
+            "url": "shopify:\/\/collections\/ace"
+          }
+        },
+        "c98a2892-78d1-42bf-a029-6ea81f4f3feb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/F50_home_page_2025_0612b564-3fbb-45ed-aab5-c48ced73e43a.png",
+            "url": "shopify:\/\/collections\/f50"
+          }
+        },
+        "350fb3d8-7574-4412-be97-e7c89fdce3a6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sambas_2025.png",
+            "url": "shopify:\/\/collections\/sambas"
+          }
+        },
+        "ad4daaea-f48d-4445-9a58-0646a7b44187": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/copa_classics.png",
+            "url": "shopify:\/\/collections\/copa"
+          }
+        }
+      },
+      "block_order": [
+        "61cd1c92-e7f9-4b02-9331-c504f1d87849",
+        "68bf47dd-4904-4ee8-96ac-cc091a7f6384",
+        "103ebd5f-4d59-47c6-b2f6-be9f7b4d8039",
+        "d2316c6a-9989-4497-8e67-22601bf660ea",
+        "eedb4b7e-b2b5-438d-b418-9c7c511e0289",
+        "c98a2892-78d1-42bf-a029-6ea81f4f3feb",
+        "350fb3d8-7574-4412-be97-e7c89fdce3a6",
+        "ad4daaea-f48d-4445-9a58-0646a7b44187"
+      ],
+      "settings": {}
+    },
+    "gallery_XttijN": {
+      "type": "gallery",
+      "blocks": {
+        "image_nFTgMg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Coliseum-4.10EasterSaleKickoff-HPMobile_3ee8ff02-2394-4d6d-936d-750d3f7fd56a.jpg",
+            "caption": ""
+          }
+        },
+        "image_HnMYHY": {
+          "type": "image",
+          "settings": {
+            "caption": ""
+          }
+        },
+        "image_NUbwn4": {
+          "type": "image",
+          "settings": {
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_nFTgMg",
+        "image_HnMYHY",
+        "image_NUbwn4"
+      ],
+      "disabled": true,
+      "name": "Gallery",
+      "settings": {
+        "subheading": "",
+        "title": "new product drops",
+        "show_arrows": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "60eb27b5-645a-4b88-b173-2a5c95b53287": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--15965582917784__60eb27b5-645a-4b88-b173-2a5c95b53287-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "nike",
+            "label": "Nike",
+            "button_text": "SHOP ALL NIKE",
+            "button_url": ""
+          }
+        },
+        "445e4f77-1685-4a7f-b585-5039ce03d49c": {
+          "type": "collection",
+          "settings": {
+            "collection": "adidas",
+            "label": "Adidas",
+            "button_text": "SHOP ALL ADIDAS",
+            "button_url": ""
+          }
+        },
+        "1fe69666-e2e2-4328-8e4c-7ba6d0eb0098": {
+          "type": "collection",
+          "settings": {
+            "collection": "puma",
+            "label": "Puma",
+            "button_text": "SHOP ALL PUMA",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15965582917784__60eb27b5-645a-4b88-b173-2a5c95b53287-collection-1",
+        "445e4f77-1685-4a7f-b585-5039ce03d49c",
+        "1fe69666-e2e2-4328-8e4c-7ba6d0eb0098"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "New Arrivals",
+        "content": "<p>                                      <\/p>",
+        "products_count": 12,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "0d995b5a-6e1f-464f-9ff3-4066c25e2a39": {
+      "type": "headwearBlock2",
+      "blocks": {
+        "566a0f10-4a6b-4e87-b1f7-d3fb71f60c94": {
+          "type": "icon_bar",
+          "disabled": true,
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/icon-truck.png",
+            "richtext_1": "<p><strong>FREE SHIPPING<\/strong> on orders over $99  *exclusion to promotions or sales<\/p>",
+            "image_2": "shopify:\/\/shop_images\/EASEY_RETNS_arrows_900c9a31-1a23-47dc-b915-24922d651f24.png",
+            "richtext_2": "<p><strong>EASY <\/strong>Returns & Exchanges<\/p>",
+            "image_3": "shopify:\/\/shop_images\/FREE_PICK_UP_box_0fb2ca8c-69f7-424c-a391-20091b136ab2.png",
+            "richtext_3": "<p><strong>FREE <\/strong> In-store pickup<\/p>"
+          }
+        },
+        "28d7b63b-995e-431d-98d6-28108645642b": {
+          "type": "image_row",
+          "settings": {
+            "gutters": true,
+            "top_padding": "none",
+            "bottom_padding": "none",
+            "title": "",
+            "image_1": "shopify:\/\/shop_images\/Coliseumsports_gift_card_V2.png",
+            "url_1": "shopify:\/\/products\/the-coliseum-nvsoccer-com-gift-card",
+            "text_1": "shop now",
+            "alignment_1": "center",
+            "transparent_1": false,
+            "text_below_1": "",
+            "image_2": "shopify:\/\/shop_images\/coliseumsports_23_24_kits_V2.png",
+            "url_2": "shopify:\/\/collections\/20-21-jerseys",
+            "text_2": "shop now",
+            "alignment_2": "center",
+            "transparent_2": false,
+            "text_below_2": "",
+            "image_3": "shopify:\/\/shop_images\/mbappe_coliseumsports.png",
+            "url_3": "shopify:\/\/collections\/kylian-mbappe",
+            "text_3": "shop now",
+            "alignment_3": "center",
+            "transparent_3": false,
+            "text_below_3": "",
+            "url_4": "",
+            "text_4": "",
+            "alignment_4": "left",
+            "transparent_4": false,
+            "text_below_4": ""
+          }
+        }
+      },
+      "block_order": [
+        "566a0f10-4a6b-4e87-b1f7-d3fb71f60c94",
+        "28d7b63b-995e-431d-98d6-28108645642b"
+      ],
+      "settings": {}
+    },
+    "76fe870d-047f-42e0-850f-ac42edbf52c0": {
+      "type": "shop-by-teams",
+      "blocks": {
+        "template--15965582917784__76fe870d-047f-42e0-850f-ac42edbf52c0-logo-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/BARCELONA_6c8d94ef-8f20-442a-86d1-18aecdfee2a3.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/barcelona"
+          }
+        },
+        "template--15965582917784__76fe870d-047f-42e0-850f-ac42edbf52c0-logo-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/REAL_MADRID.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/real-madrid"
+          }
+        },
+        "template--15965582917784__76fe870d-047f-42e0-850f-ac42edbf52c0-logo-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/LIVERPOOL.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/liverpool"
+          }
+        },
+        "template--15965582917784__76fe870d-047f-42e0-850f-ac42edbf52c0-logo-4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/chelsea.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/chelsea"
+          }
+        },
+        "template--15965582917784__76fe870d-047f-42e0-850f-ac42edbf52c0-logo-5": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/juventus_b563a118-4a24-4127-9c30-da88ea2a4186.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/juventus"
+          }
+        },
+        "template--15965582917784__76fe870d-047f-42e0-850f-ac42edbf52c0-logo-6": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/manchester_united.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/manchester-united"
+          }
+        },
+        "7e453253-9dc4-4853-919f-c2e5e84325fa": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Paris.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/psg"
+          }
+        },
+        "6ede634c-6dc0-4918-b8c7-146580fb68f6": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/arsenal.jpg",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/arsenal"
+          }
+        },
+        "ac4ac07e-9e1f-4725-a06b-723eb07e387c": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/manchester_city.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/manchester-city"
+          }
+        },
+        "8d1900ca-2c1a-4c51-b684-bbfc030d0d5e": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/bvb.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/borussia-dortmund"
+          }
+        },
+        "64ad8a00-81e0-410f-a251-1eed0c8b2534": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/tottenham.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/tottenham-hotspur"
+          }
+        },
+        "9b2053bd-bb20-4c48-b1b4-a2aa77ca328e": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/fc_bayern.png",
+            "logoN": "",
+            "link": "https:\/\/nvsoccer.com\/collections\/fc-bayern-munich"
+          }
+        },
+        "5b8d2471-bbc7-4edc-908f-b4cf038c3d88": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/inter_milan.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/inter-milan"
+          }
+        },
+        "5350f2e0-ce3c-42ba-9dde-778fb7ba75f7": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/AC-MILLAN.png",
+            "logoN": "",
+            "link": ""
+          }
+        },
+        "53b7fc04-e20e-41f3-87a9-a64ab6c99e04": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/atletico-madrid.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/atletico-de-madrid"
+          }
+        },
+        "5487996a-9477-4a41-9b4f-3b71287c9ad7": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/BOCA_JR.png",
+            "logoN": "",
+            "link": ""
+          }
+        },
+        "719df53a-ecf9-4855-889d-941565f93466": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/AMERICA.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/club-america"
+          }
+        },
+        "4ce7f179-4dcd-412f-82a8-305d58739ddd": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/CHIVAS.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/chivas"
+          }
+        },
+        "9ebe3845-350a-4312-9aa0-73cb57e642d8": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/PUMAS_UNAM.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/puma-1"
+          }
+        },
+        "e9c5489d-6add-4ff9-adc5-311cab64ec61": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/CRUZ_AZUL.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/cruz-azul"
+          }
+        },
+        "9fb6b828-ee5f-4f2e-b13f-537dad31ee44": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/tijuana_xolos.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/charly"
+          }
+        },
+        "ec6c7f52-16fc-4b2e-be9d-2da2cb02887c": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/TOLUCA.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/toluca"
+          }
+        },
+        "0c5716c8-f119-4a88-ac65-442aff390e0b": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/ROMA.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/a-s-roma"
+          }
+        },
+        "1a2673c6-e107-4716-9ea1-6b3e0d3d07a7": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/TIGRES_UANL.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/tigres"
+          }
+        },
+        "1cbed247-c2ee-4ea5-abdc-d63182a49bf4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/santos-laguna.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/santos-laguna"
+          }
+        },
+        "acde7c99-ba36-4557-adba-f525c37ba805": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/MONTERREY.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/monterrey"
+          }
+        },
+        "d1392ce3-515c-4d08-9340-ea21b21f1895": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/atlas_adb74c16-7c4b-453f-8cca-6f9fbc935bac.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/atlas"
+          }
+        },
+        "64d833b3-75b3-4e39-a86f-34f2bb2d988c": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/NECAXA.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/club-necaxa"
+          }
+        },
+        "8e3b5fbd-d64f-415b-abd9-5ce1e767b0eb": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/MONARCAS_MORELIA.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/monarcas-morelia"
+          }
+        },
+        "c8b61018-dc3a-47c2-bdea-21843917042a": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/VERACRUZ_TIBURONES.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/veracruz"
+          }
+        },
+        "18130387-c7bd-4b11-8c33-6ce3f77bb7e5": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/fc-porto-logo_346c1358-ccba-445a-8a32-b6f8600622c4.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/fc-porto"
+          }
+        }
+      },
+      "block_order": [
+        "template--15965582917784__76fe870d-047f-42e0-850f-ac42edbf52c0-logo-1",
+        "template--15965582917784__76fe870d-047f-42e0-850f-ac42edbf52c0-logo-2",
+        "template--15965582917784__76fe870d-047f-42e0-850f-ac42edbf52c0-logo-3",
+        "template--15965582917784__76fe870d-047f-42e0-850f-ac42edbf52c0-logo-4",
+        "template--15965582917784__76fe870d-047f-42e0-850f-ac42edbf52c0-logo-5",
+        "template--15965582917784__76fe870d-047f-42e0-850f-ac42edbf52c0-logo-6",
+        "7e453253-9dc4-4853-919f-c2e5e84325fa",
+        "6ede634c-6dc0-4918-b8c7-146580fb68f6",
+        "ac4ac07e-9e1f-4725-a06b-723eb07e387c",
+        "8d1900ca-2c1a-4c51-b684-bbfc030d0d5e",
+        "64ad8a00-81e0-410f-a251-1eed0c8b2534",
+        "9b2053bd-bb20-4c48-b1b4-a2aa77ca328e",
+        "5b8d2471-bbc7-4edc-908f-b4cf038c3d88",
+        "5350f2e0-ce3c-42ba-9dde-778fb7ba75f7",
+        "53b7fc04-e20e-41f3-87a9-a64ab6c99e04",
+        "5487996a-9477-4a41-9b4f-3b71287c9ad7",
+        "719df53a-ecf9-4855-889d-941565f93466",
+        "4ce7f179-4dcd-412f-82a8-305d58739ddd",
+        "9ebe3845-350a-4312-9aa0-73cb57e642d8",
+        "e9c5489d-6add-4ff9-adc5-311cab64ec61",
+        "9fb6b828-ee5f-4f2e-b13f-537dad31ee44",
+        "ec6c7f52-16fc-4b2e-be9d-2da2cb02887c",
+        "0c5716c8-f119-4a88-ac65-442aff390e0b",
+        "1a2673c6-e107-4716-9ea1-6b3e0d3d07a7",
+        "1cbed247-c2ee-4ea5-abdc-d63182a49bf4",
+        "acde7c99-ba36-4557-adba-f525c37ba805",
+        "d1392ce3-515c-4d08-9340-ea21b21f1895",
+        "64d833b3-75b3-4e39-a86f-34f2bb2d988c",
+        "8e3b5fbd-d64f-415b-abd9-5ce1e767b0eb",
+        "c8b61018-dc3a-47c2-bdea-21843917042a",
+        "18130387-c7bd-4b11-8c33-6ce3f77bb7e5"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "SHOP CLUB TEAMS",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "52f00a0f-69a0-4bdf-9e12-9b6eda6ecfe5": {
+      "type": "shop-by-teams",
+      "blocks": {
+        "template--15965582917784__52f00a0f-69a0-4bdf-9e12-9b6eda6ecfe5-logo-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/USA_79379d1c-abaf-4cc9-903f-c03752d0b511.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/usa"
+          }
+        },
+        "template--15965582917784__52f00a0f-69a0-4bdf-9e12-9b6eda6ecfe5-logo-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/PORTUGAL.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/portugal"
+          }
+        },
+        "template--15965582917784__52f00a0f-69a0-4bdf-9e12-9b6eda6ecfe5-logo-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/GERMANY.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/germany"
+          }
+        },
+        "template--15965582917784__52f00a0f-69a0-4bdf-9e12-9b6eda6ecfe5-logo-4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/ITALIA.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/italy"
+          }
+        },
+        "template--15965582917784__52f00a0f-69a0-4bdf-9e12-9b6eda6ecfe5-logo-5": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/SPAIN.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/spain"
+          }
+        },
+        "template--15965582917784__52f00a0f-69a0-4bdf-9e12-9b6eda6ecfe5-logo-6": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/team_mexico.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/mexico"
+          }
+        },
+        "33b6e58c-a140-4340-9c75-715a583cbc69": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/BRAZIL.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/brazil"
+          }
+        },
+        "b0297b30-bb68-4f82-8505-9e39c8180f16": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/FRANCE.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/france"
+          }
+        },
+        "1d3d25be-ee46-4e05-9fe9-e23932b6d945": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/ENGLAND.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/england"
+          }
+        },
+        "ea71aa86-5a43-4d1b-8f0c-60d61d5497bb": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Guatemala_LOGO_07b5b49e-fcdd-4d0b-9a73-77684a19db9e.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/guatemala"
+          }
+        },
+        "97df0b5e-da12-4cca-8b79-c973e4a78d4a": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/COLOMBIA.png",
+            "logoN": "",
+            "link": "shopify:\/\/collections\/colombia"
+          }
+        }
+      },
+      "block_order": [
+        "template--15965582917784__52f00a0f-69a0-4bdf-9e12-9b6eda6ecfe5-logo-1",
+        "template--15965582917784__52f00a0f-69a0-4bdf-9e12-9b6eda6ecfe5-logo-2",
+        "template--15965582917784__52f00a0f-69a0-4bdf-9e12-9b6eda6ecfe5-logo-3",
+        "template--15965582917784__52f00a0f-69a0-4bdf-9e12-9b6eda6ecfe5-logo-4",
+        "template--15965582917784__52f00a0f-69a0-4bdf-9e12-9b6eda6ecfe5-logo-5",
+        "template--15965582917784__52f00a0f-69a0-4bdf-9e12-9b6eda6ecfe5-logo-6",
+        "33b6e58c-a140-4340-9c75-715a583cbc69",
+        "b0297b30-bb68-4f82-8505-9e39c8180f16",
+        "1d3d25be-ee46-4e05-9fe9-e23932b6d945",
+        "ea71aa86-5a43-4d1b-8f0c-60d61d5497bb",
+        "97df0b5e-da12-4cca-8b79-c973e4a78d4a"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "SHOP NATIONAL TEAMS",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "ae982cf4-03b4-4c02-9824-195cfc285b39": {
+      "type": "shop-favorite-sports",
+      "blocks": {
+        "template--15965582917784__ae982cf4-03b4-4c02-9824-195cfc285b39-logo-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Soccer_Ball.png",
+            "logoN": "SOCCER\/FUTBOL",
+            "link": "shopify:\/\/pages\/soccer"
+          }
+        },
+        "template--15965582917784__ae982cf4-03b4-4c02-9824-195cfc285b39-logo-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Major_League_Baseball_logo_svg_8d4194aa-f446-4d35-93df-7f296ecb6afe.png",
+            "logoN": "MLB",
+            "link": "shopify:\/\/collections\/mlb"
+          }
+        },
+        "template--15965582917784__ae982cf4-03b4-4c02-9824-195cfc285b39-logo-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/National_Football_League_logo_svg.png",
+            "logoN": "NFL",
+            "link": "shopify:\/\/collections\/nfl"
+          }
+        },
+        "template--15965582917784__ae982cf4-03b4-4c02-9824-195cfc285b39-logo-4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/nba-logo-transparent.png",
+            "logoN": "NBA",
+            "link": "shopify:\/\/collections\/nba"
+          }
+        },
+        "template--15965582917784__ae982cf4-03b4-4c02-9824-195cfc285b39-logo-5": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Hat_1200x1200_2.png",
+            "logoN": "HATS",
+            "link": "shopify:\/\/collections\/headwear"
+          }
+        }
+      },
+      "block_order": [
+        "template--15965582917784__ae982cf4-03b4-4c02-9824-195cfc285b39-logo-1",
+        "template--15965582917784__ae982cf4-03b4-4c02-9824-195cfc285b39-logo-2",
+        "template--15965582917784__ae982cf4-03b4-4c02-9824-195cfc285b39-logo-3",
+        "template--15965582917784__ae982cf4-03b4-4c02-9824-195cfc285b39-logo-4",
+        "template--15965582917784__ae982cf4-03b4-4c02-9824-195cfc285b39-logo-5"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "Shop Your Favorite Sport",
+        "title": "",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": true,
+        "background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "#ffffff"
+      }
+    },
+    "1a2337f4-393e-4762-b5af-d7670a7d3295": {
+      "type": "image-text-custom",
+      "blocks": {
+        "template--15965582917784__1a2337f4-393e-4762-b5af-d7670a7d3295-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NV_PIC4.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Visit one of our retail locations",
+            "content": "<p>You have found your #1 source for your soccer gear. The Coliseum Sports is the place for all your soccer jersey, shoes and equipment. We carry all the top brands. We pride ourselves on delivering the very finest soccer experience online or at one of our retail locations.<\/p>",
+            "button_text": "Find a location near you",
+            "button_link": "shopify:\/\/pages\/store-hours"
+          }
+        }
+      },
+      "block_order": [
+        "template--15965582917784__1a2337f4-393e-4762-b5af-d7670a7d3295-item-1"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "69a640e4-713e-4f53-97d3-b5b78e85c552": {
+      "type": "newsletter-custom",
+      "settings": {
+        "section_title": "Subscribe to our newsletter",
+        "subheading": ""
+      }
+    },
+    "55d6af66-e4b1-46d7-98a8-157133c7f9e7": {
+      "type": "headerwear-block-1",
+      "blocks": {
+        "ce731b1d-926e-4cdd-a490-2ea611832af0": {
+          "type": "icon_bar",
+          "disabled": true,
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/FREE_SHIPPIN_truck_c7e4e3f5-a3b7-41d2-8673-5e96b1ba3544.png",
+            "richtext_1": "<p><strong>FREE SHIPPING<\/strong> on orders over $99<\/p>",
+            "image_2": "shopify:\/\/shop_images\/EASEY_RETNS_arrows_900c9a31-1a23-47dc-b915-24922d651f24.png",
+            "richtext_2": "<p><strong>EASY<\/strong> Returns & Exchanges<\/p>",
+            "image_3": "shopify:\/\/shop_images\/FREE_PICK_UP_box_0fb2ca8c-69f7-424c-a391-20091b136ab2.png",
+            "richtext_3": "<p><strong>FREE<\/strong> In-store pickup<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ce731b1d-926e-4cdd-a490-2ea611832af0"
+      ],
+      "settings": {}
+    },
+    "collection_list_x9w9Y4": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_KgWCBN": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_gXqxYk": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_t7WeAz": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_YHHYbU": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_m9damQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_Aq33bL": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_KgWCBN",
+        "collection_gXqxYk",
+        "collection_t7WeAz",
+        "collection_YHHYbU",
+        "collection_m9damQ",
+        "collection_Aq33bL"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "carousel",
+        "subheading": "",
+        "title": "Exclusive packs",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4f23236e-676f-43ca-a125-ce28d8bb13e7",
+    "c193dbdf-ca1f-4077-9b86-9ecbc0d019c1",
+    "gallery_XttijN",
+    "60eb27b5-645a-4b88-b173-2a5c95b53287",
+    "0d995b5a-6e1f-464f-9ff3-4066c25e2a39",
+    "76fe870d-047f-42e0-850f-ac42edbf52c0",
+    "52f00a0f-69a0-4bdf-9e12-9b6eda6ecfe5",
+    "ae982cf4-03b4-4c02-9824-195cfc285b39",
+    "1a2337f4-393e-4762-b5af-d7670a7d3295",
+    "69a640e4-713e-4f53-97d3-b5b78e85c552",
+    "55d6af66-e4b1-46d7-98a8-157133c7f9e7",
+    "collection_list_x9w9Y4"
+  ]
+}

@@ -1,0 +1,81 @@
+{% comment %}
+    Featured Products
+
+    Using custom parameters:
+    {% render 'featured-products',
+      text_position: {String},
+      title: {String},
+      subtitle: {String},
+      text: {String},
+      btn_text: {String},
+      btn_url: {String},
+      top_spacing: {Boolean},
+      bottom_spacing: {Boolean},
+      product_1: {String},
+      product_2: {String},
+      product_3: {String},
+      product_4: {String},
+      product_5: {String},
+      product_6: {String},
+      product_7: {String},
+      product_8: {String}
+    %}
+{% endcomment %}
+
+<div class="featured-products-section
+  {% if top_spacing == true %}featured-products-section--top-spacing{% endif %}
+  {% if bottom_spacing == true %}featured-products-section--bottom-spacing{% endif %}">
+  
+  <section class="featured-products">
+    {% if text_position == 'above' %}
+      <div class="featured-products__text-content featured-products__text-content--above">
+        <div>
+          {% if title != blank %}
+            <h2 class="featured-products__title">{{ title }}</h2>
+          {% endif %}
+          {% if subtitle != blank %}
+            <h3 class="featured-products__subtitle">{{ subtitle }}</h3>
+          {% endif %}
+          {% if text != blank %}
+            <p class="featured-products__text">{{ text }}</p>
+          {% endif %}
+          {% if btn_text != blank and btn_url != blank %}
+            <a href="{{ btn_url }}" class="btn featured-products__btn">{{ btn_text }}</a>
+          {% endif %}
+
+        </div>
+      </div>
+    {% endif %}
+
+    <ul class="featured-products__products">
+      {% if text_position == 'inside' %}
+        <li class="featured-products__text-content">
+          <div>
+            {% if title != blank %}
+              <h2 class="featured-products__title">{{ title }}</h2>
+            {% endif %}
+            {% if subtitle != blank %}
+              <h3 class="featured-products__subtitle">{{ subtitle }}</h3>
+            {% endif %}
+            {% if text != blank %}
+              <p class="featured-products__text">{{ text }}</p>
+            {% endif %}
+           
+          </div>
+        </li>
+      {% endif %}
+
+      {% for i in (1..8) %}
+        {%- capture product_setting -%}product_{{ i }}{%- endcapture -%}
+        {%- assign product_handle = [product_setting] -%}
+        {% assign product = all_products[product_handle] %}
+
+        {% if product != blank %}
+          <div class="featured-products__product {% if text_position == 'above' %}featured-products__product--above{% endif %}">
+            {% render 'product-item-custom', product: product, product_2: product_2 %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+</div>

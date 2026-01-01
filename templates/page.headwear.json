@@ -1,0 +1,1234 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        ".breadcrumb__list {display: none !important;}"
+      ],
+      "settings": {
+        "show_title": false,
+        "page_width": "large"
+      }
+    },
+    "2e272c41-25a0-4234-9f96-f0fa73437653": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15905592344728__2e272c41-25a0-4234-9f96-f0fa73437653-image-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/49ers_CHAMPIONS_2024_149ers_CHAMPIONS_2024_2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/49ers_CHAMPIONS_2024_149ers_CHAMPIONS_2024_2.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "buy now 10% off",
+            "button_1_link": "shopify:\/\/collections\/5950-red-hats",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "image_eyMRUU": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "Tell your story",
+            "title": "Slide title",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--15905592344728__2e272c41-25a0-4234-9f96-f0fa73437653-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/49ers_CHAMPIONS_2024_149ers_CHAMPIONS_2024_copy_2.png",
+            "mobile_image": "shopify:\/\/shop_images\/49ers_CHAMPIONS_2024_149ers_CHAMPIONS_2024_copy_2.png",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "shop now",
+            "button_1_link": "shopify:\/\/collections\/exclusive-bay-pack",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_TEiFWf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/49ers_CHAMPIONS_2024_149ers_CHAMPIONS_2024.png",
+            "mobile_image": "shopify:\/\/shop_images\/49ers_CHAMPIONS_2024_149ers_CHAMPIONS_2024.png",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify:\/\/collections\/greenbark_5950",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15905592344728__2e272c41-25a0-4234-9f96-f0fa73437653-image-1",
+        "image_eyMRUU",
+        "template--15905592344728__2e272c41-25a0-4234-9f96-f0fa73437653-image-2",
+        "image_TEiFWf"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "d7de445a-89a3-4e11-a67c-aab15a6d06c4": {
+      "type": "FindYourTeam",
+      "blocks": {
+        "7167dc43-77d0-4f6a-b5d0-ae0931ef9139": {
+          "type": "team-list",
+          "settings": {
+            "listlink_title": "NBA",
+            "listimage_1_url": "",
+            "listimage_1_btn_text": "",
+            "listimage_2": "shopify:\/\/shop_images\/boston-celtics_small_3aac9a68-4abe-4b0a-a880-0f31814dc07e.png",
+            "listimage_2_url": "shopify:\/\/collections\/boston-celtics",
+            "listimage_2_btn_text": "Boston Celtics",
+            "listimage_3": "shopify:\/\/shop_images\/brooklyn-nets_small_91d3c2bf-ec7b-4b4a-ba81-c47abfbb20a6.png",
+            "listimage_3_url": "shopify:\/\/collections\/brooklyn-nets",
+            "listimage_3_btn_text": "Brooklyn Nets",
+            "listimage_4": "shopify:\/\/shop_images\/charlotte-hornets_small_43b1de62-1e9b-48d4-89c4-d2f040919f1e.png",
+            "listimage_4_url": "shopify:\/\/collections\/charlotte-hornets-1",
+            "listimage_4_btn_text": "Charlotte Hornets",
+            "listimage_5": "shopify:\/\/shop_images\/chicago-bulls_small_1c4b4c0d-55b0-4d43-be5a-436e9fe7c9eb.png",
+            "listimage_5_url": "shopify:\/\/collections\/chicago-bulls",
+            "listimage_5_btn_text": "Chicago Bulls",
+            "listimage_6": "shopify:\/\/shop_images\/cleveland-cavaliers_small_b467bf42-fbb4-4b50-a63b-df609bb006c6.png",
+            "listimage_6_url": "shopify:\/\/collections\/cleveland-cavaliers",
+            "listimage_6_btn_text": "Cleveland Cavaliers",
+            "listimage_7_url": "",
+            "listimage_7_btn_text": "",
+            "listimage_8_url": "",
+            "listimage_8_btn_text": "",
+            "listimage_9_url": "",
+            "listimage_9_btn_text": "",
+            "listimage_10": "shopify:\/\/shop_images\/golden-state-warriors_small_c7617b9d-2968-4e91-98a5-8dc0c964c853.png",
+            "listimage_10_url": "shopify:\/\/collections\/warriors",
+            "listimage_10_btn_text": "Golden State Warriors",
+            "listimage_11": "shopify:\/\/shop_images\/houston-rockets_small_65e36ecf-01d1-470a-8e7f-b9e53b21d45d.png",
+            "listimage_11_url": "shopify:\/\/collections\/houston-rockets",
+            "listimage_11_btn_text": "Houston Rockets",
+            "listimage_12_url": "",
+            "listimage_12_btn_text": "",
+            "listimage_13_url": "",
+            "listimage_13_btn_text": "",
+            "listimage_14": "shopify:\/\/shop_images\/los-angeles-lakers_small_282b2074-ac84-477b-be04-f93270641667.png",
+            "listimage_14_url": "shopify:\/\/collections\/los-angeles-lakers",
+            "listimage_14_btn_text": "Los Angeles Lakers",
+            "listimage_15_url": "",
+            "listimage_15_btn_text": "",
+            "listimage_16": "shopify:\/\/shop_images\/miami-heat_small_5ac31242-a1b9-4a51-8b64-d1e38eace4bd.png",
+            "listimage_16_url": "shopify:\/\/collections\/miami-heat",
+            "listimage_16_btn_text": "Miami Heat",
+            "listimage_17": "shopify:\/\/shop_images\/milwaukee-bucks_small_1c24e3b8-5dc8-4d84-b79b-0ed165311267.png",
+            "listimage_17_url": "shopify:\/\/collections\/milwaukee-bucks",
+            "listimage_17_btn_text": "Milwaukee Bucks",
+            "listimage_18_url": "",
+            "listimage_18_btn_text": "",
+            "listimage_19_url": "",
+            "listimage_19_btn_text": "",
+            "listimage_20_url": "",
+            "listimage_20_btn_text": "",
+            "listimage_21_url": "",
+            "listimage_21_btn_text": "",
+            "listimage_22_url": "shopify:\/\/collections\/nba-orlando-magic",
+            "listimage_22_btn_text": "",
+            "listimage_23": "shopify:\/\/shop_images\/philadelphia-76ers_small_8e3ef90c-10f6-4919-a3ec-b766d622ca53.png",
+            "listimage_23_url": "shopify:\/\/collections\/philadelphia-76er",
+            "listimage_23_btn_text": "Philadelphia 76ers",
+            "listimage_24_url": "",
+            "listimage_24_btn_text": "",
+            "listimage_25_url": "",
+            "listimage_25_btn_text": "",
+            "listimage_26": "shopify:\/\/shop_images\/sacramento-kings_small_287a20eb-f709-4ebb-a698-c61e91d454d3.png",
+            "listimage_26_url": "",
+            "listimage_26_btn_text": "Sacramento Kings",
+            "listimage_27_url": "shopify:\/\/collections\/nba-san-antonio-spurs",
+            "listimage_27_btn_text": "",
+            "listimage_28_url": "",
+            "listimage_28_btn_text": "",
+            "listimage_29_url": "",
+            "listimage_29_btn_text": "",
+            "listimage_30_url": "",
+            "listimage_30_btn_text": "",
+            "listimage_31_url": "",
+            "listimage_31_btn_text": "",
+            "listimage_32_url": "",
+            "listimage_32_btn_text": "",
+            "listimage_33_url": "",
+            "listimage_33_btn_text": "",
+            "listimage_34_url": "",
+            "listimage_34_btn_text": "",
+            "listimage_35_url": "",
+            "listimage_35_btn_text": "",
+            "listimage_36_url": "",
+            "listimage_36_btn_text": "",
+            "listimage_37_url": "",
+            "listimage_37_btn_text": "",
+            "listimage_38_url": "",
+            "listimage_38_btn_text": "",
+            "listimage_39_url": "",
+            "listimage_39_btn_text": "",
+            "listimage_40_url": "",
+            "listimage_40_btn_text": "",
+            "listimage_41_url": "",
+            "listimage_41_btn_text": "",
+            "listimage_42_url": "",
+            "listimage_42_btn_text": "",
+            "listimage_43_url": "",
+            "listimage_43_btn_text": "",
+            "listimage_44_url": "",
+            "listimage_44_btn_text": "",
+            "listimage_45_url": "",
+            "listimage_45_btn_text": "",
+            "listimage_46_url": "",
+            "listimage_46_btn_text": "",
+            "listimage_47_url": "",
+            "listimage_47_btn_text": "",
+            "listimage_48_url": "",
+            "listimage_48_btn_text": "",
+            "listimage_49_url": "",
+            "listimage_49_btn_text": "",
+            "listimage_50_url": "",
+            "listimage_50_btn_text": ""
+          }
+        },
+        "33c9d7a3-c151-4aaf-8c3b-4ca9e1bd8cad": {
+          "type": "team-list",
+          "settings": {
+            "listlink_title": "NFL",
+            "listimage_1": "shopify:\/\/shop_images\/atlanta-falcons_small_1dd9c9c3-d028-4ed8-8647-7efd88627119.png",
+            "listimage_1_url": "shopify:\/\/collections\/atlanta-falcons",
+            "listimage_1_btn_text": "Atlanta Falcons",
+            "listimage_2": "shopify:\/\/shop_images\/baltimore-ravens_small_db9ea19e-b9ee-477f-b8e4-51458c5652e5.png",
+            "listimage_2_url": "shopify:\/\/collections\/baltimore-ravens",
+            "listimage_2_btn_text": "Baltimore Ravens",
+            "listimage_3": "shopify:\/\/shop_images\/buffalo-bills_small_d12f2704-d3b7-4da0-95b5-cb91104b4ca7.png",
+            "listimage_3_url": "shopify:\/\/collections\/buffalo-bills",
+            "listimage_3_btn_text": "Buffalo Bills",
+            "listimage_4": "shopify:\/\/shop_images\/carolina-panthers_small_15089abc-8930-4c98-8844-31d33a2d3476.png",
+            "listimage_4_url": "shopify:\/\/collections\/carolina-panthers",
+            "listimage_4_btn_text": "Carolina Panthers",
+            "listimage_5": "shopify:\/\/shop_images\/chicago-bears_small_9f5b78a5-fe75-471d-9000-15fde3b1ddb6.png",
+            "listimage_5_url": "shopify:\/\/collections\/chicago-bears",
+            "listimage_5_btn_text": "Chicago Bears",
+            "listimage_6": "shopify:\/\/shop_images\/cincinnati-bengals_small_497a7684-f5b3-477b-b8c4-876bcb1f5ac1.png",
+            "listimage_6_url": "shopify:\/\/collections\/cincinnati-bengals",
+            "listimage_6_btn_text": "Cincinnati Bengals",
+            "listimage_7_url": "",
+            "listimage_7_btn_text": "",
+            "listimage_8": "shopify:\/\/shop_images\/dallas-cowboys_small_0f5a099c-4a8f-431c-a1cc-8c2affface36.png",
+            "listimage_8_url": "shopify:\/\/collections\/dallas-cowboys",
+            "listimage_8_btn_text": "Dallas Cowboys",
+            "listimage_9": "shopify:\/\/shop_images\/denver-broncos_small_1d2a9767-f6a7-4854-acc3-05c726a868ff.png",
+            "listimage_9_url": "shopify:\/\/collections\/denver-broncos",
+            "listimage_9_btn_text": "Denver Broncos",
+            "listimage_10_url": "",
+            "listimage_10_btn_text": "",
+            "listimage_11": "shopify:\/\/shop_images\/green-bay-packers_small_b6486a9e-2d21-4829-9cd8-5f781b277dc0.png",
+            "listimage_11_url": "shopify:\/\/collections\/green-bay-packers",
+            "listimage_11_btn_text": "Green Bay Packers",
+            "listimage_12": "shopify:\/\/shop_images\/houston-texans_small_1f89531d-e3b8-41f8-af25-42774f1c9c0c.png",
+            "listimage_12_url": "shopify:\/\/collections\/houston-texans-1",
+            "listimage_12_btn_text": "Houston Texans",
+            "listimage_13": "shopify:\/\/shop_images\/indianapolis-colts_small_c795d18f-4f38-44cf-84f6-2022c095287a.png",
+            "listimage_13_url": "shopify:\/\/collections\/indianapolis-colts",
+            "listimage_13_btn_text": "Indianapolis Colts",
+            "listimage_14_url": "",
+            "listimage_14_btn_text": "",
+            "listimage_15": "shopify:\/\/shop_images\/kansas-city-chiefs_small_1b8e5fbf-dfd8-40fc-bf6f-cb6e1b9be4ac.png",
+            "listimage_15_url": "shopify:\/\/collections\/kansas-city-chiefs",
+            "listimage_15_btn_text": "Kansas City Chiefs",
+            "listimage_16": "shopify:\/\/shop_images\/oakland-raiders_small_b1936c98-84e7-492c-8039-daa72149f114.png",
+            "listimage_16_url": "shopify:\/\/collections\/raiders",
+            "listimage_16_btn_text": "Las Vegas Raiders",
+            "listimage_17": "shopify:\/\/shop_images\/los-angeles-chargers-svg_small_cbbf53cd-ee1f-4a3f-93ba-86dfb611f32d.png",
+            "listimage_17_url": "shopify:\/\/collections\/los-angeles-chargers",
+            "listimage_17_btn_text": "Los Angeles Chargers",
+            "listimage_18": "shopify:\/\/shop_images\/loa-angeles-rams-svg_small_b8cef54c-05c4-420d-8d47-4e4dba58f6f0.png",
+            "listimage_18_url": "shopify:\/\/collections\/los-angeles-rams",
+            "listimage_18_btn_text": "Los Angeles Rams",
+            "listimage_19": "shopify:\/\/shop_images\/miami-dolphins_small_ccd1ea95-3e2a-4db9-ac5e-1a0f0dc79e87.png",
+            "listimage_19_url": "shopify:\/\/collections\/miami-dolphins",
+            "listimage_19_btn_text": "Miami Dolphins",
+            "listimage_20": "shopify:\/\/shop_images\/minnesota-vikings_small_9ac9a8a1-a221-4724-9cc1-805e4904432c.png",
+            "listimage_20_url": "shopify:\/\/collections\/minnesota-vikings",
+            "listimage_20_btn_text": "Minnesota Vikings",
+            "listimage_21": "shopify:\/\/shop_images\/new-england-patriots_small_abbd0898-2da2-4aec-82fa-b4240685eedf.png",
+            "listimage_21_url": "shopify:\/\/collections\/new-england-patriots",
+            "listimage_21_btn_text": "New England Patriots",
+            "listimage_22": "shopify:\/\/shop_images\/new-orleans-saints_small_78d113d9-f5c3-4fae-aa3b-e16ff405c2ad.png",
+            "listimage_22_url": "shopify:\/\/collections\/new-orleans-saints",
+            "listimage_22_btn_text": "New Orleans Saints",
+            "listimage_23": "shopify:\/\/shop_images\/new-york-giants_small_4b684c4c-542d-4e03-b779-db6bc4d63e2b.png",
+            "listimage_23_url": "shopify:\/\/collections\/new-york-giants",
+            "listimage_23_btn_text": "New York Giants",
+            "listimage_24_url": "",
+            "listimage_24_btn_text": "",
+            "listimage_25": "shopify:\/\/shop_images\/philadelphia-eagles_small_5c4fadfd-62a3-47bb-8ea2-4fd36ae14a3a.png",
+            "listimage_25_url": "shopify:\/\/collections\/philadelphia-eagles",
+            "listimage_25_btn_text": "Philadelphia Eagles",
+            "listimage_26": "shopify:\/\/shop_images\/pittsburgh-steelers_small_530b1a7b-db0c-48d0-9075-b842f6e38be9.png",
+            "listimage_26_url": "shopify:\/\/collections\/pittsburgh-steelers",
+            "listimage_26_btn_text": "Pittsburgh Steelers",
+            "listimage_27": "shopify:\/\/shop_images\/san-francisco-49ers_small_deea0cb6-3072-4d63-b8bf-23cb8368e489.png",
+            "listimage_27_url": "shopify:\/\/collections\/49ers",
+            "listimage_27_btn_text": "San Francisco 49ers",
+            "listimage_28": "shopify:\/\/shop_images\/seattle-seahawks_small_a2a05be2-7acf-45ee-8dc9-137d185844e7.png",
+            "listimage_28_url": "shopify:\/\/collections\/seattle-seahawks",
+            "listimage_28_btn_text": "Seattle Seahawks",
+            "listimage_29": "shopify:\/\/shop_images\/tampa-bay-buccaneers_small_1a50f00b-e0d8-4eef-a69c-40771b5797b3.png",
+            "listimage_29_url": "shopify:\/\/collections\/tampa-bay-buccaneers",
+            "listimage_29_btn_text": "Tampa Bay Buccaneers",
+            "listimage_30": "shopify:\/\/shop_images\/tennessee-titans_small_e654cbe3-0a18-4268-ab7c-8177ef495d3a.png",
+            "listimage_30_url": "shopify:\/\/collections\/tennessee-titans",
+            "listimage_30_btn_text": "Tennessee Titans",
+            "listimage_31": "shopify:\/\/shop_images\/washington-redskins_small_9397d16a-12b0-4847-913a-ec11f98efef8.png",
+            "listimage_31_url": "shopify:\/\/collections\/washington-redskins",
+            "listimage_31_btn_text": "Washington Redskins",
+            "listimage_32_url": "",
+            "listimage_32_btn_text": "",
+            "listimage_33_url": "",
+            "listimage_33_btn_text": "",
+            "listimage_34_url": "",
+            "listimage_34_btn_text": "",
+            "listimage_35_url": "",
+            "listimage_35_btn_text": "",
+            "listimage_36_url": "",
+            "listimage_36_btn_text": "",
+            "listimage_37_url": "",
+            "listimage_37_btn_text": "",
+            "listimage_38_url": "",
+            "listimage_38_btn_text": "",
+            "listimage_39_url": "",
+            "listimage_39_btn_text": "",
+            "listimage_40_url": "",
+            "listimage_40_btn_text": "",
+            "listimage_41_url": "",
+            "listimage_41_btn_text": "",
+            "listimage_42_url": "",
+            "listimage_42_btn_text": "",
+            "listimage_43_url": "",
+            "listimage_43_btn_text": "",
+            "listimage_44_url": "",
+            "listimage_44_btn_text": "",
+            "listimage_45_url": "",
+            "listimage_45_btn_text": "",
+            "listimage_46_url": "",
+            "listimage_46_btn_text": "",
+            "listimage_47_url": "",
+            "listimage_47_btn_text": "",
+            "listimage_48_url": "",
+            "listimage_48_btn_text": "",
+            "listimage_49_url": "",
+            "listimage_49_btn_text": "",
+            "listimage_50_url": "",
+            "listimage_50_btn_text": ""
+          }
+        },
+        "c2a212ac-e313-4e6f-9dd3-ae07b64a0d76": {
+          "type": "team-list",
+          "settings": {
+            "listlink_title": "MLB",
+            "listimage_1": "shopify:\/\/shop_images\/arizona-diamondbacks-min_small_244e8b2f-3282-41db-80a5-1918a3428ffe.png",
+            "listimage_1_url": "shopify:\/\/collections\/arizona-diamondbacks",
+            "listimage_1_btn_text": "Arizona Diamondbacks",
+            "listimage_2": "shopify:\/\/shop_images\/atlanta-braves-min_small_f8e76bf2-abc0-4463-a9a9-9551150d0118.png",
+            "listimage_2_url": "shopify:\/\/collections\/atlanta-braves",
+            "listimage_2_btn_text": "Atlanta Braves",
+            "listimage_3": "shopify:\/\/shop_images\/baltimore-orioles-min_small_a4f1169c-d42f-4ef1-8da8-c7720a78857b.png",
+            "listimage_3_url": "shopify:\/\/collections\/baltimore-orioles",
+            "listimage_3_btn_text": "Baltimore Orioles",
+            "listimage_4": "shopify:\/\/shop_images\/boston-red-sox-min_small_a59ab78c-0f71-4407-a307-860c36f7f57f.png",
+            "listimage_4_url": "shopify:\/\/collections\/boston-red-sox",
+            "listimage_4_btn_text": "Boston Red Sox",
+            "listimage_5": "shopify:\/\/shop_images\/chicago-cubs-min_small_96e45aad-606a-46f1-9c63-9b3008ce74d2.png",
+            "listimage_5_url": "shopify:\/\/collections\/chicago-cubs",
+            "listimage_5_btn_text": "Chicago Cubs",
+            "listimage_6": "shopify:\/\/shop_images\/chicago-white-sox-min_small_11758437-cbba-42ae-9ae2-58420c98a0af.png",
+            "listimage_6_url": "shopify:\/\/collections\/chicago-white-sox",
+            "listimage_6_btn_text": "Chicago White Sox",
+            "listimage_7": "shopify:\/\/shop_images\/cincinnati-reds-min_small_afaf94a2-231b-42d5-a94d-e9484dea4614.png",
+            "listimage_7_url": "shopify:\/\/collections\/cincinnati-reds",
+            "listimage_7_btn_text": "Cincinnati Reds",
+            "listimage_8": "shopify:\/\/shop_images\/CLEVELAND_INDIANS_MLB_COLISEUM_SPORTS_NVSOCCER.png",
+            "listimage_8_url": "shopify:\/\/collections\/cleveland-indians",
+            "listimage_8_btn_text": "Cleveland Indians",
+            "listimage_9": "shopify:\/\/shop_images\/colorado-rockies-min_small_e7be816d-8ede-4820-aaed-7b768b34bf0c.png",
+            "listimage_9_url": "",
+            "listimage_9_btn_text": "Colorado Rockies",
+            "listimage_10": "shopify:\/\/shop_images\/detroit-tigers-min_small_d6e649f1-dd2f-4e59-b130-160f686eeb3a.png",
+            "listimage_10_url": "shopify:\/\/collections\/detroit-tigers",
+            "listimage_10_btn_text": "Detroit Tigers",
+            "listimage_11": "shopify:\/\/shop_images\/houston-astros-min_small_36f4dc98-aa5d-4010-99ad-3d9742615c32.png",
+            "listimage_11_url": "shopify:\/\/collections\/houston-astros",
+            "listimage_11_btn_text": "HOUSTON ASTROS",
+            "listimage_12": "shopify:\/\/shop_images\/kansas-city-royals-min_small_4cfc6413-d91a-4adb-a49e-776de1c0312f.png",
+            "listimage_12_url": "shopify:\/\/collections\/kansas-city-royals",
+            "listimage_12_btn_text": "Kansas City Royals",
+            "listimage_13": "shopify:\/\/shop_images\/los-angeles-angels-min_small_06cfe961-7e0d-4aba-ab78-097325e85efb.png",
+            "listimage_13_url": "shopify:\/\/collections\/los-angeles-angels",
+            "listimage_13_btn_text": "Los Angeles Angels",
+            "listimage_14": "shopify:\/\/shop_images\/los-angeles-dodgers-min_small_93328e13-cfe0-4cc5-a7ad-f10e98a06f6e.png",
+            "listimage_14_url": "shopify:\/\/collections\/los-angeles-dodgers",
+            "listimage_14_btn_text": "Los Angeles Dodgers",
+            "listimage_15": "shopify:\/\/shop_images\/miami-marlins-min_small_8a7f5b8e-f527-4296-9cb7-bb7de133e30a.png",
+            "listimage_15_url": "shopify:\/\/collections\/miami-marlins",
+            "listimage_15_btn_text": "Miami Marlins",
+            "listimage_16": "shopify:\/\/shop_images\/milwaukee-brewers-min_small_b24cec49-0051-41a6-8464-d800b9c68334.png",
+            "listimage_16_url": "shopify:\/\/collections\/milwaukee-brewers",
+            "listimage_16_btn_text": "Milwaukee Brewers",
+            "listimage_17": "shopify:\/\/shop_images\/minnesota-twins-min_small_183283fc-edc2-4588-b05d-0fec4c13b029.png",
+            "listimage_17_url": "shopify:\/\/collections\/minnesota-twins",
+            "listimage_17_btn_text": "Minnesota Twins",
+            "listimage_18": "shopify:\/\/shop_images\/new-york-mets-min_small_5a1dc843-ba03-47d2-87c0-3d02893a4a6e.png",
+            "listimage_18_url": "shopify:\/\/collections\/new-york-mets",
+            "listimage_18_btn_text": "New York Mets",
+            "listimage_19": "shopify:\/\/shop_images\/new-york-yankees-min_small_adf3c9de-ff0c-4287-a2d5-1c72f2d6841a.png",
+            "listimage_19_url": "shopify:\/\/collections\/new-york-yankees",
+            "listimage_19_btn_text": "New York Yankees",
+            "listimage_20": "shopify:\/\/shop_images\/oakland-athletics-min_small_4e88aa13-546b-4084-96d5-4e5a712b8eed.png",
+            "listimage_20_url": "shopify:\/\/collections\/oakland-athletics",
+            "listimage_20_btn_text": "Oakland Athletics",
+            "listimage_21": "shopify:\/\/shop_images\/philadelphia-phillies-min_small_f1141c4d-7f19-4a86-b5aa-3ee6eeb0dcca.png",
+            "listimage_21_url": "shopify:\/\/collections\/philadelphia-phillies",
+            "listimage_21_btn_text": "Philadelphia Phillies",
+            "listimage_22": "shopify:\/\/shop_images\/pittsburgh-pirates-min_small_864c6c24-9909-48c9-b844-edf81d1c32e6.png",
+            "listimage_22_url": "shopify:\/\/collections\/pittsburgh-pirates",
+            "listimage_22_btn_text": "Pittsburgh Pirates",
+            "listimage_23": "shopify:\/\/shop_images\/san-diego-padres-min_small_c6c97639-e7fe-4127-b5ca-53d3be8e9a32.png",
+            "listimage_23_url": "shopify:\/\/collections\/san-diego-padres",
+            "listimage_23_btn_text": "San Diego Padres",
+            "listimage_24": "shopify:\/\/shop_images\/san-francisco-giants-min_small_0310dd2d-b2e8-4b5c-9bfc-b12e37c75270.png",
+            "listimage_24_url": "shopify:\/\/collections\/san-francisco-giants",
+            "listimage_24_btn_text": "San Francisco Giants",
+            "listimage_25": "shopify:\/\/shop_images\/seattle-mariners-min_small_c66e73ec-de9c-4546-9fec-7ba613f0bbe7.png",
+            "listimage_25_url": "shopify:\/\/collections\/seattle-mariners",
+            "listimage_25_btn_text": "Seattle Mariners",
+            "listimage_26": "shopify:\/\/shop_images\/st-louis-cardinals-min_small_b25ad9d0-ba74-4f90-a0fd-2c8a1e1b7df7.png",
+            "listimage_26_url": "shopify:\/\/collections\/st-louis-cardinals",
+            "listimage_26_btn_text": "St Louis Cardinals",
+            "listimage_27": "shopify:\/\/shop_images\/tampa-bay-rays-min_small_8ccada77-ed17-4d5b-9718-549fdad60ef2.png",
+            "listimage_27_url": "shopify:\/\/collections\/tampa-bay-rays",
+            "listimage_27_btn_text": "Tampa Bay Rays",
+            "listimage_28": "shopify:\/\/shop_images\/texas-rangers-min_small_2f34f0a9-e75c-4ea2-bf1a-581f122de6b4.png",
+            "listimage_28_url": "shopify:\/\/collections\/texas-rangers",
+            "listimage_28_btn_text": "Texas Rangers",
+            "listimage_29": "shopify:\/\/shop_images\/toronto-blue-jays-min_small_4348d4fb-9252-4d25-9047-1428c31b6ebb.png",
+            "listimage_29_url": "shopify:\/\/collections\/toronto-blue-jays",
+            "listimage_29_btn_text": "Toronto Blue Jays",
+            "listimage_30": "shopify:\/\/shop_images\/washington-nationals-min_small_74a069df-6015-4cbd-a680-e10a54bcc8db.png",
+            "listimage_30_url": "shopify:\/\/collections\/washington-nationals",
+            "listimage_30_btn_text": "Washington Nationals",
+            "listimage_31_url": "",
+            "listimage_31_btn_text": "",
+            "listimage_32_url": "",
+            "listimage_32_btn_text": "",
+            "listimage_33_url": "",
+            "listimage_33_btn_text": "",
+            "listimage_34_url": "",
+            "listimage_34_btn_text": "",
+            "listimage_35_url": "",
+            "listimage_35_btn_text": "",
+            "listimage_36_url": "",
+            "listimage_36_btn_text": "",
+            "listimage_37_url": "",
+            "listimage_37_btn_text": "",
+            "listimage_38_url": "",
+            "listimage_38_btn_text": "",
+            "listimage_39_url": "",
+            "listimage_39_btn_text": "",
+            "listimage_40_url": "",
+            "listimage_40_btn_text": "",
+            "listimage_41_url": "",
+            "listimage_41_btn_text": "",
+            "listimage_42_url": "",
+            "listimage_42_btn_text": "",
+            "listimage_43_url": "",
+            "listimage_43_btn_text": "",
+            "listimage_44_url": "",
+            "listimage_44_btn_text": "",
+            "listimage_45_url": "",
+            "listimage_45_btn_text": "",
+            "listimage_46_url": "",
+            "listimage_46_btn_text": "",
+            "listimage_47_url": "",
+            "listimage_47_btn_text": "",
+            "listimage_48_url": "",
+            "listimage_48_btn_text": "",
+            "listimage_49_url": "",
+            "listimage_49_btn_text": "",
+            "listimage_50_url": "",
+            "listimage_50_btn_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "7167dc43-77d0-4f6a-b5d0-ae0931ef9139",
+        "33c9d7a3-c151-4aaf-8c3b-4ca9e1bd8cad",
+        "c2a212ac-e313-4e6f-9dd3-ae07b64a0d76"
+      ],
+      "settings": {
+        "title": "FIND YOUR TEAM",
+        "itemimage_1": "shopify:\/\/shop_images\/mlb_bc73f19d-f8b7-4317-bed5-0eb642365e37_small_1.png",
+        "item_title_text_1": "MLB",
+        "itemimage_2": "shopify:\/\/shop_images\/nfl_small_60548c1a-df69-4486-9ec1-0f2fd0731375.png",
+        "item_title_text_2": "NFL",
+        "itemimage_3": "shopify:\/\/shop_images\/nba_small_dfc04a63-a831-40bb-9032-4e38161ee864.png",
+        "item_title_text_3": "NBA"
+      }
+    },
+    "d0897263-8c3f-483c-aaf8-ad955c50c266": {
+      "type": "logo-row",
+      "blocks": {
+        "303ffd9e-0927-4a66-a749-23d6de53f2d6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MegaMenu_ftted.png",
+            "url": "shopify:\/\/collections\/fitted-hat"
+          }
+        },
+        "26c32ccb-452c-49d6-a6f7-d4462828d7ff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MegaMenu_SNAPBACKS_1.png",
+            "url": "shopify:\/\/collections\/snapback-hat"
+          }
+        },
+        "6278dc17-9efd-43ed-b914-e1b1c4479f72": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MegaMenu_strech_fit.png",
+            "url": "shopify:\/\/collections\/flex-hat"
+          }
+        },
+        "f17a3090-91f1-4f00-b5fc-d7e0be7e79d5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MegaMenu_meshback.png",
+            "url": "shopify:\/\/collections\/meshback_trucker_hat"
+          }
+        },
+        "fed3dc0e-2a75-45a4-ae84-efb2106ee185": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MegaMenu_AJUSTIBLE.png",
+            "url": "shopify:\/\/collections\/adjustable-hat"
+          }
+        },
+        "86eb5684-8442-4fbb-989e-17244d9a43a8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MegaMenu_PLAIN_HATS.png",
+            "url": "shopify:\/\/collections\/plain-hats"
+          }
+        }
+      },
+      "block_order": [
+        "303ffd9e-0927-4a66-a749-23d6de53f2d6",
+        "26c32ccb-452c-49d6-a6f7-d4462828d7ff",
+        "6278dc17-9efd-43ed-b914-e1b1c4479f72",
+        "f17a3090-91f1-4f00-b5fc-d7e0be7e79d5",
+        "fed3dc0e-2a75-45a4-ae84-efb2106ee185",
+        "86eb5684-8442-4fbb-989e-17244d9a43a8"
+      ],
+      "settings": {}
+    },
+    "ccafb0da-7eb1-4d25-937c-9e869aceee27": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15905592344728__ccafb0da-7eb1-4d25-937c-9e869aceee27-16873585890daf9b95-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--15905592344728__ccafb0da-7eb1-4d25-937c-9e869aceee27-16873585890daf9b95-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--15905592344728__ccafb0da-7eb1-4d25-937c-9e869aceee27-16873585890daf9b95-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--15905592344728__ccafb0da-7eb1-4d25-937c-9e869aceee27-16873585890daf9b95-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--15905592344728__ccafb0da-7eb1-4d25-937c-9e869aceee27-16873585890daf9b95-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--15905592344728__ccafb0da-7eb1-4d25-937c-9e869aceee27-16873585890daf9b95-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--15905592344728__ccafb0da-7eb1-4d25-937c-9e869aceee27-16873585890daf9b95-0",
+        "template--15905592344728__ccafb0da-7eb1-4d25-937c-9e869aceee27-16873585890daf9b95-1",
+        "template--15905592344728__ccafb0da-7eb1-4d25-937c-9e869aceee27-16873585890daf9b95-2",
+        "template--15905592344728__ccafb0da-7eb1-4d25-937c-9e869aceee27-16873585890daf9b95-3",
+        "template--15905592344728__ccafb0da-7eb1-4d25-937c-9e869aceee27-16873585890daf9b95-4",
+        "template--15905592344728__ccafb0da-7eb1-4d25-937c-9e869aceee27-16873585890daf9b95-5"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "carousel",
+        "subheading": "Featured",
+        "title": "Hat Styles",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "2239f774-b116-4d8d-8e26-8fc0b766b965": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--15905592344728__2239f774-b116-4d8d-8e26-8fc0b766b965-1687358780ba7bbd24-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "headwear",
+            "label": "",
+            "button_text": "Shop All Hat Styles",
+            "button_url": "shopify:\/\/collections\/headwear"
+          }
+        }
+      },
+      "block_order": [
+        "template--15905592344728__2239f774-b116-4d8d-8e26-8fc0b766b965-1687358780ba7bbd24-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "FEATURED HAT STYLES",
+        "content": "<p>Built for the best player, get some turf beneath your feet and set your eye on the Goal. Make a statement<\/p>",
+        "products_count": 20,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "464d9b9f-c468-46fc-9753-518bcd6f0218": {
+      "type": "featured-products",
+      "blocks": {
+        "3d10ed05-c568-4de6-9ad7-9afad84107ef": {
+          "type": "product",
+          "settings": {
+            "product": "new-era-oakland-athletics-1989-world-series-collection-59fifty-fitted"
+          }
+        },
+        "74a312ba-ea6a-4f83-8b8a-2a56d233f35e": {
+          "type": "product",
+          "settings": {
+            "product": "golden-state-warriors-new-era-59fifty-hat-logo-black-white-1"
+          }
+        }
+      },
+      "block_order": [
+        "3d10ed05-c568-4de6-9ad7-9afad84107ef",
+        "74a312ba-ea6a-4f83-8b8a-2a56d233f35e"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "above",
+        "title": "Featured",
+        "subtitle": "HAT SYTLES",
+        "text": "Built for the best player, get some turf beneath your feet and set your eye on the Goal. Make a statement",
+        "btn_text": "SHOP NEW HEADWEAR",
+        "btn_url": "shopify:\/\/collections\/headwear",
+        "top_spacing": false,
+        "bottom_spacing": false
+      }
+    },
+    "c72b2dac-3534-46b8-8cc0-1088c4f6bfcb": {
+      "type": "headerwear-block-1",
+      "blocks": {
+        "02f64fac-2f17-481e-87d6-62cdb1ff5e53": {
+          "type": "image_row",
+          "settings": {
+            "gutters": true,
+            "top_padding": "none",
+            "bottom_padding": "small",
+            "title": "",
+            "image_1": "shopify:\/\/shop_images\/OAKLAND_ATHLETICS_BLOCK2021_919bd2ed-89c0-48f8-bb08-692cdf6e5fe0.png",
+            "url_1": "shopify:\/\/collections\/oakland-athletics",
+            "text_1": "",
+            "alignment_1": "left",
+            "transparent_1": false,
+            "text_below_1": "",
+            "image_2": "shopify:\/\/shop_images\/GIANTS_BLOCK2021_copy_764604a2-776c-4b29-8e3a-b272ac765b2b.png",
+            "url_2": "shopify:\/\/collections\/san-francisco-giants",
+            "text_2": "",
+            "alignment_2": "left",
+            "transparent_2": false,
+            "text_below_2": "",
+            "image_3": "shopify:\/\/shop_images\/OAKLAND_ATHLETICS_BLOCK2021_copy_4.png",
+            "url_3": "shopify:\/\/collections\/mexico_national-teams",
+            "text_3": "",
+            "alignment_3": "left",
+            "transparent_3": false,
+            "text_below_3": "",
+            "url_4": "",
+            "text_4": "",
+            "alignment_4": "left",
+            "transparent_4": false,
+            "text_below_4": ""
+          }
+        },
+        "913ba7e6-a560-4f51-8a86-56c6f3d0c45c": {
+          "type": "icon_bar",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/FREE_SHIPPIN_truck_c7e4e3f5-a3b7-41d2-8673-5e96b1ba3544.png",
+            "richtext_1": "<p><strong>FREE SHIPPING<\/strong> on orders over $99<\/p>",
+            "image_2": "shopify:\/\/shop_images\/EASEY_RETNS_arrows_900c9a31-1a23-47dc-b915-24922d651f24.png",
+            "richtext_2": "<p><strong>EASY<\/strong> Returns & Exchanges<\/p>",
+            "image_3": "shopify:\/\/shop_images\/FREE_PICK_UP_box_0fb2ca8c-69f7-424c-a391-20091b136ab2.png",
+            "richtext_3": "<p><strong>FREE<\/strong> In-store pickup<\/p>"
+          }
+        },
+        "a58f5bcb-ff7a-4535-bc1b-692295b12e64": {
+          "type": "image_row",
+          "settings": {
+            "gutters": true,
+            "top_padding": "none",
+            "bottom_padding": "small",
+            "title": "",
+            "image_1": "shopify:\/\/shop_images\/RAIDERS_BLOCK_2021_copy_ea85c0f5-bf62-44e9-9aa7-47c0bd34baab.png",
+            "url_1": "shopify:\/\/collections\/raiders",
+            "text_1": "",
+            "alignment_1": "left",
+            "transparent_1": false,
+            "text_below_1": "Shop Now",
+            "image_2": "shopify:\/\/shop_images\/49ERS_BLOCK_2021_copy_copy_861ec355-8562-485d-9aed-b9f64a28330b.png",
+            "url_2": "shopify:\/\/collections\/49ers",
+            "text_2": "",
+            "alignment_2": "left",
+            "transparent_2": false,
+            "text_below_2": "Shop Now",
+            "image_3": "shopify:\/\/shop_images\/WARRIORS_BLOCK_2021_copy_copy_1258bab2-6782-4ced-8857-8e3b854ac222.png",
+            "url_3": "shopify:\/\/collections\/warriors",
+            "text_3": "",
+            "alignment_3": "left",
+            "transparent_3": false,
+            "text_below_3": "Shop Now",
+            "url_4": "",
+            "text_4": "",
+            "alignment_4": "left",
+            "transparent_4": false,
+            "text_below_4": ""
+          }
+        }
+      },
+      "block_order": [
+        "02f64fac-2f17-481e-87d6-62cdb1ff5e53",
+        "913ba7e6-a560-4f51-8a86-56c6f3d0c45c",
+        "a58f5bcb-ff7a-4535-bc1b-692295b12e64"
+      ],
+      "settings": {}
+    },
+    "bd831ddb-21ab-428a-8078-4511fea4582d": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15882637934744__bd831ddb-21ab-428a-8078-4511fea4582d-16813907417944125f-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "raiders",
+            "image": "shopify:\/\/shop_images\/RAIDERS_BLOCK_2021_copy_ea85c0f5-bf62-44e9-9aa7-47c0bd34baab.png",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15882637934744__bd831ddb-21ab-428a-8078-4511fea4582d-16813907417944125f-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "49ers",
+            "image": "shopify:\/\/shop_images\/49ERS_BLOCK_2021_copy_copy_861ec355-8562-485d-9aed-b9f64a28330b.png",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--15882637934744__bd831ddb-21ab-428a-8078-4511fea4582d-16813907417944125f-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "warriors",
+            "image": "shopify:\/\/shop_images\/WARRIORS_BLOCK_2021_copy_copy_1258bab2-6782-4ced-8857-8e3b854ac222.png",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--15882637934744__bd831ddb-21ab-428a-8078-4511fea4582d-16813907417944125f-0",
+        "template--15882637934744__bd831ddb-21ab-428a-8078-4511fea4582d-16813907417944125f-1",
+        "template--15882637934744__bd831ddb-21ab-428a-8078-4511fea4582d-16813907417944125f-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "grid",
+        "subheading": "",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "49c5e872-0e70-4cb3-9795-b39fbfdbc2b5": {
+      "type": "collection-list-custom",
+      "blocks": {
+        "template--15882637934744__49c5e872-0e70-4cb3-9795-b39fbfdbc2b5-1681495652a4d0ef53-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "59fifty-1",
+            "image": "shopify:\/\/shop_images\/8916300890142_600x_63b34490-e254-4e58-9554-2a94af5da78e.jpg",
+            "images": "shopify:\/\/shop_images\/8916301086750_600x_a08fb6ee-befd-4dce-bcb5-0d7a6d3a74dc.jpg",
+            "subheading": "Fitted Structured Cap Flat Visor Can Be Curved as  Desired",
+            "title": "59FIFTY",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify:\/\/collections\/59fifty-1",
+            "text_color": "#282828",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15882637934744__49c5e872-0e70-4cb3-9795-b39fbfdbc2b5-1681495652a4d0ef53-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "low-pro-59fifty",
+            "image": "shopify:\/\/shop_images\/70360649_LP59FIFTY_LPACPERF_HOUASTHM_OTC_3QL_600x_a4005674-defb-4772-b57c-09c838fdfcf9.png",
+            "images": "shopify:\/\/shop_images\/70360649_LP59FIFTY_LPACPERF_HOUASTHM_OTC_R_600x_9ac1cf1f-2abf-41db-83c8-ee708533e1e8.png",
+            "subheading": "Low Pro True Fitted Curved Visor Structured Cap",
+            "title": "59FIFTY Low Pro",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify:\/\/collections\/low-pro-59fifty",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15882637934744__49c5e872-0e70-4cb3-9795-b39fbfdbc2b5-1681495652a4d0ef53-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "9fifty-1",
+            "image": "shopify:\/\/shop_images\/9Fifty-1.png",
+            "images": "shopify:\/\/shop_images\/9Fifty-2.png",
+            "subheading": "Classic Snapback Structured Flat Visor Can Be Curved as Desired",
+            "title": "9FIFTY",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify:\/\/collections\/9fifty-1",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15882637934744__49c5e872-0e70-4cb3-9795-b39fbfdbc2b5-1681495652a4d0ef53-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "39thirty-1",
+            "image": "shopify:\/\/shop_images\/NewEra-39Thirty-1.png",
+            "images": "shopify:\/\/shop_images\/NewEra-39Thirty-2.png",
+            "subheading": "Stretch Fit Cap Curved Visor no break in needed Structured cap",
+            "title": "39Thirty",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify:\/\/collections\/39thirty-1",
+            "text_color": "#000000",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15882637934744__49c5e872-0e70-4cb3-9795-b39fbfdbc2b5-1681495652a4d0ef53-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "9twenty-1",
+            "image": "shopify:\/\/shop_images\/11417763_texas.png",
+            "images": "shopify:\/\/shop_images\/11417763_texas_2.png",
+            "subheading": "Adjustable-Dad Curved Visor Relaxed Fit Unstructured Cap",
+            "title": "9TWENTY",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify:\/\/collections\/9twenty-1",
+            "text_color": "#000000",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15882637934744__49c5e872-0e70-4cb3-9795-b39fbfdbc2b5-1681495652a4d0ef53-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "9forty-1",
+            "image": "shopify:\/\/shop_images\/9Forty-1.png",
+            "images": "shopify:\/\/shop_images\/NewEra-59Fifty-2.png",
+            "subheading": "Adjustable Curved Visor Structured Cap Can Be Curved as Desired",
+            "title": "9FORTY",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify:\/\/collections\/9forty-1",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15882637934744__49c5e872-0e70-4cb3-9795-b39fbfdbc2b5-1681495652a4d0ef53-0",
+        "template--15882637934744__49c5e872-0e70-4cb3-9795-b39fbfdbc2b5-1681495652a4d0ef53-1",
+        "template--15882637934744__49c5e872-0e70-4cb3-9795-b39fbfdbc2b5-1681495652a4d0ef53-2",
+        "template--15882637934744__49c5e872-0e70-4cb3-9795-b39fbfdbc2b5-1681495652a4d0ef53-3",
+        "template--15882637934744__49c5e872-0e70-4cb3-9795-b39fbfdbc2b5-1681495652a4d0ef53-4",
+        "template--15882637934744__49c5e872-0e70-4cb3-9795-b39fbfdbc2b5-1681495652a4d0ef53-5"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "layout": "carousel",
+        "subheading": "",
+        "title": "New era headwear fits",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#282828"
+      }
+    },
+    "680f0f61-68c3-45df-a58e-098cc63510ef": {
+      "type": "headwearBlock2",
+      "blocks": {
+        "f1f471d7-e56e-4c96-955a-a7853aed3ae9": {
+          "type": "image_row",
+          "settings": {
+            "gutters": true,
+            "top_padding": "none",
+            "bottom_padding": "none",
+            "title": "",
+            "image_1": "shopify:\/\/shop_images\/NEW_ERA_59FIFTY_APRIL21_copy_2.png",
+            "url_1": "shopify:\/\/collections\/59fifty-1",
+            "text_1": "",
+            "alignment_1": "left",
+            "transparent_1": false,
+            "text_below_1": "SHOP 59fifty",
+            "image_2": "shopify:\/\/shop_images\/NEW_ERA_9FIFTY_APRIL21_49ERS_copy.png",
+            "url_2": "shopify:\/\/collections\/9fifty-1",
+            "text_2": "",
+            "alignment_2": "left",
+            "transparent_2": false,
+            "text_below_2": "9FIFTY",
+            "url_3": "",
+            "text_3": "",
+            "alignment_3": "left",
+            "transparent_3": false,
+            "text_below_3": "",
+            "url_4": "",
+            "text_4": "",
+            "alignment_4": "left",
+            "transparent_4": false,
+            "text_below_4": ""
+          }
+        },
+        "a438609a-b2d8-4ce9-a108-c18f98ea6491": {
+          "type": "image_row",
+          "settings": {
+            "gutters": true,
+            "top_padding": "none",
+            "bottom_padding": "none",
+            "title": "",
+            "image_1": "shopify:\/\/shop_images\/NEW_ERA_39Thirty_APRIL21_4e56799f-098c-4d9a-adc1-5a6ab6ed3d93.png",
+            "url_1": "shopify:\/\/collections\/39thirty-1",
+            "text_1": "",
+            "alignment_1": "left",
+            "transparent_1": false,
+            "text_below_1": "SHOP 39thirty",
+            "image_2": "shopify:\/\/shop_images\/NEW_ERA_9TWENTY_APRIL21_copy.png",
+            "url_2": "shopify:\/\/collections\/9twenty-1",
+            "text_2": "shop 9twenty",
+            "alignment_2": "left",
+            "transparent_2": false,
+            "text_below_2": "",
+            "url_3": "",
+            "text_3": "",
+            "alignment_3": "left",
+            "transparent_3": false,
+            "text_below_3": "",
+            "url_4": "",
+            "text_4": "",
+            "alignment_4": "left",
+            "transparent_4": false,
+            "text_below_4": ""
+          }
+        },
+        "1ef0d159-a8ef-42e1-a6a5-aae1acc9e550": {
+          "type": "image_row",
+          "settings": {
+            "gutters": false,
+            "top_padding": "none",
+            "bottom_padding": "large",
+            "title": "",
+            "image_1": "shopify:\/\/shop_images\/authentic_collection_giants_as_dodgers_b33e1422-ec4a-4560-9020-90bf9d8cde0e.png",
+            "url_1": "shopify:\/\/collections\/mlb_onfield",
+            "text_1": "",
+            "alignment_1": "left",
+            "transparent_1": false,
+            "text_below_1": "",
+            "url_2": "",
+            "text_2": "",
+            "alignment_2": "left",
+            "transparent_2": false,
+            "text_below_2": "",
+            "url_3": "",
+            "text_3": "",
+            "alignment_3": "left",
+            "transparent_3": false,
+            "text_below_3": "",
+            "url_4": "",
+            "text_4": "",
+            "alignment_4": "left",
+            "transparent_4": false,
+            "text_below_4": ""
+          }
+        }
+      },
+      "block_order": [
+        "f1f471d7-e56e-4c96-955a-a7853aed3ae9",
+        "a438609a-b2d8-4ce9-a108-c18f98ea6491",
+        "1ef0d159-a8ef-42e1-a6a5-aae1acc9e550"
+      ],
+      "settings": {}
+    },
+    "e126dfa0-f8d9-4935-b496-ff71846a515c": {
+      "type": "multi-column-custom",
+      "blocks": {
+        "template--15882637934744__e126dfa0-f8d9-4935-b496-ff71846a515c-168160305956a027d3-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NEW_ERA_59FIFTY_APRIL21_copy_2.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "center"
+          }
+        },
+        "template--15882637934744__e126dfa0-f8d9-4935-b496-ff71846a515c-168160305956a027d3-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NEW_ERA_9FIFTY_APRIL21_49ERS_copy.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--15882637934744__e126dfa0-f8d9-4935-b496-ff71846a515c-168160305956a027d3-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NEW_ERA_39Thirty_APRIL21_4e56799f-098c-4d9a-adc1-5a6ab6ed3d93.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--15882637934744__e126dfa0-f8d9-4935-b496-ff71846a515c-168160305956a027d3-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NEW_ERA_9TWENTY_APRIL21_copy.png",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--15882637934744__e126dfa0-f8d9-4935-b496-ff71846a515c-168160305956a027d3-0",
+        "template--15882637934744__e126dfa0-f8d9-4935-b496-ff71846a515c-168160305956a027d3-1",
+        "template--15882637934744__e126dfa0-f8d9-4935-b496-ff71846a515c-168160305956a027d3-2",
+        "template--15882637934744__e126dfa0-f8d9-4935-b496-ff71846a515c-168160305956a027d3-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "tight",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "182ecca2-580c-4133-8cce-cf793052b897": {
+      "type": "image-text-custom",
+      "blocks": {
+        "template--15884415959192__182ecca2-580c-4133-8cce-cf793052b897-168168952119bd5f51-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NV_PIC4.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Visit one of our retail locations",
+            "content": "<p>You have found your #1 source for your soccer gear. Coliseum Sports is<br\/>the place for all your soccer jersey, shoes and equipment we carry all the top <br\/>brands. We pride ourselves on delivering the very finest soccer experience online<br\/>or at one of our retail locations.<\/p>",
+            "button_text": "Find a location near you",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15884415959192__182ecca2-580c-4133-8cce-cf793052b897-168168952119bd5f51-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 5,
+        "accent_background": "#f5f5f5",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "#007feb",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1f941498-d269-498f-b224-c5db21d15fe3": {
+      "type": "newsletter-custom",
+      "settings": {
+        "section_title": "Subscribe to our newsletter",
+        "subheading": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2e272c41-25a0-4234-9f96-f0fa73437653",
+    "d7de445a-89a3-4e11-a67c-aab15a6d06c4",
+    "d0897263-8c3f-483c-aaf8-ad955c50c266",
+    "ccafb0da-7eb1-4d25-937c-9e869aceee27",
+    "2239f774-b116-4d8d-8e26-8fc0b766b965",
+    "464d9b9f-c468-46fc-9753-518bcd6f0218",
+    "c72b2dac-3534-46b8-8cc0-1088c4f6bfcb",
+    "bd831ddb-21ab-428a-8078-4511fea4582d",
+    "49c5e872-0e70-4cb3-9795-b39fbfdbc2b5",
+    "680f0f61-68c3-45df-a58e-098cc63510ef",
+    "e126dfa0-f8d9-4935-b496-ff71846a515c",
+    "182ecca2-580c-4133-8cce-cf793052b897",
+    "1f941498-d269-498f-b224-c5db21d15fe3"
+  ]
+}
